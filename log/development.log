@@ -1,0 +1,1949 @@
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0013ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>{:type=>"Погрузчик"}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.9138ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"type"=>"Погрузчик"} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.9598ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"type"=>"Погрузчик"} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7851ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7301ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=transport_development command={:count=>"machineries", :query=>{}} runtime: 10.0757ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('56d6e9b967e92c0e66000003'), "type"=>"Самогруз"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 18.5594ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=transport_development command={:count=>"machineries", :query=>{}} runtime: 0.9471ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('56d6e9c867e92c0e66000004'), "type"=>"Бульдозер"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 1.0878ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8590ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('56d6e9cf67e92c0e66000005'), "type"=>"Экскаватор"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 1.0697ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('56d6e9d867e92c0e66000006'), "type"=>"Автокран"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.8841ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('56d6e9df67e92c0e66000007'), "type"=>"Фронтальный погрузчик"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.5745ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7887ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 19:29:45 +0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 24ms (Views: 8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 19:38:28 +0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 19:38:30 +0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 19:38:53 +0600
+
+NameError (undefined local variable or method `application' for #<ActionDispatch::Routing::Mapper:0x000000052a8aa0>):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (64.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 19:38:53 +0600
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (58.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 19:39:58 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8097ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3759ms
+  Rendered application/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1834ms (Views: 1825.3ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-02 19:40:00 +0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-02 19:40:00 +0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-02 19:40:00 +0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-02 19:40:00 +0600
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-03-02 19:40:00 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:42:23 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4654ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4800ms
+  Rendered application/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 19ms (Views: 13.4ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-02 20:42:23 +0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-02 20:42:23 +0600
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-03-02 20:42:23 +0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-02 20:42:23 +0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-02 20:42:23 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:42:25 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4063ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4209ms
+  Rendered application/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 12.4ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-02 20:42:25 +0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-02 20:42:25 +0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-02 20:42:25 +0600
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-03-02 20:42:25 +0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-02 20:42:25 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:44:43 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3964ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2498ms
+  Rendered application/index.html.erb (1.6ms)
+Completed 200 OK in 4ms (Views: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:44:44 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4598ms
+  Rendered application/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:44:45 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5038ms
+  Rendered application/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:44:45 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3972ms
+  Rendered application/index.html.erb (0.8ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:44:45 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5438ms
+  Rendered application/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:44:46 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5179ms
+  Rendered application/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:44:46 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5461ms
+  Rendered application/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:44:46 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4252ms
+  Rendered application/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:50:24 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1720ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3783ms
+  Rendered application/index.html.erb (4.5ms)
+Completed 200 OK in 27ms (Views: 10.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:50:25 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4261ms
+  Rendered application/index.html.erb (1.1ms)
+Completed 200 OK in 4ms (Views: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:50:25 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4563ms
+  Rendered application/index.html.erb (1.0ms)
+Completed 200 OK in 5ms (Views: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:50:26 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5093ms
+  Rendered application/index.html.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:50:26 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5005ms
+  Rendered application/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:50:26 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5570ms
+  Rendered application/index.html.erb (1.5ms)
+Completed 200 OK in 5ms (Views: 3.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:50:27 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5592ms
+  Rendered application/index.html.erb (1.5ms)
+Completed 200 OK in 5ms (Views: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:53:47 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4853ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3376ms
+  Rendered application/index.html.erb (2.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 20:54:08 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9729ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4420ms
+  Rendered application/index.html.erb (5.4ms)
+Completed 200 OK in 43ms (Views: 15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:02:16 +0600
+
+RuntimeError (EmberCLI Rails requires your Ember app to have an addon.
+
+From within your EmberCLI directory please run:
+
+  $ npm install --save-dev ember-cli-rails-addon@0.0.11
+
+in you Ember application root: /home/alex/RubymineProjects/transport/frontend
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:188:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:02:58 +0600
+
+RuntimeError (EmberCLI Rails requires your Ember app to have an addon.
+
+From within your EmberCLI directory please run:
+
+  $ npm install --save-dev ember-cli-rails-addon@0.0.11
+
+in you Ember application root: /home/alex/RubymineProjects/transport/frontend
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:188:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:03:00 +0600
+
+RuntimeError (EmberCLI Rails requires your Ember app to have an addon.
+
+From within your EmberCLI directory please run:
+
+  $ npm install --save-dev ember-cli-rails-addon@0.0.11
+
+in you Ember application root: /home/alex/RubymineProjects/transport/frontend
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:188:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:03:25 +0600
+
+RuntimeError (EmberCLI Rails require ember-cli NPM package version to be
+["~> 0.1.5", "~> 0.2.0"] to work properly. From within your EmberCLI directory
+please update your package.json accordingly and run:
+
+  $ npm install
+
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:175:in `check_ember_cli_version!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:162:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:37:19 +0600
+
+RuntimeError (EmberCLI Rails require ember-cli NPM package version to be
+["~> 0.1.5", "~> 0.2.0"] to work properly. From within your EmberCLI directory
+please update your package.json accordingly and run:
+
+  $ npm install
+
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:175:in `check_ember_cli_version!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:162:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (22.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:37:20 +0600
+
+RuntimeError (EmberCLI Rails require ember-cli NPM package version to be
+["~> 0.1.5", "~> 0.2.0"] to work properly. From within your EmberCLI directory
+please update your package.json accordingly and run:
+
+  $ npm install
+
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:175:in `check_ember_cli_version!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:162:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (40.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (64.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:45:42 +0600
+
+RuntimeError (EmberCLI Rails require ember-cli NPM package version to be
+["~> 0.1.5", "~> 0.2.0"] to work properly. From within your EmberCLI directory
+please update your package.json accordingly and run:
+
+  $ npm install
+
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:175:in `check_ember_cli_version!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:162:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (59.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:45:54 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:48:58 +0600
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  [stdin]:8:41: error: unmatched OUTDENT
+      controller.set('machinary', records)
+                                          ^
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 21:49:04 +0600
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  [stdin]:8:41: error: unmatched OUTDENT
+      controller.set('machinary', records)
+                                          ^
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (11.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.9ms)
+
+
+Started POST "/__web_console/repl_sessions/f2a3f6bc0aa528103d3dc8816528c198/trace" for 127.0.0.1 at 2016-03-02 21:49:34 +0600
+
+
+Started POST "/__web_console/repl_sessions/f2a3f6bc0aa528103d3dc8816528c198/trace" for 127.0.0.1 at 2016-03-02 21:49:35 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:07:18 +0600
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  [stdin]:8:41: error: unmatched OUTDENT
+      controller.set('machinary', records)
+                                          ^
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (41.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (160.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (296.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:11:17 +0600
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  Error: Path or pattern "bower_components/loader.js/loader.js" did not match any files
+    at Object.multiGlob (frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:202:13)
+    at Class.module.exports.CachingWriter.extend.addFiles (frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+    at Class.module.exports.CachingWriter.extend.updateCache (frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+    at frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+    at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1019:11)
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+    at process._tickCallback (node.js:355:11)
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:12:43 +0600
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  Error: Path or pattern "bower_components/loader.js/loader.js" did not match any files
+    at Object.multiGlob (frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:202:13)
+    at Class.module.exports.CachingWriter.extend.addFiles (frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+    at Class.module.exports.CachingWriter.extend.updateCache (frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+    at frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+    at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1019:11)
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+    at process._tickCallback (node.js:355:11)
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (56.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:14:23 +0600
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  Error: Path or pattern "bower_components/loader.js/loader.js" did not match any files
+    at Object.multiGlob (frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:202:13)
+    at Class.module.exports.CachingWriter.extend.addFiles (frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+    at Class.module.exports.CachingWriter.extend.updateCache (frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+    at frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+    at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1019:11)
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+    at process._tickCallback (node.js:355:11)
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (75.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:18:23 +0600
+
+EmberCLI::App::BuildError (EmberCLI app "frontend" has failed to build):
+  Error: Path or pattern "bower_components/loader.js/loader.js" did not match any files
+    at Object.multiGlob (frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:202:13)
+    at Class.module.exports.CachingWriter.extend.addFiles (frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+    at Class.module.exports.CachingWriter.extend.updateCache (frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+    at frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+    at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1019:11)
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+    at process._tickCallback (node.js:355:11)
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (73.0ms)
+
+
+Started POST "/__web_console/repl_sessions/51a79b75f60d21775e7112bce380dea0/trace" for 127.0.0.1 at 2016-03-06 17:18:35 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:28:51 +0600
+
+RuntimeError (EmberCLI Rails requires your Ember app to have an addon.
+
+From within your EmberCLI directory please run:
+
+  $ npm install --save-dev ember-cli-rails-addon@0.0.11
+
+in you Ember application root: /home/alex/RubymineProjects/transport/frontend
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:188:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (58.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (72.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:33:21 +0600
+
+RuntimeError (EmberCLI Rails requires your Ember app to have an addon.
+
+From within your EmberCLI directory please run:
+
+  $ npm install --save-dev ember-cli-rails-addon@0.0.11
+
+in you Ember application root: /home/alex/RubymineProjects/transport/frontend
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:188:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (71.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:34:05 +0600
+
+RuntimeError (EmberCLI Rails requires your Ember app to have an addon.
+
+From within your EmberCLI directory please run:
+
+  $ npm install --save-dev ember-cli-rails-addon@0.0.11
+
+in you Ember application root: /home/alex/RubymineProjects/transport/frontend
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:188:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:34:13 +0600
+
+RuntimeError (EmberCLI Rails require ember-cli NPM package version to be
+["~> 0.1.5", "~> 0.2.0"] to work properly. From within your EmberCLI directory
+please update your package.json accordingly and run:
+
+  $ npm install
+
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:175:in `check_ember_cli_version!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:162:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (69.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:34:14 +0600
+
+RuntimeError (EmberCLI Rails require ember-cli NPM package version to be
+["~> 0.1.5", "~> 0.2.0"] to work properly. From within your EmberCLI directory
+please update your package.json accordingly and run:
+
+  $ npm install
+
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:175:in `check_ember_cli_version!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:162:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:34:15 +0600
+
+RuntimeError (EmberCLI Rails require ember-cli NPM package version to be
+["~> 0.1.5", "~> 0.2.0"] to work properly. From within your EmberCLI directory
+please update your package.json accordingly and run:
+
+  $ npm install
+
+):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:175:in `check_ember_cli_version!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:162:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:37:13 +0600
+
+ArgumentError (Malformed version number string ~> 0.2.0):
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems/version.rb:206:in `initialize'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems/version.rb:198:in `new'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/site_ruby/2.0.0/rubygems/version.rb:198:in `new'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/helpers.rb:6:in `match_version?'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:98:in `match_version?'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:174:in `check_ember_cli_version!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:162:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (74.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:39:03 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1124ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 22.1520ms
+  Rendered application/index.html.erb (27.6ms)
+Completed 200 OK in 101ms (Views: 52.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:47:49 +0600
+
+Errno::ENOENT (No such file or directory - /home/alex/RubymineProjects/transport/frontend/package.json):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `package_json'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:257:in `dev_dependencies'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:261:in `addon_present?'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:187:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:47:50 +0600
+
+Errno::ENOENT (No such file or directory - /home/alex/RubymineProjects/transport/frontend/package.json):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `package_json'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:257:in `dev_dependencies'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:261:in `addon_present?'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:187:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:48:41 +0600
+
+Errno::ENOENT (No such file or directory - /home/alex/RubymineProjects/transport/frontend/package.json):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `package_json'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:257:in `dev_dependencies'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:261:in `addon_present?'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:187:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (77.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:49:08 +0600
+
+Errno::ENOENT (No such file or directory - /home/alex/RubymineProjects/transport/frontend/package.json):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `package_json'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:257:in `dev_dependencies'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:261:in `addon_present?'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:187:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:49:15 +0600
+
+Errno::ENOENT (No such file or directory - /home/alex/RubymineProjects/transport/frontend/package.json):
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `read'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:253:in `package_json'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:257:in `dev_dependencies'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:261:in `addon_present?'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:187:in `check_addon!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:161:in `prepare'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/app.rb:32:in `run'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `block in each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:87:in `each_app'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli-rails.rb:51:in `run!'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:23:in `enable_ember_cli'
+  /home/alex/.rvm/gems/ruby-2.0.0-p598/bundler/gems/ember-cli-rails-e949e51c1e43/lib/ember-cli/middleware.rb:8:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/alex/.rvm/rubies/ruby-2.0.0-p598/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.0.0-p598/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (107.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 17:50:52 +0600
+Processing by ApplicationController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1010ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4353ms
+  Rendered application/index.html.erb (5.9ms)
+Completed 200 OK in 48ms (Views: 16.9ms)
