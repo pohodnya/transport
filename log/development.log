@@ -3057,3 +3057,15 @@ Started GET "/" for 127.0.0.1 at 2016-03-06 19:17:39 +0600
 Processing by ApplicationController#index as HTML
   Rendered application/index.html.erb (0.1ms)
 Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:22:30 +0600
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb (1.0ms)
+Completed 200 OK in 21ms (Views: 10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:29:29 +0600
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb (1.3ms)
+Completed 200 OK in 47ms (Views: 28.7ms)
