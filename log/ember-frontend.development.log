@@ -1,0 +1,91 @@
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 22236ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 6300ms              
+Babel                                         | 3643ms              
+Babel                                         | 3540ms              
+Babel                                         | 1588ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 17193ms (1563 ms)   
+
+version: 2.4.1
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 1199ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 125ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 102ms               
+Babel                                         | 88ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 364ms (33 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 102ms               
+TemplateCompiler (2)                          | 69ms (34 ms)        
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1902ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 153ms               
+Babel                                         | 153ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 115ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 582ms (52 ms)       
+TemplateCompiler (2)                          | 130ms (65 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 115ms               
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 2110ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 188ms               
+Babel                                         | 178ms               
+Babel                                         | 132ms               
+Babel                                         | 124ms               
+JSHint app- QUnit                             | 107ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 598ms (54 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 188ms               
+TemplateCompiler (2)                          | 111ms (55 ms)       
+JSHint app- QUnit (1)                         | 107ms               
+
+version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 2477ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 320ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 208ms               
+Babel                                         | 163ms               
+Babel                                         | 140ms               
+CoffeeScriptFilter                            | 135ms               
+Babel                                         | 127ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 907ms (82 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 208ms               
+CoffeeScriptFilter (2)                        | 162ms (81 ms)       
+

@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  root 'application#index'
-  get '/*path' => 'application#index'
+  mount_ember_app :frontend, to: "/"
+
   namespace :api do
     namespace :v1 do
       resources :machinery, only: :index

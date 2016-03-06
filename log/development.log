@@ -3069,3 +3069,291 @@ Started GET "/" for 127.0.0.1 at 2016-03-06 19:29:29 +0600
 Processing by ApplicationController#index as HTML
   Rendered application/index.html.erb (1.3ms)
 Completed 200 OK in 47ms (Views: 28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:33:27 +0600
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb (1.0ms)
+Completed 200 OK in 17ms (Views: 8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:38:47 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (100985.3ms)
+Completed 200 OK in 101014ms (Views: 101004.2ms)
+
+
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-03-06 19:40:29 +0600
+
+
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-03-06 19:40:29 +0600
+
+
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-03-06 19:40:29 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 19:40:29 +0600
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 19:40:31 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 19:40:31 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:40:55 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (3.5ms)
+Completed 200 OK in 6ms (Views: 5.0ms)
+
+
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-03-06 19:40:55 +0600
+
+
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-03-06 19:40:55 +0600
+
+
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-03-06 19:40:55 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 19:40:55 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 19:40:56 +0600
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 19:40:56 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 19:40:56 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:47:16 +0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 33ms (Views: 23.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:48:07 +0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 15ms (Views: 7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:48:17 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (6328.4ms)
+Completed 200 OK in 6349ms (Views: 6337.3ms)
+
+
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-03-06 19:48:24 +0600
+
+
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-03-06 19:48:24 +0600
+
+
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-03-06 19:48:24 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 19:48:24 +0600
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 19:48:24 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 19:48:24 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:50:13 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (11568.2ms)
+Completed 200 OK in 11570ms (Views: 11569.5ms)
+
+
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-03-06 19:50:25 +0600
+
+
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-03-06 19:50:25 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 19:50:25 +0600
+
+
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-03-06 19:50:25 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 19:50:26 +0600
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 19:50:26 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 19:51:03 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (11731.9ms)
+Completed 200 OK in 11734ms (Views: 11733.2ms)
+
+
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-03-06 19:51:15 +0600
+
+
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-03-06 19:51:15 +0600
+
+
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-03-06 19:51:15 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 19:51:15 +0600
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 19:51:16 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 19:51:16 +0600
+
+
+Started GET "/api/v1/machinery.json" for 127.0.0.1 at 2016-03-06 19:51:27 +0600
+Processing by Api::V1::MachineryController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8706ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 20.7489ms
+Completed 200 OK in 207ms (Views: 31.3ms)
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 19:51:31 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 19:51:31 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 20:02:28 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (10440.8ms)
+Completed 500 Internal Server Error in 10446ms
+
+ActionView::Template::Error (:frontend has failed to build: Error: EEXIST, file already exists '/home/alex/RubymineProjects/transport/frontend/tmp/coffee_script_filter-output_path-gbmtoDJb.tmp/frontend/routes/machinery.js'
+):
+  Error: EEXIST, file already exists 'frontend/tmp/coffee_script_filter-output_path-gbmtoDJb.tmp/frontend/routes/machinery.js'
+
+    at Error (native)
+
+    at Object.fs.symlinkSync (fs.js:848:18)
+
+    at symlink (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/symlink-or-copy/index.js:82:14)
+
+    at symlinkOrCopySync (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/symlink-or-copy/index.js:58:5)
+
+    at rebuildEntry (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:72:9)
+
+    at frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/promise-map-series/index.js:11:14
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at lib$rsvp$$internal$$publish (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1019:11)
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+  The broccoli plugin was instantiated at: 
+
+    at CoffeeScriptFilter.Plugin (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/index.js:7:31)
+
+    at CoffeeScriptFilter.Filter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:34:10)
+
+    at new CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:9:10)
+
+    at CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:8:53)
+
+    at CoffeePreprocessor.toTree (frontend/node_modules/ember-cli-coffeescript/lib/coffee-preprocessor.js:23:10)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:184:26
+
+    at Array.forEach (native)
+
+    at processPlugins (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:182:11)
+
+    at module.exports.preprocessJs (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:175:10)
+
+    at EmberApp.appAndDependencies (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:992:25)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1099:34)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:23:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (157.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (204.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 20:03:12 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (11322.7ms)
+Completed 200 OK in 11325ms (Views: 11323.8ms)
+
+
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-03-06 20:03:24 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 20:03:24 +0600
+
+
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-03-06 20:03:24 +0600
+
+
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-03-06 20:03:24 +0600
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 20:03:25 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 20:03:25 +0600
