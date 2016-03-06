@@ -28,7 +28,6 @@ module Transport
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    # config.ember.ember_path = "#{Rails.root}/app/assets/javascripts/ember"
-    # config.handlebars.templates_root = "ember/templates"
+
   end
 end

@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
-  root 'application#index'
 
+  root 'application#index'
+  get '/*path' => 'application#index'
+  namespace :api do
+    namespace :v1 do
+      resources :machinery, only: :index
+    end
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
