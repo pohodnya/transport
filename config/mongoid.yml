@@ -99,3 +99,9 @@ test:
         # low amounts for fast failures.
         max_retries: 1
         retry_interval: 0
+production:
+  sessions:
+    default:
+      database: transport_production
+      hosts:
+        - 127.0.0.1:27017

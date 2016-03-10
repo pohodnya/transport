@@ -5,8 +5,6 @@ Router = Ember.Router.extend
   location: config.locationType
 
 Router.map ->
-
-
   @route 'machinery'
 
 `export default Router`

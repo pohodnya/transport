@@ -3357,3 +3357,55 @@ Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 20:03:25 +0600
 
 
 Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 20:03:25 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 20:13:03 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (9121.0ms)
+Completed 200 OK in 9123ms (Views: 9122.1ms)
+
+
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-03-06 20:13:12 +0600
+
+
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-03-06 20:13:12 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 20:13:12 +0600
+
+
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-03-06 20:13:12 +0600
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 20:13:13 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 20:13:13 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-06 20:28:52 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.1/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (10434.1ms)
+Completed 200 OK in 10436ms (Views: 10435.5ms)
+
+
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-03-06 20:29:02 +0600
+
+
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-03-06 20:29:02 +0600
+
+
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-03-06 20:29:02 +0600
+
+
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-03-06 20:29:02 +0600
+
+
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-03-06 20:29:03 +0600
+
+
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-03-06 20:29:03 +0600

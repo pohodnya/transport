@@ -89,3 +89,42 @@ Babel (11)                                    | 907ms (82 ms)
 SourceMapConcat: Concat: Vendor /asset... (1) | 208ms               
 CoffeeScriptFilter (2)                        | 162ms (81 ms)       
 
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1618ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 130ms               
+Babel                                         | 113ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 112ms               
+Babel                                         | 88ms                
+CoffeeScriptFilter                            | 84ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 475ms (43 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 112ms               
+CoffeeScriptFilter (2)                        | 98ms (49 ms)        
+TemplateCompiler (2)                          | 91ms (45 ms)        
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1820ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 240ms               
+Babel                                         | 152ms               
+Babel                                         | 116ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 113ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 459ms (41 ms)       
+CoffeeScriptFilter (2)                        | 253ms (126 ms)      
+SourceMapConcat: Concat: Vendor /asset... (1) | 113ms               
+TemplateCompiler (2)                          | 96ms (48 ms)        
+
