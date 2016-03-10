@@ -1,5 +1,5 @@
 set :default_env, {
-    "PATH" => "/home/deploy/.nvm/versions/node/v4.2.1/bin:$PATH"
+    "PATH" => "/home/deploy/.nvm/versions/node/v0.12.12/bin:$PATH"
 }
 
 # server-based syntax
