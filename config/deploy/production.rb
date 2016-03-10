@@ -1,3 +1,7 @@
+set :default_env, {
+    "PATH" => "/home/deploy/.nvm/versions/node/v4.2.1/bin:$PATH"
+}
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
