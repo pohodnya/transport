@@ -3497,7 +3497,7 @@ file deleted authenticators/devise.js
 file deleted routes/login.coffee
 file deleted templates/login.hbs
 file deleted controllers/login.coffee
-file deleted controllers/application.coffee
+file deleted controllers/application.js
 file changed templates/application.emblem
 file changed router.coffee
 version: 2.4.1
@@ -3519,7 +3519,7 @@ CoffeeScriptFilter (2)                        | 129ms (64 ms)
 TemplateCompiler (3)                          | 127ms (42 ms)       
 SourceMapConcat: Concat: Vendor /asset... (1) | 125ms               
 
-file added controllers/application.coffee
+file added controllers/application.js
 
 Build successful - 321ms.
 
@@ -3534,7 +3534,7 @@ CoffeeScriptFilter (2)                        | 52ms (26 ms)
 Babel (12)                                    | 40ms (3 ms)         
 SassCompiler (1)                              | 16ms                
 
-file added routes/application.coffee
+file added routes/application.js
 
 Build successful - 328ms.
 
@@ -3552,7 +3552,7 @@ SourceMapConcat: Concat: App (1)              | 16ms
 
 file deleted routes/application.coffee___jb_old___
 file deleted routes/application.coffee___jb_bak___
-file added routes/application.coffee
+file added routes/application.js
 
 Build successful - 307ms.
 
@@ -3570,8 +3570,8 @@ file deleted controllers/application.coffee___jb_old___
 file deleted controllers/application.coffee___jb_bak___
 file deleted routes/application.coffee___jb_old___
 file deleted routes/application.coffee___jb_bak___
-file added controllers/application.coffee
-file added routes/application.coffee
+file added controllers/application.js
+file added routes/application.js
 
 Build successful - 309ms.
 
@@ -3586,4 +3586,982 @@ Slowest Trees (cumulative)                    | Total (avg)
 Babel (12)                                    | 73ms (6 ms)         
 CoffeeScriptFilter (2)                        | 44ms (22 ms)        
 SourceMapConcat: Concat: App (1)              | 15ms                
+
+file added adapters
+
+Build successful - 467ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 51ms                
+CoffeeScriptFilter                            | 25ms                
+Addon#compileAddon(ember-ajax)                | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 77ms (38 ms)        
+Funnel: Addon JS (7)                          | 51ms (7 ms)         
+Babel (12)                                    | 47ms (3 ms)         
+Addon#compileAddon(ember-ajax)  (1)           | 25ms                
+
+file added adapters/application.js
+
+Build successful - 354ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 69ms                
+CoffeeScriptFilter                            | 34ms                
+JSHint app- QUnit                             | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 98ms (8 ms)         
+CoffeeScriptFilter (2)                        | 39ms (19 ms)        
+JSHint app- QUnit (1)                         | 26ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 338ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 51ms                
+Babel                                         | 32ms                
+SassCompiler                                  | 20ms                
+JSHint app- QUnit                             | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 60ms (30 ms)        
+Babel (12)                                    | 52ms (4 ms)         
+SassCompiler (1)                              | 20ms                
+JSHint app- QUnit (1)                         | 17ms                
+
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+
+Build successful - 254ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+Babel (12)                                    | 32ms (2 ms)         
+
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.js
+
+Build successful - 256ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 37ms                
+Babel                                         | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 42ms (21 ms)        
+Babel (12)                                    | 40ms (3 ms)         
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 318ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 51ms                
+CoffeeScriptFilter                            | 39ms                
+TemplateCompiler                              | 34ms                
+SassCompiler                                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 67ms (5 ms)         
+CoffeeScriptFilter (2)                        | 46ms (23 ms)        
+TemplateCompiler (3)                          | 40ms (13 ms)        
+SassCompiler (1)                              | 16ms                
+
+version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 2229ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 169ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 134ms               
+Babel                                         | 131ms               
+CoffeeScriptFilter                            | 118ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 567ms (40 ms)       
+CoffeeScriptFilter (2)                        | 287ms (143 ms)      
+SourceMapConcat: Concat: Vendor /asset... (1) | 134ms               
+TemplateCompiler (3)                          | 126ms (42 ms)       
+BroccoliMergeTrees (5)                        | 111ms (22 ms)       
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 776ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 340ms               
+TemplateCompiler                              | 60ms                
+CoffeeScriptFilter                            | 50ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 380ms (27 ms)       
+TemplateCompiler (3)                          | 85ms (28 ms)        
+CoffeeScriptFilter (2)                        | 59ms (29 ms)        
+
+file added routes/login.js
+file added templates/login.emblem
+
+Build successful - 284ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 39ms                
+SourceMapConcat: Concat: App                  | 16ms                
+SassCompiler                                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 47ms (23 ms)        
+Babel (14)                                    | 30ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 16ms                
+SassCompiler (1)                              | 15ms                
+
+file deleted router.coffee___jb_old___
+file deleted router.coffee___jb_bak___
+file added router.coffee
+
+Build successful - 417ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 72ms                
+SourceMapConcat: Concat: App                  | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 83ms (41 ms)        
+Babel (14)                                    | 49ms (3 ms)         
+SourceMapConcat: Concat: App (1)              | 22ms                
+
+file deleted templates/index.hbs___jb_old___
+file deleted templates/index.hbs___jb_bak___
+file added templates/index.hbs
+
+Build successful - 461ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 106ms               
+CoffeeScriptFilter                            | 62ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 140ms (10 ms)       
+CoffeeScriptFilter (2)                        | 71ms (35 ms)        
+
+file deleted routes/login.js___jb_bak___
+file added routes/login.js
+
+routes/login.js: line 4, col 61, Missing semicolon.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 370ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 51ms                
+Babel                                         | 41ms                
+Babel                                         | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 88ms (6 ms)         
+CoffeeScriptFilter (2)                        | 59ms (29 ms)        
+
+file deleted templates/login.emblem___jb_old___
+file deleted templates/login.emblem___jb_bak___
+file added templates/login.emblem
+
+Build successful - 1344ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Funnel: Funnel (config)                       | 1031ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Funnel: Funnel (config) (1)                   | 1031ms              
+Babel (14)                                    | 68ms (4 ms)         
+
+file deleted templates/login.emblem___jb_old___
+file deleted templates/login.emblem___jb_bak___
+file added templates/login.emblem
+
+Build successful - 249ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 41ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+Babel (14)                                    | 22ms (1 ms)         
+TemplateCompiler (3)                          | 13ms (4 ms)         
+
+file added templates/components/login-form.emblem
+file added components/login-form.js
+file added integration/components/login-form-test.coffee
+
+Build successful - 464ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 96ms                
+CoffeeScriptFilter                            | 39ms                
+Babel                                         | 33ms                
+Babel                                         | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 179ms (12 ms)       
+CoffeeScriptFilter (2)                        | 57ms (28 ms)        
+TemplateCompiler (3)                          | 27ms (9 ms)         
+
+file deleted templates/components/login-form.emblem___jb_bak___
+file added templates/components/login-form.emblem
+
+Build successful - 422ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 85ms                
+CoffeeScriptFilter                            | 45ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 111ms (7 ms)        
+CoffeeScriptFilter (2)                        | 60ms (30 ms)        
+
+file deleted templates/login.emblem___jb_old___
+file deleted templates/login.emblem___jb_bak___
+file added templates/login.emblem
+
+Build successful - 531ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 65ms                
+Babel                                         | 45ms                
+SourceMapConcat: Concat: Addon JS             | 36ms                
+SourceMapConcat: Concat: Test Support JS      | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 81ms (5 ms)         
+CoffeeScriptFilter (2)                        | 75ms (37 ms)        
+SourceMapConcat: Concat: Addon JS (1)         | 36ms                
+SourceMapConcat: Concat: Test Support JS (1)  | 34ms                
+
+file deleted components/login-form.js___jb_old___
+file deleted components/login-form.js___jb_bak___
+file added components/login-form.js
+
+Build successful - 318ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 47ms                
+Babel                                         | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 56ms (28 ms)        
+Babel (14)                                    | 47ms (3 ms)         
+
+file deleted templates/login.emblem___jb_old___
+file deleted templates/login.emblem___jb_bak___
+file added templates/login.emblem
+
+Build successful - 251ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 46ms                
+SassCompiler                                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+Babel (14)                                    | 22ms (1 ms)         
+SassCompiler (1)                              | 15ms                
+
+file deleted templates/components/login-form.emblem___jb_old___
+file deleted templates/components/login-form.emblem___jb_bak___
+file added templates/components/login-form.emblem
+
+Build successful - 362ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 63ms                
+CoffeeScriptFilter                            | 41ms                
+SourceMapConcat: Concat: App                  | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 95ms (6 ms)         
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+SourceMapConcat: Concat: App (1)              | 19ms                
+TemplateCompiler (3)                          | 18ms (6 ms)         
+
+file deleted templates/components/login-form.emblem___jb_old___
+file deleted templates/components/login-form.emblem___jb_bak___
+file added templates/components/login-form.emblem
+
+Build successful - 340ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 53ms                
+CoffeeScriptFilter                            | 46ms                
+SourceMapConcat: Concat: App                  | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 74ms (5 ms)         
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+SourceMapConcat: Concat: App (1)              | 19ms                
+TemplateCompiler (3)                          | 17ms (5 ms)         
+
+file added authenticators
+
+Build successful - 248ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 47ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+Babel (14)                                    | 26ms (1 ms)         
+
+file added authenticators/devise.js
+
+Build successful - 316ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 42ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 50ms (25 ms)        
+Babel (14)                                    | 41ms (2 ms)         
+Funnel: Addon JS (9)                          | 16ms (1 ms)         
+BroccoliMergeTrees (5)                        | 15ms (3 ms)         
+
+file deleted authenticators/devise.js___jb_old___
+file deleted authenticators/devise.js___jb_bak___
+file added authenticators/devise.js
+
+Build successful - 445ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 74ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 87ms (43 ms)        
+Babel (14)                                    | 53ms (3 ms)         
+
+file added authorizers
+
+Build successful - 294ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 52ms                
+SassCompiler                                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 65ms (32 ms)        
+Babel (14)                                    | 26ms (1 ms)         
+SassCompiler (1)                              | 15ms                
+
+file added authorizers/devise.js
+
+Build successful - 331ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 44ms                
+Babel                                         | 43ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 72ms (5 ms)         
+CoffeeScriptFilter (2)                        | 51ms (25 ms)        
+
+file deleted authorizers/devise.js___jb_bak___
+file added authorizers/devise.js
+
+Build successful - 385ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 50ms                
+Babel                                         | 28ms                
+SassCompiler                                  | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 64ms (32 ms)        
+Babel (14)                                    | 58ms (4 ms)         
+SassCompiler (1)                              | 21ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 275ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 44ms                
+SourceMapConcat: Concat: App                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 51ms (25 ms)        
+Babel (14)                                    | 32ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 16ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 264ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 40ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+Babel (14)                                    | 33ms (2 ms)         
+
+file deleted components/login-form.js___jb_old___
+file deleted components/login-form.js___jb_bak___
+file added components/login-form.js
+
+Build successful - 286ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 40ms                
+Babel                                         | 22ms                
+SassCompiler                                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 47ms (23 ms)        
+Babel (14)                                    | 42ms (3 ms)         
+SassCompiler (1)                              | 16ms                
+
+file deleted environment.js___jb_bak___
+file added environment.js
+file deleted environment.js___jb_old___
+file deleted environment.js___jb_bak___
+file added environment.js
+file deleted environment.js___jb_old___
+file deleted environment.js___jb_bak___
+file added environment.js
+
+Build successful - 396ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 114ms               
+CoffeeScriptFilter                            | 46ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /asset... (1) | 114ms               
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+Babel (14)                                    | 24ms (1 ms)         
+
+file added routes/dashboard.js
+file added templates/dashboard.emblem
+
+Build successful - 358ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 39ms                
+Babel                                         | 29ms                
+Babel                                         | 25ms                
+TreeMerger (addons)                           | 24ms                
+SourceMapConcat: Concat: App Tests            | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 73ms (5 ms)         
+CoffeeScriptFilter (2)                        | 47ms (23 ms)        
+TreeMerger (addons) (1)                       | 24ms                
+SourceMapConcat: Concat: App Tests (1)        | 19ms                
+
+file deleted router.coffee___jb_old___
+file deleted router.coffee___jb_bak___
+file added router.coffee
+
+Build successful - 297ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 47ms                
+SourceMapConcat: Concat: App                  | 17ms                
+Babel                                         | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+Babel (14)                                    | 37ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 17ms                
+
+file deleted templates/dashboard.emblem___jb_old___
+file deleted templates/dashboard.emblem___jb_bak___
+file added templates/dashboard.emblem
+
+Build successful - 296ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 47ms                
+Babel                                         | 28ms                
+SourceMapConcat: Concat: App                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 56ms (28 ms)        
+Babel (14)                                    | 49ms (3 ms)         
+SourceMapConcat: Concat: App (1)              | 15ms                
+
+file deleted templates/dashboard.emblem___jb_old___
+file deleted templates/dashboard.emblem___jb_bak___
+file added templates/dashboard.emblem
+
+Build successful - 295ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 42ms                
+Babel                                         | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 54ms (3 ms)         
+CoffeeScriptFilter (2)                        | 49ms (24 ms)        
+
+file deleted templates/dashboard.emblem___jb_old___
+file deleted templates/dashboard.emblem___jb_bak___
+file added templates/dashboard.emblem
+
+Build successful - 273ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 40ms                
+Babel                                         | 21ms                
+SourceMapConcat: Concat: App                  | 14ms                
+SassCompiler                                  | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+Babel (14)                                    | 42ms (3 ms)         
+SourceMapConcat: Concat: App (1)              | 14ms                
+SassCompiler (1)                              | 14ms                
+
+file deleted routes/dashboard.js___jb_old___
+file deleted routes/dashboard.js___jb_bak___
+file added routes/dashboard.js
+
+Build successful - 294ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 40ms                
+Babel                                         | 21ms                
+SourceMapConcat: Concat: App                  | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 49ms (24 ms)        
+Babel (14)                                    | 41ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 18ms                
+
+file deleted authenticators/devise.js___jb_old___
+file deleted authenticators/devise.js___jb_bak___
+file added authenticators/devise.js
+
+Build successful - 361ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 44ms                
+TreeMerge (public)                            | 32ms                
+TreeMerger (addons)                           | 28ms                
+SimpleConcat: Concat: Addon CSS               | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+TreeMerge (public) (1)                        | 32ms                
+Babel (14)                                    | 32ms (2 ms)         
+TreeMerger (addons) (1)                       | 28ms                
+SimpleConcat: Concat: Addon CSS (1)           | 19ms                
+
+file deleted authenticators/devise.js___jb_old___
+file deleted authenticators/devise.js___jb_bak___
+file added authenticators/devise.js
+
+Build successful - 285ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 45ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 57ms (28 ms)        
+Babel (14)                                    | 28ms (2 ms)         
+
+file deleted authenticators/devise.js___jb_old___
+file deleted authenticators/devise.js___jb_bak___
+file added authenticators/devise.js
+
+Build successful - 275ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 40ms                
+SourceMapConcat: Concat: App                  | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+Babel (14)                                    | 31ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 14ms                
+
+file deleted environment.js___jb_old___
+file deleted environment.js___jb_bak___
+file added environment.js
+
+Build successful - 444ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 129ms               
+CoffeeScriptFilter                            | 46ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /asset... (1) | 129ms               
+CoffeeScriptFilter (2)                        | 56ms (28 ms)        
+Babel (14)                                    | 25ms (1 ms)         
+
+file deleted authenticators/devise.js___jb_old___
+file deleted authenticators/devise.js___jb_bak___
+file added authenticators/devise.js
+
+Build successful - 396ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 43ms                
+TreeMerger (allTrees)                         | 27ms                
+TreeMerger (tests)                            | 22ms                
+SassCompiler                                  | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 54ms (27 ms)        
+Babel (14)                                    | 45ms (3 ms)         
+TreeMerger (allTrees) (1)                     | 27ms                
+TreeMerger (tests) (1)                        | 22ms                
+SassCompiler (1)                              | 20ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 376ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 42ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 51ms (25 ms)        
+Babel (14)                                    | 31ms (2 ms)         
+
+file deleted templates/components/login-form.emblem___jb_old___
+file deleted templates/components/login-form.emblem___jb_bak___
+file added templates/components/login-form.emblem
+file deleted templates/components/login-form.emblem___jb_old___
+file deleted templates/components/login-form.emblem___jb_bak___
+file added templates/components/login-form.emblem
+
+Build successful - 252ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+Babel (14)                                    | 25ms (1 ms)         
+Funnel: Addon JS (9)                          | 12ms (1 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 2124ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 236ms               
+Babel                                         | 144ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 130ms               
+Babel                                         | 112ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 518ms (37 ms)       
+CoffeeScriptFilter (2)                        | 276ms (138 ms)      
+TemplateCompiler (3)                          | 145ms (48 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 130ms               
+
+file deleted templates/components/login-form.emblem
+file added templates/components/login-form.hbs
+
+Build successful - 544ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 118ms               
+CoffeeScriptFilter                            | 53ms                
+TemplateCompiler                              | 46ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 165ms (11 ms)       
+CoffeeScriptFilter (2)                        | 67ms (33 ms)        
+TemplateCompiler (3)                          | 56ms (18 ms)        
+
+file deleted templates/components/login-form.hbs___jb_bak___
+file added templates/components/login-form.hbs
+
+Build successful - 429ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 115ms               
+CoffeeScriptFilter                            | 53ms                
+TemplateCompiler                              | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 140ms (10 ms)       
+CoffeeScriptFilter (2)                        | 61ms (30 ms)        
+TemplateCompiler (3)                          | 30ms (10 ms)        
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1834ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 147ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 132ms               
+CoffeeScriptFilter                            | 117ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 473ms (33 ms)       
+CoffeeScriptFilter (2)                        | 146ms (73 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 132ms               
+TemplateCompiler (3)                          | 128ms (42 ms)       
+
+file deleted templates/dashboard.emblem___jb_old___
+file deleted templates/dashboard.emblem___jb_bak___
+file added templates/dashboard.emblem
+
+Build successful - 585ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 178ms               
+CoffeeScriptFilter                            | 55ms                
+TemplateCompiler                              | 42ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 217ms (15 ms)       
+CoffeeScriptFilter (2)                        | 65ms (32 ms)        
+TemplateCompiler (3)                          | 54ms (18 ms)        
+
+file deleted templates/dashboard.emblem___jb_old___
+file deleted templates/dashboard.emblem___jb_bak___
+file added templates/dashboard.emblem
+file deleted templates/dashboard.emblem___jb_old___
+file deleted templates/dashboard.emblem___jb_bak___
+file added templates/dashboard.emblem
+
+Build successful - 374ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 84ms                
+CoffeeScriptFilter                            | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 110ms (7 ms)        
+CoffeeScriptFilter (2)                        | 43ms (21 ms)        
+TemplateCompiler (3)                          | 19ms (6 ms)         
+
+file deleted templates/dashboard.emblem___jb_old___
+file deleted templates/dashboard.emblem___jb_bak___
+file added templates/dashboard.emblem
+
+Build successful - 748ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+TreeMerger (tests)                            | 108ms               
+CoffeeScriptFilter                            | 92ms                
+Babel                                         | 85ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 131ms (9 ms)        
+CoffeeScriptFilter (2)                        | 111ms (55 ms)       
+TreeMerger (tests) (1)                        | 108ms               
+
+file deleted templates/dashboard.emblem
+file added templates/dashboard.риы
+
+Build successful - 295ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 50ms                
+SourceMapConcat: Concat: App                  | 20ms                
+SassCompiler                                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 58ms (29 ms)        
+Babel (14)                                    | 27ms (1 ms)         
+SourceMapConcat: Concat: App (1)              | 20ms                
+SassCompiler (1)                              | 16ms                
+
+file deleted templates/dashboard.риы
+file added templates/dashboard.hbs
+
+Build successful - 438ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 82ms                
+Babel                                         | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 93ms (46 ms)        
+Babel (14)                                    | 68ms (4 ms)         
+
+file deleted templates/dashboard.hbs___jb_old___
+file deleted templates/dashboard.hbs___jb_bak___
+file added templates/dashboard.hbs
+
+Build successful - 503ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: App                  | 78ms                
+CoffeeScriptFilter                            | 71ms                
+Babel                                         | 51ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 86ms (6 ms)         
+CoffeeScriptFilter (2)                        | 81ms (40 ms)        
+SourceMapConcat: Concat: App (1)              | 78ms                
+TemplateCompiler (3)                          | 26ms (8 ms)         
 

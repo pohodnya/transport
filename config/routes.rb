@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+
+  devise_for :users, controllers: { sessions: 'api/v1/session' }
+
   mount_ember_app :frontend, to: "/"
 
   namespace :api do

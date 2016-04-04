@@ -24,6 +24,9 @@ gem 'ember-cli-rails', '0.7.0'
 gem 'emblem-rails'
 gem 'sprockets', '2.12.3'
 
+# Auth
+
+gem 'devise'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
