@@ -21,6 +21,8 @@ gem 'jquery-turbolinks'
 
 # Ember js
 gem 'ember-cli-rails', '0.7.0'
+gem 'emblem-rails'
+gem 'sprockets', '2.12.3'
 
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -49,10 +51,13 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'capistrano',         require: false
-  gem 'capistrano-rvm',     require: false
-  gem 'capistrano-rails',   require: false
-  gem 'capistrano-bundler', require: false
-  gem 'capistrano3-puma',   require: false
+  gem 'quiet_assets'
+  gem 'capistrano', '~> 3.4.0'
+  gem 'capistrano-rvm'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'net-ssh'
+  gem 'capistrano3-puma'
+  gem 'capistrano-sidekiq', '0.5.3'
 end
 

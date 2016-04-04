@@ -128,3 +128,3462 @@ CoffeeScriptFilter (2)                        | 253ms (126 ms)
 SourceMapConcat: Concat: Vendor /asset... (1) | 113ms               
 TemplateCompiler (2)                          | 96ms (48 ms)        
 
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 22163ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 8634ms              
+Babel                                         | 3071ms              
+JSHint app- QUnit                             | 2309ms              
+Babel                                         | 2127ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 16518ms (1501 ms)   
+JSHint app- QUnit (1)                         | 2309ms              
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 14030ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 4772ms              
+Babel                                         | 3730ms              
+Babel                                         | 960ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 11101ms (1009 ms)   
+
+file deleted templates/application.hbs
+file added templates/application.emblem
+
+Build successful - 406ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 37ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 64ms (5 ms)         
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 190ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+Babel (11)                                    | 22ms (2 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 193ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Babel (11)                                    | 19ms (1 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 202ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 23ms (11 ms)        
+Babel (11)                                    | 22ms (2 ms)         
+BroccoliMergeTrees (4)                        | 12ms (3 ms)         
+Funnel: Addon JS (6)                          | 11ms (1 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 266ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 35ms (17 ms)        
+Babel (11)                                    | 30ms (2 ms)         
+Funnel: Addon JS (6)                          | 13ms (2 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1893ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 143ms               
+Babel                                         | 137ms               
+Babel                                         | 134ms               
+CoffeeScriptFilter                            | 132ms               
+Babel                                         | 101ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 502ms (45 ms)       
+CoffeeScriptFilter (2)                        | 148ms (74 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 143ms               
+TemplateCompiler (2)                          | 101ms (50 ms)       
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 470ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 39ms                
+CoffeeScriptFilter                            | 37ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 86ms (7 ms)         
+CoffeeScriptFilter (2)                        | 46ms (23 ms)        
+
+version: 2.4.1
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 1423ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 182ms               
+Babel                                         | 93ms                
+Babel                                         | 89ms                
+CoffeeScriptFilter                            | 85ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 369ms (33 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 182ms               
+CoffeeScriptFilter (2)                        | 96ms (48 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 716ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+TreeMerger (appAndDependencies)               | 169ms               
+CoffeeScriptFilter                            | 79ms                
+Funnel: ProcessedAppTree                      | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+TreeMerger (appAndDependencies) (1)           | 169ms               
+CoffeeScriptFilter (2)                        | 90ms (45 ms)        
+Babel (11)                                    | 64ms (5 ms)         
+Funnel: ProcessedAppTree (1)                  | 36ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 238ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Babel (11)                                    | 28ms (2 ms)         
+Funnel: Addon JS (6)                          | 14ms (2 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 1571ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 170ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 109ms               
+Babel                                         | 108ms               
+CoffeeScriptFilter                            | 87ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 502ms (45 ms)       
+TemplateCompiler (3)                          | 136ms (45 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 109ms               
+CoffeeScriptFilter (2)                        | 104ms (52 ms)       
+
+file deleted styles/app.css
+file added styles/app.sass
+
+Build successful - 283ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+Babel (11)                                    | 37ms (3 ms)         
+
+file deleted styles/app.sass___jb_old___
+file deleted styles/app.sass___jb_bak___
+file added styles/app.sass
+
+Build successful - 210ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Babel (11)                                    | 27ms (2 ms)         
+
+file deleted styles/app.sass___jb_old___
+file deleted styles/app.sass___jb_bak___
+file added styles/app.sass
+
+Build successful - 176ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (11)                                    | 17ms (1 ms)         
+
+file added styles/layouts
+
+Build successful - 217ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+TreeMerge (public)                            | 12ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 26ms (2 ms)         
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+TreeMerge (public) (1)                        | 12ms                
+
+file deleted styles/app.sass___jb_old___
+file deleted styles/app.sass___jb_bak___
+file added styles/app.sass
+file added styles/layouts/header.sass
+
+Build successful - 217ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Babel (11)                                    | 24ms (2 ms)         
+
+file added styles/utils
+
+Build successful - 239ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 66ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 72ms (36 ms)        
+Babel (11)                                    | 19ms (1 ms)         
+
+file added styles/utils/variables.sass
+
+Build successful - 191ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+Babel (11)                                    | 23ms (2 ms)         
+
+file added styles/elements
+
+Build successful - 300ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 42ms (21 ms)        
+Babel (11)                                    | 40ms (3 ms)         
+
+file added styles/components
+
+Build successful - 208ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+Babel (11)                                    | 23ms (2 ms)         
+
+file added styles/pages
+
+Build successful - 208ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (11)                                    | 18ms (1 ms)         
+BroccoliMergeTrees (4)                        | 15ms (3 ms)         
+
+file deleted styles/app.sass___jb_old___
+file deleted styles/app.sass___jb_bak___
+file added styles/app.sass
+
+Build successful - 185ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+Babel (11)                                    | 19ms (1 ms)         
+
+file added assets
+
+Build successful - 195ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+Babel (11)                                    | 20ms (1 ms)         
+
+file added assets/images
+
+Build successful - 167ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 23ms (11 ms)        
+Babel (11)                                    | 21ms (1 ms)         
+
+file added assets/images/header.png
+
+Build successful - 269ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+Babel (11)                                    | 30ms (2 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 233ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 50ms                
+CoffeeScriptFilter                            | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 64ms (5 ms)         
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+TemplateCompiler (3)                          | 12ms (4 ms)         
+
+file added styles/bases
+
+Build successful - 203ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Babel (11)                                    | 21ms (1 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file added styles/bases/base.sass
+
+Build successful - 184ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+Babel (11)                                    | 19ms (1 ms)         
+TemplateCompiler (3)                          | 12ms (4 ms)         
+
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 183ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+Babel (11)                                    | 27ms (2 ms)         
+
+file deleted styles/utils/variables.sass___jb_old___
+file deleted styles/utils/variables.sass___jb_bak___
+file added styles/utils/variables.sass
+
+Build successful - 166ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+Babel (11)                                    | 16ms (1 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 229ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 30ms                
+CoffeeScriptFilter                            | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 49ms (4 ms)         
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+TemplateCompiler (3)                          | 12ms (4 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 1469ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 107ms               
+Babel                                         | 96ms                
+Babel                                         | 95ms                
+CoffeeScriptFilter                            | 92ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 343ms (31 ms)       
+TemplateCompiler (3)                          | 108ms (36 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 107ms               
+CoffeeScriptFilter (2)                        | 104ms (52 ms)       
+
+file deleted styles/app.sass___jb_old___
+file deleted styles/app.sass___jb_bak___
+file added styles/app.sass
+
+Build successful - 297ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+Babel (11)                                    | 35ms (3 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 286ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 39ms (19 ms)        
+Babel (11)                                    | 29ms (2 ms)         
+Funnel: Addon JS (6)                          | 14ms (2 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 192ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+Babel (11)                                    | 16ms (1 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 218ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+TreeMerger (tests)                            | 11ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (11)                                    | 20ms (1 ms)         
+TreeMerger (tests) (1)                        | 11ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 354ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 45ms (22 ms)        
+Babel (11)                                    | 34ms (3 ms)         
+TemplateCompiler (3)                          | 19ms (6 ms)         
+Funnel: Addon JS (6)                          | 18ms (3 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 192ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+Babel (11)                                    | 17ms (1 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 196ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+Babel (11)                                    | 20ms (1 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 251ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 35ms (17 ms)        
+Babel (11)                                    | 27ms (2 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 427ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 84ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 92ms (46 ms)        
+Babel (11)                                    | 37ms (3 ms)         
+TemplateCompiler (3)                          | 23ms (7 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 473ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 37ms                
+Babel                                         | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 67ms (6 ms)         
+CoffeeScriptFilter (2)                        | 45ms (22 ms)        
+Funnel: Addon JS (6)                          | 42ms (7 ms)         
+BroccoliMergeTrees (5)                        | 23ms (4 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 393ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 31ms                
+SassCompiler                                  | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 46ms (23 ms)        
+Babel (11)                                    | 33ms (3 ms)         
+SassCompiler (1)                              | 21ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 585ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+BroccoliMergeTrees                            | 190ms               
+Funnel: Addon JS                              | 169ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+BroccoliMergeTrees (5)                        | 195ms (39 ms)       
+Funnel: Addon JS (6)                          | 178ms (29 ms)       
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 188ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+SassCompiler                                  | 9ms                 
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+Babel (11)                                    | 21ms (1 ms)         
+SassCompiler (1)                              | 9ms                 
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 231ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (11)                                    | 18ms (1 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 288ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+Babel (11)                                    | 32ms (2 ms)         
+TemplateCompiler (3)                          | 16ms (5 ms)         
+
+file added components/city-picker.js
+file added templates/components/city-picker.emblem
+file added integration/components
+file added integration/components/city-picker-test.coffee
+
+Build successful - 594ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 142ms               
+Babel                                         | 129ms               
+Babel                                         | 78ms                
+TemplateCompiler                              | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 364ms (33 ms)       
+CoffeeScriptFilter (2)                        | 36ms (18 ms)        
+TemplateCompiler (3)                          | 36ms (12 ms)        
+
+file deleted templates/components/city-picker.emblem___jb_old___
+file deleted templates/components/city-picker.emblem___jb_bak___
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/components/city-picker.emblem
+file added templates/application.emblem
+
+Build successful - 293ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 66ms                
+CoffeeScriptFilter                            | 23ms                
+SourceMapConcat: Concat: App                  | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 91ms (8 ms)         
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+TemplateCompiler (3)                          | 21ms (7 ms)         
+SourceMapConcat: Concat: App (1)              | 14ms                
+
+file added styles/components/city-picker.sass
+
+Build successful - 181ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+Babel (11)                                    | 16ms (1 ms)         
+
+file deleted styles/components/city-picker.sass___jb_old___
+file deleted styles/components/city-picker.sass___jb_bak___
+file added styles/components/city-picker.sass
+
+Build successful - 195ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 21ms                
+SassCompiler                                  | 10ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+Babel (11)                                    | 17ms (1 ms)         
+SassCompiler (1)                              | 10ms                
+
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+
+components/city-picker.js: line 3, col 38, Missing semicolon.
+components/city-picker.js: line 4, col 10, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 10, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 15, Missing semicolon.
+components/city-picker.js: line 5, col 13, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 30, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 31, Missing semicolon.
+
+7 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 271ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 36ms                
+CoffeeScriptFilter                            | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 62ms (5 ms)         
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+
+components/city-picker.js: line 3, col 38, Missing semicolon.
+components/city-picker.js: line 4, col 14, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 14, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 19, Missing semicolon.
+components/city-picker.js: line 5, col 17, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 34, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 35, Missing semicolon.
+
+7 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 254ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 31ms                
+CoffeeScriptFilter                            | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 58ms (5 ms)         
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+
+components/city-picker.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 1, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 38, Missing semicolon.
+components/city-picker.js: line 4, col 14, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 14, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 19, Missing semicolon.
+components/city-picker.js: line 5, col 17, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 34, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 35, Missing semicolon.
+components/city-picker.js: line 8, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 8, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 16, 'Ember' is not defined.
+
+12 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 359ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 39ms                
+CoffeeScriptFilter                            | 31ms                
+Babel                                         | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 94ms (8 ms)         
+CoffeeScriptFilter (2)                        | 40ms (20 ms)        
+
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+
+components/city-picker.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 1, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 38, Missing semicolon.
+components/city-picker.js: line 4, col 14, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 14, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 19, Missing semicolon.
+components/city-picker.js: line 5, col 17, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 34, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 35, Missing semicolon.
+components/city-picker.js: line 8, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 8, col 18, Missing semicolon.
+components/city-picker.js: line 3, col 16, 'Ember' is not defined.
+
+12 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 236ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 31ms                
+CoffeeScriptFilter                            | 23ms                
+Babel                                         | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 61ms (5 ms)         
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+
+components/city-picker.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 1, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 38, Missing semicolon.
+components/city-picker.js: line 4, col 14, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 14, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 19, Missing semicolon.
+components/city-picker.js: line 5, col 17, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 34, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 35, Missing semicolon.
+components/city-picker.js: line 8, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 8, col 19, Missing semicolon.
+components/city-picker.js: line 3, col 16, 'Ember' is not defined.
+
+12 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 242ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 20ms                
+CoffeeScriptFilter                            | 19ms                
+Babel                                         | 13ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 48ms (4 ms)         
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+
+components/city-picker.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 1, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 38, Missing semicolon.
+components/city-picker.js: line 4, col 14, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 14, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 19, Missing semicolon.
+components/city-picker.js: line 5, col 17, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 34, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 35, Missing semicolon.
+components/city-picker.js: line 8, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 8, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 16, 'Ember' is not defined.
+
+12 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 212ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+Babel                                         | 14ms                
+SourceMapConcat: Concat: App                  | 13ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 31ms (2 ms)         
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+SourceMapConcat: Concat: App (1)              | 13ms                
+
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+
+components/city-picker.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 1, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 45, Missing semicolon.
+components/city-picker.js: line 4, col 14, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 14, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 19, Missing semicolon.
+components/city-picker.js: line 5, col 17, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 34, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 35, Missing semicolon.
+components/city-picker.js: line 8, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 8, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 1, 'CityPickerComponent' is not defined.
+components/city-picker.js: line 3, col 23, 'Ember' is not defined.
+
+13 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 225ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+Babel                                         | 15ms                
+Babel                                         | 12ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 44ms (4 ms)         
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added components/city-picker.js
+
+components/city-picker.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 1, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 45, Missing semicolon.
+components/city-picker.js: line 4, col 14, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 14, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 19, Missing semicolon.
+components/city-picker.js: line 5, col 17, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 31, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 32, Missing semicolon.
+components/city-picker.js: line 8, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 8, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 1, 'CityPickerComponent' is not defined.
+components/city-picker.js: line 3, col 23, 'Ember' is not defined.
+
+13 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 225ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+Babel                                         | 17ms                
+SourceMapConcat: Concat: App                  | 11ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 44ms (4 ms)         
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+SourceMapConcat: Concat: App (1)              | 11ms                
+
+file deleted styles/components/city-picker.sass___jb_old___
+file deleted styles/components/city-picker.sass___jb_bak___
+file deleted components/city-picker.js___jb_old___
+file deleted components/city-picker.js___jb_bak___
+file added styles/components/city-picker.sass
+file added components/city-picker.js
+
+components/city-picker.js: line 1, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 1, col 29, Missing semicolon.
+components/city-picker.js: line 3, col 45, Missing semicolon.
+components/city-picker.js: line 4, col 14, Label 'tagName' on div statement.
+components/city-picker.js: line 4, col 14, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 4, col 19, Missing semicolon.
+components/city-picker.js: line 5, col 17, Label 'classNames' on [ statement.
+components/city-picker.js: line 5, col 31, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 5, col 32, Missing semicolon.
+components/city-picker.js: line 8, col 1, Expected an assignment or function call and instead saw an expression.
+components/city-picker.js: line 8, col 38, Missing semicolon.
+components/city-picker.js: line 3, col 1, 'CityPickerComponent' is not defined.
+components/city-picker.js: line 3, col 23, 'Ember' is not defined.
+
+13 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 249ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+SourceMapConcat: Concat: App                  | 13ms                
+JSHint app- QUnit                             | 12ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 36ms (3 ms)         
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+SourceMapConcat: Concat: App (1)              | 13ms                
+JSHint app- QUnit (1)                         | 12ms                
+
+file deleted components/city-picker.js
+file added components/city-picker.coffee
+
+Build successful - 305ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 38ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+Babel (11)                                    | 38ms (3 ms)         
+
+file deleted styles/app.sass___jb_old___
+file deleted styles/app.sass___jb_bak___
+file added styles/app.sass
+
+Build successful - 185ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+Babel (11)                                    | 19ms (1 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 248ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 43ms                
+CoffeeScriptFilter                            | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 59ms (5 ms)         
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 234ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 39ms                
+CoffeeScriptFilter                            | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 55ms (5 ms)         
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+TemplateCompiler (3)                          | 15ms (5 ms)         
+
+file deleted styles/components/city-picker.sass___jb_old___
+file deleted styles/components/city-picker.sass___jb_bak___
+file added styles/components/city-picker.sass
+
+Build successful - 195ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+SassCompiler                                  | 12ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+Babel (11)                                    | 16ms (1 ms)         
+SassCompiler (1)                              | 12ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 218ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 24ms                
+TreeMerger (vendor)                           | 11ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (11)                                    | 21ms (1 ms)         
+TreeMerger (vendor) (1)                       | 11ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 277ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 38ms (19 ms)        
+Babel (11)                                    | 25ms (2 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 680ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 115ms               
+Addon#treeFor (ember-cli-app-version - app)   | 52ms                
+CoffeeScriptFilter                            | 51ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 158ms (14 ms)       
+CoffeeScriptFilter (2)                        | 62ms (31 ms)        
+Addon#treeFor (ember-cli-app-version -... (1) | 52ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 332ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Addon#treeFor (Ember CLI QUnit - templates)   | 60ms                
+CoffeeScriptFilter                            | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Addon#treeFor (Ember CLI QUnit - templ... (1) | 60ms                
+CoffeeScriptFilter (2)                        | 35ms (17 ms)        
+Babel (11)                                    | 31ms (2 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 323ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 90ms                
+CoffeeScriptFilter                            | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 108ms (9 ms)        
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+TemplateCompiler (3)                          | 22ms (7 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 243ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 44ms                
+CoffeeScriptFilter                            | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 59ms (5 ms)         
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 1197ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 669ms               
+Funnel: Addon JS                              | 114ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 679ms (339 ms)      
+Funnel: Addon JS (6)                          | 166ms (27 ms)       
+Babel (11)                                    | 85ms (7 ms)         
+BroccoliMergeTrees (5)                        | 60ms (12 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 407ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 60ms                
+CoffeeScriptFilter                            | 59ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 91ms (8 ms)         
+CoffeeScriptFilter (2)                        | 67ms (33 ms)        
+TemplateCompiler (3)                          | 25ms (8 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 220ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 42ms                
+CoffeeScriptFilter                            | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 57ms (5 ms)         
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added styles/bases/base.sass
+file added templates/application.emblem
+
+Build successful - 252ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 35ms                
+CoffeeScriptFilter                            | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 51ms (4 ms)         
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+TemplateCompiler (3)                          | 14ms (4 ms)         
+
+file added assets/images/logo.png
+
+Build successful - 184ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+Babel (11)                                    | 17ms (1 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 217ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+BroccoliMergeTrees                            | 28ms                
+CoffeeScriptFilter                            | 23ms                
+SassCompiler                                  | 12ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+BroccoliMergeTrees (5)                        | 33ms (6 ms)         
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+Babel (11)                                    | 16ms (1 ms)         
+SassCompiler (1)                              | 12ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 276ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 39ms (19 ms)        
+Babel (11)                                    | 27ms (2 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 285ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 37ms (18 ms)        
+Babel (11)                                    | 28ms (2 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 294ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SassCompiler                                  | 42ms                
+CoffeeScriptFilter                            | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SassCompiler (1)                              | 42ms                
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+Babel (11)                                    | 25ms (2 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 1607ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 112ms               
+Babel                                         | 109ms               
+Babel                                         | 107ms               
+CoffeeScriptFilter                            | 92ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 402ms (36 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 112ms               
+CoffeeScriptFilter (2)                        | 112ms (56 ms)       
+TemplateCompiler (3)                          | 103ms (34 ms)       
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 594ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 262ms               
+TemplateCompiler                              | 52ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 291ms (26 ms)       
+TemplateCompiler (3)                          | 61ms (20 ms)        
+CoffeeScriptFilter (2)                        | 38ms (19 ms)        
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added styles/bases/base.sass
+file added templates/application.emblem
+
+Build successful - 250ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 23ms                
+TemplateCompiler                              | 13ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+Babel (11)                                    | 22ms (2 ms)         
+TemplateCompiler (3)                          | 17ms (5 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 216ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 21ms                
+SassCompiler                                  | 12ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (11)                                    | 20ms (1 ms)         
+SassCompiler (1)                              | 12ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 215ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+Babel (11)                                    | 20ms (1 ms)         
+TemplateCompiler (3)                          | 10ms (3 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 230ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 22ms                
+SassCompiler                                  | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+Babel (11)                                    | 26ms (2 ms)         
+SassCompiler (1)                              | 14ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 198ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 26ms                
+SassCompiler                                  | 11ms                
+CoffeeScriptFilter                            | 10ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 37ms (18 ms)        
+Babel (11)                                    | 19ms (1 ms)         
+SassCompiler (1)                              | 11ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 338ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 103ms               
+CoffeeScriptFilter                            | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 124ms (11 ms)       
+CoffeeScriptFilter (2)                        | 39ms (19 ms)        
+TemplateCompiler (3)                          | 20ms (6 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 250ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 19ms                
+Funnel: Funnel (styles)                       | 17ms                
+TreeMerger (tests)                            | 15ms                
+SassCompiler                                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (11)                                    | 18ms (1 ms)         
+Funnel: Funnel (styles) (1)                   | 17ms                
+TreeMerger (tests) (1)                        | 15ms                
+SassCompiler (1)                              | 15ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 195ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 24ms                
+SassCompiler                                  | 10ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (11)                                    | 20ms (1 ms)         
+SassCompiler (1)                              | 10ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 205ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 20ms                
+SassCompiler                                  | 12ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+Babel (11)                                    | 17ms (1 ms)         
+SassCompiler (1)                              | 12ms                
+BroccoliMergeTrees (5)                        | 11ms (2 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 355ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 95ms                
+CoffeeScriptFilter                            | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 112ms (10 ms)       
+CoffeeScriptFilter (2)                        | 40ms (20 ms)        
+TemplateCompiler (3)                          | 21ms (7 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 253ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 51ms                
+CoffeeScriptFilter                            | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 69ms (6 ms)         
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 195ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Babel (11)                                    | 17ms (1 ms)         
+
+file added semantic-ui
+file added semantic-ui/tasks
+file added semantic-ui/tasks/watch.js
+file added semantic-ui/tasks/version.js
+file added semantic-ui/tasks/rtl
+file added semantic-ui/tasks/rtl/watch.js
+file added semantic-ui/tasks/rtl/build.js
+file added semantic-ui/tasks/install.js
+file added semantic-ui/tasks/docs
+file added semantic-ui/tasks/docs/serve.js
+file added semantic-ui/tasks/docs/metadata.js
+file added semantic-ui/tasks/docs/build.js
+file added semantic-ui/tasks/config
+file added semantic-ui/tasks/config/user.js
+file added semantic-ui/tasks/config/tasks.js
+file added semantic-ui/tasks/config/project
+file added semantic-ui/tasks/config/project/release.js
+file added semantic-ui/tasks/config/project/install.js
+file added semantic-ui/tasks/config/project/config.js
+file added semantic-ui/tasks/config/npm
+file added semantic-ui/tasks/config/npm/gulpfile.js
+file added semantic-ui/tasks/config/docs.js
+file added semantic-ui/tasks/config/defaults.js
+file added semantic-ui/tasks/config/admin
+file added semantic-ui/tasks/config/admin/templates
+file added semantic-ui/tasks/config/admin/templates/package.json
+file added semantic-ui/tasks/config/admin/templates/less-package.js
+file added semantic-ui/tasks/config/admin/templates/css-package.js
+file added semantic-ui/tasks/config/admin/templates/composer.json
+file added semantic-ui/tasks/config/admin/templates/component-package.js
+file added semantic-ui/tasks/config/admin/templates/bower.json
+file added semantic-ui/tasks/config/admin/templates/README.md
+file added semantic-ui/tasks/config/admin/release.js
+file added semantic-ui/tasks/config/admin/oauth.example.js
+file added semantic-ui/tasks/config/admin/github.js
+file added semantic-ui/tasks/collections
+file added semantic-ui/tasks/collections/rtl.js
+file added semantic-ui/tasks/collections/internal.js
+file added semantic-ui/tasks/collections/build.js
+file added semantic-ui/tasks/collections/admin.js
+file added semantic-ui/tasks/collections/README.md
+file added semantic-ui/tasks/clean.js
+file added semantic-ui/tasks/check-install.js
+file added semantic-ui/tasks/build.js
+file added semantic-ui/tasks/build
+file added semantic-ui/tasks/build/javascript.js
+file added semantic-ui/tasks/build/css.js
+file added semantic-ui/tasks/build/assets.js
+file added semantic-ui/tasks/admin
+file added semantic-ui/tasks/admin/release.js
+file added semantic-ui/tasks/admin/register.js
+file added semantic-ui/tasks/admin/publish.js
+file added semantic-ui/tasks/admin/distributions
+file added semantic-ui/tasks/admin/distributions/update.js
+file added semantic-ui/tasks/admin/distributions/init.js
+file added semantic-ui/tasks/admin/distributions/create.js
+file added semantic-ui/tasks/admin/components
+file added semantic-ui/tasks/admin/components/update.js
+file added semantic-ui/tasks/admin/components/init.js
+file added semantic-ui/tasks/admin/components/create.js
+file added semantic-ui/tasks/README.md
+file added semantic-ui/src/themes
+file added semantic-ui/src
+file added semantic-ui/src/themes/twitter
+file added semantic-ui/src/themes/twitter/elements
+file added semantic-ui/src/themes/twitter/elements/button.variables
+file added semantic-ui/src/themes/twitter/elements/button.overrides
+file added semantic-ui/src/themes/timeline
+file added semantic-ui/src/themes/timeline/views
+file added semantic-ui/src/themes/timeline/views/feed.variables
+file added semantic-ui/src/themes/timeline/views/feed.overrides
+file added semantic-ui/src/themes/striped
+file added semantic-ui/src/themes/striped/modules
+file added semantic-ui/src/themes/striped/modules/progress.variables
+file added semantic-ui/src/themes/striped/modules/progress.overrides
+file added semantic-ui/src/themes/rtl
+file added semantic-ui/src/themes/rtl/globals
+file added semantic-ui/src/themes/rtl/globals/site.variables
+file added semantic-ui/src/themes/rtl/globals/site.overrides
+file added semantic-ui/src/themes/round
+file added semantic-ui/src/themes/round/elements
+file added semantic-ui/src/themes/round/elements/button.variables
+file added semantic-ui/src/themes/round/elements/button.overrides
+file added semantic-ui/src/themes/resetcss
+file added semantic-ui/src/themes/resetcss/globals
+file added semantic-ui/src/themes/resetcss/globals/reset.variables
+file added semantic-ui/src/themes/resetcss/globals/reset.overrides
+file added semantic-ui/src/themes/raised
+file added semantic-ui/src/themes/raised/elements
+file added semantic-ui/src/themes/raised/elements/button.variables
+file added semantic-ui/src/themes/raised/elements/button.overrides
+file added semantic-ui/src/themes/pulsar
+file added semantic-ui/src/themes/pulsar/elements
+file added semantic-ui/src/themes/pulsar/elements/loader.variables
+file added semantic-ui/src/themes/pulsar/elements/loader.overrides
+file added semantic-ui/src/themes/material
+file added semantic-ui/src/themes/material/modules
+file added semantic-ui/src/themes/material/modules/modal.variables
+file added semantic-ui/src/themes/material/modules/modal.overrides
+file added semantic-ui/src/themes/material/modules/dropdown.variables
+file added semantic-ui/src/themes/material/modules/dropdown.overrides
+file added semantic-ui/src/themes/material/globals
+file added semantic-ui/src/themes/material/globals/site.variables
+file added semantic-ui/src/themes/material/globals/site.overrides
+file added semantic-ui/src/themes/material/elements
+file added semantic-ui/src/themes/material/elements/header.variables
+file added semantic-ui/src/themes/material/elements/header.overrides
+file added semantic-ui/src/themes/material/elements/button.variables
+file added semantic-ui/src/themes/material/elements/button.overrides
+file added semantic-ui/src/themes/material/collections
+file added semantic-ui/src/themes/material/collections/menu.variables
+file added semantic-ui/src/themes/material/collections/menu.overrides
+file added semantic-ui/src/themes/instagram
+file added semantic-ui/src/themes/instagram/views
+file added semantic-ui/src/themes/instagram/views/card.variables
+file added semantic-ui/src/themes/instagram/views/card.overrides
+file added semantic-ui/src/themes/gmail
+file added semantic-ui/src/themes/gmail/collections
+file added semantic-ui/src/themes/gmail/collections/message.variables
+file added semantic-ui/src/themes/gmail/collections/message.overrides
+file added semantic-ui/src/themes/github
+file added semantic-ui/src/themes/github/modules
+file added semantic-ui/src/themes/github/modules/popup.variables
+file added semantic-ui/src/themes/github/modules/dropdown.variables
+file added semantic-ui/src/themes/github/modules/dropdown.overrides
+file added semantic-ui/src/themes/github/globals
+file added semantic-ui/src/themes/github/globals/site.variables
+file added semantic-ui/src/themes/github/elements
+file added semantic-ui/src/themes/github/elements/step.variables
+file added semantic-ui/src/themes/github/elements/step.overrides
+file added semantic-ui/src/themes/github/elements/segment.variables
+file added semantic-ui/src/themes/github/elements/segment.overrides
+file added semantic-ui/src/themes/github/elements/label.variables
+file added semantic-ui/src/themes/github/elements/label.overrides
+file added semantic-ui/src/themes/github/elements/input.variables
+file added semantic-ui/src/themes/github/elements/input.overrides
+file added semantic-ui/src/themes/github/elements/image.variables
+file added semantic-ui/src/themes/github/elements/icon.variables
+file added semantic-ui/src/themes/github/elements/icon.overrides
+file added semantic-ui/src/themes/github/elements/header.variables
+file added semantic-ui/src/themes/github/elements/button.variables
+file added semantic-ui/src/themes/github/elements/button.overrides
+file added semantic-ui/src/themes/github/collections
+file added semantic-ui/src/themes/github/collections/table.variables
+file added semantic-ui/src/themes/github/collections/message.variables
+file added semantic-ui/src/themes/github/collections/message.overrides
+file added semantic-ui/src/themes/github/collections/menu.variables
+file added semantic-ui/src/themes/github/collections/menu.overrides
+file added semantic-ui/src/themes/github/collections/grid.variables
+file added semantic-ui/src/themes/github/collections/form.variables
+file added semantic-ui/src/themes/github/collections/form.overrides
+file added semantic-ui/src/themes/github/collections/breadcrumb.variables
+file added semantic-ui/src/themes/github/assets
+file added semantic-ui/src/themes/github/assets/fonts
+file added semantic-ui/src/themes/github/assets/fonts/octicons.woff
+file added semantic-ui/src/themes/github/assets/fonts/octicons.ttf
+file added semantic-ui/src/themes/github/assets/fonts/octicons.svg
+file added semantic-ui/src/themes/github/assets/fonts/octicons-local.ttf
+file added semantic-ui/src/themes/flat/globals
+file added semantic-ui/src/themes/flat/globals/site.variables
+file added semantic-ui/src/themes/flat
+file added semantic-ui/src/themes/flat/globals/site.overrides
+file added semantic-ui/src/themes/flat/collections
+file added semantic-ui/src/themes/flat/collections/form.variables
+file added semantic-ui/src/themes/flat/collections/form.overrides
+file added semantic-ui/src/themes/fixed-width/modules
+file added semantic-ui/src/themes/fixed-width/modules/modal.variables
+file added semantic-ui/src/themes/fixed-width
+file added semantic-ui/src/themes/fixed-width/modules/modal.overrides
+file added semantic-ui/src/themes/fixed-width/collections
+file added semantic-ui/src/themes/fixed-width/collections/grid.variables
+file added semantic-ui/src/themes/fixed-width/collections/grid.overrides
+file added semantic-ui/src/themes/duo/elements
+file added semantic-ui/src/themes/duo/elements/loader.variables
+file added semantic-ui/src/themes/duo
+file added semantic-ui/src/themes/duo/elements/loader.overrides
+file added semantic-ui/src/themes/default
+file added semantic-ui/src/themes/default/views
+file added semantic-ui/src/themes/default/views/statistic.variables
+file added semantic-ui/src/themes/default/views/statistic.overrides
+file added semantic-ui/src/themes/default/views/item.variables
+file added semantic-ui/src/themes/default/views/item.overrides
+file added semantic-ui/src/themes/default/views/feed.variables
+file added semantic-ui/src/themes/default/views/feed.overrides
+file added semantic-ui/src/themes/default/views/comment.variables
+file added semantic-ui/src/themes/default/views/comment.overrides
+file added semantic-ui/src/themes/default/views/card.variables
+file added semantic-ui/src/themes/default/views/card.overrides
+file added semantic-ui/src/themes/default/views/ad.variables
+file added semantic-ui/src/themes/default/views/ad.overrides
+file added semantic-ui/src/themes/default/modules
+file added semantic-ui/src/themes/default/modules/transition.variables
+file added semantic-ui/src/themes/default/modules/transition.overrides
+file added semantic-ui/src/themes/default/modules/tab.variables
+file added semantic-ui/src/themes/default/modules/tab.overrides
+file added semantic-ui/src/themes/default/modules/sticky.variables
+file added semantic-ui/src/themes/default/modules/sticky.overrides
+file added semantic-ui/src/themes/default/modules/sidebar.variables
+file added semantic-ui/src/themes/default/modules/sidebar.overrides
+file added semantic-ui/src/themes/default/modules/shape.variables
+file added semantic-ui/src/themes/default/modules/shape.overrides
+file added semantic-ui/src/themes/default/modules/search.variables
+file added semantic-ui/src/themes/default/modules/search.overrides
+file added semantic-ui/src/themes/default/modules/rating.variables
+file added semantic-ui/src/themes/default/modules/rating.overrides
+file added semantic-ui/src/themes/default/modules/progress.variables
+file added semantic-ui/src/themes/default/modules/progress.overrides
+file added semantic-ui/src/themes/default/modules/popup.variables
+file added semantic-ui/src/themes/default/modules/popup.overrides
+file added semantic-ui/src/themes/default/modules/nag.variables
+file added semantic-ui/src/themes/default/modules/nag.overrides
+file added semantic-ui/src/themes/default/modules/modal.variables
+file added semantic-ui/src/themes/default/modules/modal.overrides
+file added semantic-ui/src/themes/default/modules/embed.variables
+file added semantic-ui/src/themes/default/modules/embed.overrides
+file added semantic-ui/src/themes/default/modules/dropdown.variables
+file added semantic-ui/src/themes/default/modules/dropdown.overrides
+file added semantic-ui/src/themes/default/modules/dimmer.variables
+file added semantic-ui/src/themes/default/modules/dimmer.overrides
+file added semantic-ui/src/themes/default/modules/checkbox.variables
+file added semantic-ui/src/themes/default/modules/checkbox.overrides
+file added semantic-ui/src/themes/default/modules/chatroom.variables
+file added semantic-ui/src/themes/default/modules/chatroom.overrides
+file added semantic-ui/src/themes/default/modules/accordion.variables
+file added semantic-ui/src/themes/default/modules/accordion.overrides
+file added semantic-ui/src/themes/default/globals
+file added semantic-ui/src/themes/default/globals/site.variables
+file added semantic-ui/src/themes/default/globals/site.overrides
+file added semantic-ui/src/themes/default/globals/reset.variables
+file added semantic-ui/src/themes/default/globals/reset.overrides
+file added semantic-ui/src/themes/default/elements
+file added semantic-ui/src/themes/default/elements/step.variables
+file added semantic-ui/src/themes/default/elements/step.overrides
+file added semantic-ui/src/themes/default/elements/segment.variables
+file added semantic-ui/src/themes/default/elements/segment.overrides
+file added semantic-ui/src/themes/default/elements/reveal.variables
+file added semantic-ui/src/themes/default/elements/reveal.overrides
+file added semantic-ui/src/themes/default/elements/rail.variables
+file added semantic-ui/src/themes/default/elements/rail.overrides
+file added semantic-ui/src/themes/default/elements/loader.variables
+file added semantic-ui/src/themes/default/elements/loader.overrides
+file added semantic-ui/src/themes/default/elements/list.variables
+file added semantic-ui/src/themes/default/elements/list.overrides
+file added semantic-ui/src/themes/default/elements/label.variables
+file added semantic-ui/src/themes/default/elements/label.overrides
+file added semantic-ui/src/themes/default/elements/input.variables
+file added semantic-ui/src/themes/default/elements/input.overrides
+file added semantic-ui/src/themes/default/elements/image.variables
+file added semantic-ui/src/themes/default/elements/image.overrides
+file added semantic-ui/src/themes/default/elements/icon.variables
+file added semantic-ui/src/themes/default/elements/icon.overrides
+file added semantic-ui/src/themes/default/elements/header.variables
+file added semantic-ui/src/themes/default/elements/header.overrides
+file added semantic-ui/src/themes/default/elements/flag.variables
+file added semantic-ui/src/themes/default/elements/flag.overrides
+file added semantic-ui/src/themes/default/elements/divider.variables
+file added semantic-ui/src/themes/default/elements/divider.overrides
+file added semantic-ui/src/themes/default/elements/container.variables
+file added semantic-ui/src/themes/default/elements/container.overrides
+file added semantic-ui/src/themes/default/elements/button.variables
+file added semantic-ui/src/themes/default/elements/button.overrides
+file added semantic-ui/src/themes/default/collections
+file added semantic-ui/src/themes/default/collections/table.variables
+file added semantic-ui/src/themes/default/collections/table.overrides
+file added semantic-ui/src/themes/default/collections/message.variables
+file added semantic-ui/src/themes/default/collections/message.overrides
+file added semantic-ui/src/themes/default/collections/menu.variables
+file added semantic-ui/src/themes/default/collections/menu.overrides
+file added semantic-ui/src/themes/default/collections/grid.variables
+file added semantic-ui/src/themes/default/collections/grid.overrides
+file added semantic-ui/src/themes/default/collections/form.variables
+file added semantic-ui/src/themes/default/collections/form.overrides
+file added semantic-ui/src/themes/default/collections/breadcrumb.variables
+file added semantic-ui/src/themes/default/collections/breadcrumb.overrides
+file added semantic-ui/src/themes/default/assets
+file added semantic-ui/src/themes/default/assets/images
+file added semantic-ui/src/themes/default/assets/images/flags.png
+file added semantic-ui/src/themes/default/assets/fonts
+file added semantic-ui/src/themes/default/assets/fonts/icons.woff2
+file added semantic-ui/src/themes/default/assets/fonts/icons.woff
+file added semantic-ui/src/themes/default/assets/fonts/icons.ttf
+file added semantic-ui/src/themes/default/assets/fonts/icons.svg
+file added semantic-ui/src/themes/default/assets/fonts/icons.eot
+file added semantic-ui/src/themes/colored
+file added semantic-ui/src/themes/colored/modules
+file added semantic-ui/src/themes/colored/modules/checkbox.variables
+file added semantic-ui/src/themes/colored/modules/checkbox.overrides
+file added semantic-ui/src/themes/classic
+file added semantic-ui/src/themes/classic/views
+file added semantic-ui/src/themes/classic/views/card.variables
+file added semantic-ui/src/themes/classic/views/card.overrides
+file added semantic-ui/src/themes/classic/modules
+file added semantic-ui/src/themes/classic/modules/progress.variables
+file added semantic-ui/src/themes/classic/modules/progress.overrides
+file added semantic-ui/src/themes/classic/elements
+file added semantic-ui/src/themes/classic/elements/header.variables
+file added semantic-ui/src/themes/classic/elements/header.overrides
+file added semantic-ui/src/themes/classic/elements/button.variables
+file added semantic-ui/src/themes/classic/elements/button.overrides
+file added semantic-ui/src/themes/classic/collections
+file added semantic-ui/src/themes/classic/collections/table.variables
+file added semantic-ui/src/themes/classic/collections/table.overrides
+file added semantic-ui/src/themes/chubby
+file added semantic-ui/src/themes/chubby/views
+file added semantic-ui/src/themes/chubby/views/comment.variables
+file added semantic-ui/src/themes/chubby/views/comment.overrides
+file added semantic-ui/src/themes/chubby/modules
+file added semantic-ui/src/themes/chubby/modules/accordion.variables
+file added semantic-ui/src/themes/chubby/modules/accordion.overrides
+file added semantic-ui/src/themes/chubby/elements
+file added semantic-ui/src/themes/chubby/elements/header.variables
+file added semantic-ui/src/themes/chubby/elements/header.overrides
+file added semantic-ui/src/themes/chubby/elements/button.variables
+file added semantic-ui/src/themes/chubby/elements/button.overrides
+file added semantic-ui/src/themes/chubby/collections
+file added semantic-ui/src/themes/chubby/collections/menu.variables
+file added semantic-ui/src/themes/chubby/collections/menu.overrides
+file added semantic-ui/src/themes/chubby/collections/form.variables
+file added semantic-ui/src/themes/chubby/collections/form.overrides
+file added semantic-ui/src/themes/bootstrap3
+file added semantic-ui/src/themes/bootstrap3/elements
+file added semantic-ui/src/themes/bootstrap3/elements/button.variables
+file added semantic-ui/src/themes/bootstrap3/elements/button.overrides
+file added semantic-ui/src/themes/bookish
+file added semantic-ui/src/themes/bookish/elements
+file added semantic-ui/src/themes/bookish/elements/header.variables
+file added semantic-ui/src/themes/bookish/elements/header.overrides
+file added semantic-ui/src/themes/basic
+file added semantic-ui/src/themes/basic/views
+file added semantic-ui/src/themes/basic/views/card.variables
+file added semantic-ui/src/themes/basic/views/card.overrides
+file added semantic-ui/src/themes/basic/modules
+file added semantic-ui/src/themes/basic/modules/progress.variables
+file added semantic-ui/src/themes/basic/modules/progress.overrides
+file added semantic-ui/src/themes/basic/globals
+file added semantic-ui/src/themes/basic/globals/reset.variables
+file added semantic-ui/src/themes/basic/globals/reset.overrides
+file added semantic-ui/src/themes/basic/elements
+file added semantic-ui/src/themes/basic/elements/step.variables
+file added semantic-ui/src/themes/basic/elements/step.overrides
+file added semantic-ui/src/themes/basic/elements/icon.variables
+file added semantic-ui/src/themes/basic/elements/icon.overrides
+file added semantic-ui/src/themes/basic/elements/button.variables
+file added semantic-ui/src/themes/basic/elements/button.overrides
+file added semantic-ui/src/themes/basic/collections
+file added semantic-ui/src/themes/basic/collections/table.variables
+file added semantic-ui/src/themes/basic/collections/table.overrides
+file added semantic-ui/src/themes/basic/assets
+file added semantic-ui/src/themes/basic/assets/fonts
+file added semantic-ui/src/themes/basic/assets/fonts/icons.woff
+file added semantic-ui/src/themes/basic/assets/fonts/icons.ttf
+file added semantic-ui/src/themes/basic/assets/fonts/icons.svg
+file added semantic-ui/src/themes/basic/assets/fonts/icons.eot
+file added semantic-ui/src/themes/amazon
+file added semantic-ui/src/themes/amazon/globals
+file added semantic-ui/src/themes/amazon/globals/site.variables
+file added semantic-ui/src/themes/amazon/elements
+file added semantic-ui/src/themes/amazon/elements/button.variables
+file added semantic-ui/src/themes/amazon/elements/button.overrides
+file added semantic-ui/src/theme.less
+file added semantic-ui/src/theme.config.example
+file added semantic-ui/src/semantic.less
+file added semantic-ui/src/definitions
+file added semantic-ui/src/definitions/views
+file added semantic-ui/src/definitions/views/statistic.less
+file added semantic-ui/src/definitions/views/item.less
+file added semantic-ui/src/definitions/views/feed.less
+file added semantic-ui/src/definitions/views/comment.less
+file added semantic-ui/src/definitions/views/card.less
+file added semantic-ui/src/definitions/views/ad.less
+file added semantic-ui/src/definitions/modules
+file added semantic-ui/src/definitions/modules/transition.less
+file added semantic-ui/src/definitions/modules/transition.js
+file added semantic-ui/src/definitions/modules/tab.less
+file added semantic-ui/src/definitions/modules/tab.js
+file added semantic-ui/src/definitions/modules/sticky.less
+file added semantic-ui/src/definitions/modules/sticky.js
+file added semantic-ui/src/definitions/modules/sidebar.less
+file added semantic-ui/src/definitions/modules/sidebar.js
+file added semantic-ui/src/definitions/modules/shape.less
+file added semantic-ui/src/definitions/modules/shape.js
+file added semantic-ui/src/definitions/modules/search.less
+file added semantic-ui/src/definitions/modules/search.js
+file added semantic-ui/src/definitions/modules/rating.less
+file added semantic-ui/src/definitions/modules/rating.js
+file added semantic-ui/src/definitions/modules/progress.less
+file added semantic-ui/src/definitions/modules/progress.js
+file added semantic-ui/src/definitions/modules/popup.less
+file added semantic-ui/src/definitions/modules/popup.js
+file added semantic-ui/src/definitions/modules/nag.less
+file added semantic-ui/src/definitions/modules/nag.js
+file added semantic-ui/src/definitions/modules/modal.less
+file added semantic-ui/src/definitions/modules/modal.js
+file added semantic-ui/src/definitions/modules/embed.less
+file added semantic-ui/src/definitions/modules/embed.js
+file added semantic-ui/src/definitions/modules/dropdown.less
+file added semantic-ui/src/definitions/modules/dropdown.js
+file added semantic-ui/src/definitions/modules/dimmer.less
+file added semantic-ui/src/definitions/modules/dimmer.js
+file added semantic-ui/src/definitions/modules/checkbox.less
+file added semantic-ui/src/definitions/modules/checkbox.js
+file added semantic-ui/src/definitions/modules/accordion.less
+file added semantic-ui/src/definitions/modules/accordion.js
+file added semantic-ui/src/definitions/globals
+file added semantic-ui/src/definitions/globals/site.less
+file added semantic-ui/src/definitions/globals/site.js
+file added semantic-ui/src/definitions/globals/reset.less
+file added semantic-ui/src/definitions/elements
+file added semantic-ui/src/definitions/elements/step.less
+file added semantic-ui/src/definitions/elements/segment.less
+file added semantic-ui/src/definitions/elements/reveal.less
+file added semantic-ui/src/definitions/elements/rail.less
+file added semantic-ui/src/definitions/elements/loader.less
+file added semantic-ui/src/definitions/elements/list.less
+file added semantic-ui/src/definitions/elements/label.less
+file added semantic-ui/src/definitions/elements/input.less
+file added semantic-ui/src/definitions/elements/image.less
+file added semantic-ui/src/definitions/elements/icon.less
+file added semantic-ui/src/definitions/elements/header.less
+file added semantic-ui/src/definitions/elements/flag.less
+file added semantic-ui/src/definitions/elements/divider.less
+file added semantic-ui/src/definitions/elements/container.less
+file added semantic-ui/src/definitions/elements/button.less
+file added semantic-ui/src/definitions/collections
+file added semantic-ui/src/definitions/collections/table.less
+file added semantic-ui/src/definitions/collections/message.less
+file added semantic-ui/src/definitions/collections/menu.less
+file added semantic-ui/src/definitions/collections/grid.less
+file added semantic-ui/src/definitions/collections/form.less
+file added semantic-ui/src/definitions/collections/breadcrumb.less
+file added semantic-ui/src/definitions/behaviors
+file added semantic-ui/src/definitions/behaviors/visit.js
+file added semantic-ui/src/definitions/behaviors/visibility.js
+file added semantic-ui/src/definitions/behaviors/state.js
+file added semantic-ui/src/definitions/behaviors/form.js
+file added semantic-ui/src/definitions/behaviors/colorize.js
+file added semantic-ui/src/definitions/behaviors/api.js
+file added semantic-ui/src/_site
+file added semantic-ui/src/_site/views
+file added semantic-ui/src/_site/views/statistic.variables
+file added semantic-ui/src/_site/views/statistic.overrides
+file added semantic-ui/src/_site/views/item.variables
+file added semantic-ui/src/_site/views/item.overrides
+file added semantic-ui/src/_site/views/feed.variables
+file added semantic-ui/src/_site/views/feed.overrides
+file added semantic-ui/src/_site/views/comment.variables
+file added semantic-ui/src/_site/views/comment.overrides
+file added semantic-ui/src/_site/views/card.variables
+file added semantic-ui/src/_site/views/card.overrides
+file added semantic-ui/src/_site/views/ad.variables
+file added semantic-ui/src/_site/views/ad.overrides
+file added semantic-ui/src/_site/modules
+file added semantic-ui/src/_site/modules/transition.variables
+file added semantic-ui/src/_site/modules/transition.overrides
+file added semantic-ui/src/_site/modules/tab.variables
+file added semantic-ui/src/_site/modules/tab.overrides
+file added semantic-ui/src/_site/modules/sticky.variables
+file added semantic-ui/src/_site/modules/sticky.overrides
+file added semantic-ui/src/_site/modules/sidebar.variables
+file added semantic-ui/src/_site/modules/sidebar.overrides
+file added semantic-ui/src/_site/modules/shape.variables
+file added semantic-ui/src/_site/modules/shape.overrides
+file added semantic-ui/src/_site/modules/search.variables
+file added semantic-ui/src/_site/modules/search.overrides
+file added semantic-ui/src/_site/modules/rating.variables
+file added semantic-ui/src/_site/modules/rating.overrides
+file added semantic-ui/src/_site/modules/progress.variables
+file added semantic-ui/src/_site/modules/progress.overrides
+file added semantic-ui/src/_site/modules/popup.variables
+file added semantic-ui/src/_site/modules/popup.overrides
+file added semantic-ui/src/_site/modules/nag.variables
+file added semantic-ui/src/_site/modules/nag.overrides
+file added semantic-ui/src/_site/modules/modal.variables
+file added semantic-ui/src/_site/modules/modal.overrides
+file added semantic-ui/src/_site/modules/embed.variables
+file added semantic-ui/src/_site/modules/embed.overrides
+file added semantic-ui/src/_site/modules/dropdown.variables
+file added semantic-ui/src/_site/modules/dropdown.overrides
+file added semantic-ui/src/_site/modules/dimmer.variables
+file added semantic-ui/src/_site/modules/dimmer.overrides
+file added semantic-ui/src/_site/modules/checkbox.variables
+file added semantic-ui/src/_site/modules/checkbox.overrides
+file added semantic-ui/src/_site/modules/chatroom.variables
+file added semantic-ui/src/_site/modules/chatroom.overrides
+file added semantic-ui/src/_site/modules/accordion.variables
+file added semantic-ui/src/_site/modules/accordion.overrides
+file added semantic-ui/src/_site/globals
+file added semantic-ui/src/_site/globals/site.variables
+file added semantic-ui/src/_site/globals/site.overrides
+file added semantic-ui/src/_site/globals/reset.variables
+file added semantic-ui/src/_site/globals/reset.overrides
+file added semantic-ui/src/_site/elements
+file added semantic-ui/src/_site/elements/step.variables
+file added semantic-ui/src/_site/elements/step.overrides
+file added semantic-ui/src/_site/elements/segment.variables
+file added semantic-ui/src/_site/elements/segment.overrides
+file added semantic-ui/src/_site/elements/reveal.variables
+file added semantic-ui/src/_site/elements/reveal.overrides
+file added semantic-ui/src/_site/elements/rail.variables
+file added semantic-ui/src/_site/elements/rail.overrides
+file added semantic-ui/src/_site/elements/loader.variables
+file added semantic-ui/src/_site/elements/loader.overrides
+file added semantic-ui/src/_site/elements/list.variables
+file added semantic-ui/src/_site/elements/list.overrides
+file added semantic-ui/src/_site/elements/label.variables
+file added semantic-ui/src/_site/elements/label.overrides
+file added semantic-ui/src/_site/elements/input.variables
+file added semantic-ui/src/_site/elements/input.overrides
+file added semantic-ui/src/_site/elements/image.variables
+file added semantic-ui/src/_site/elements/image.overrides
+file added semantic-ui/src/_site/elements/icon.variables
+file added semantic-ui/src/_site/elements/icon.overrides
+file added semantic-ui/src/_site/elements/header.variables
+file added semantic-ui/src/_site/elements/header.overrides
+file added semantic-ui/src/_site/elements/flag.variables
+file added semantic-ui/src/_site/elements/flag.overrides
+file added semantic-ui/src/_site/elements/divider.variables
+file added semantic-ui/src/_site/elements/divider.overrides
+file added semantic-ui/src/_site/elements/container.variables
+file added semantic-ui/src/_site/elements/container.overrides
+file added semantic-ui/src/_site/elements/button.variables
+file added semantic-ui/src/_site/elements/button.overrides
+file added semantic-ui/src/_site/collections
+file added semantic-ui/src/_site/collections/table.variables
+file added semantic-ui/src/_site/collections/table.overrides
+file added semantic-ui/src/_site/collections/message.variables
+file added semantic-ui/src/_site/collections/message.overrides
+file added semantic-ui/src/_site/collections/menu.variables
+file added semantic-ui/src/_site/collections/menu.overrides
+file added semantic-ui/src/_site/collections/grid.variables
+file added semantic-ui/src/_site/collections/grid.overrides
+file added semantic-ui/src/_site/collections/form.variables
+file added semantic-ui/src/_site/collections/form.overrides
+file added semantic-ui/src/_site/collections/breadcrumb.variables
+file added semantic-ui/src/_site/collections/breadcrumb.overrides
+file added semantic-ui/src/README.md
+file added semantic-ui/semantic.json.example
+file added semantic-ui/package.json
+file added semantic-ui/logo.png
+file added semantic-ui/karma.conf.js
+file added semantic-ui/gulpfile.js
+file added semantic-ui/examples
+file added semantic-ui/examples/theming.html
+file added semantic-ui/examples/sticky.html
+file added semantic-ui/examples/responsive.html
+file added semantic-ui/examples/login.html
+file added semantic-ui/examples/homepage.html
+file added semantic-ui/examples/grid.html
+file added semantic-ui/examples/fixed.html
+file added semantic-ui/examples/components
+file added semantic-ui/examples/components/table.html
+file added semantic-ui/examples/components/site.html
+file added semantic-ui/examples/components/menu.html
+file added semantic-ui/examples/components/input.html
+file added semantic-ui/examples/components/card.html
+file added semantic-ui/examples/components/button.html
+file added semantic-ui/examples/bootstrap.html
+file added semantic-ui/examples/attached.html
+file added semantic-ui/examples/assets
+file added semantic-ui/examples/assets/show-examples.js
+file added semantic-ui/examples/assets/library
+file added semantic-ui/examples/assets/library/jquery.min.js
+file added semantic-ui/examples/assets/library/iframe.js
+file added semantic-ui/examples/assets/library/iframe-content.js
+file added semantic-ui/examples/assets/images
+file added semantic-ui/examples/assets/images/wireframe
+file added semantic-ui/examples/assets/images/wireframe/white-image.png
+file added semantic-ui/examples/assets/images/wireframe/text-image.png
+file added semantic-ui/examples/assets/images/wireframe/square-image.png
+file added semantic-ui/examples/assets/images/wireframe/short-paragraph.png
+file added semantic-ui/examples/assets/images/wireframe/paragraph.png
+file added semantic-ui/examples/assets/images/wireframe/media-paragraph.png
+file added semantic-ui/examples/assets/images/wireframe/media-paragraph-alt.png
+file added semantic-ui/examples/assets/images/wireframe/image.png
+file added semantic-ui/examples/assets/images/wireframe/image-text.png
+file added semantic-ui/examples/assets/images/wireframe/image-square.png
+file added semantic-ui/examples/assets/images/wireframe/centered-paragraph.png
+file added semantic-ui/examples/assets/images/logo.png
+file added semantic-ui/examples/assets/images/bg.jpg
+file added semantic-ui/examples/assets/images/avatar
+file added semantic-ui/examples/assets/images/avatar/tom.jpg
+file added semantic-ui/examples/assets/images/avatar/nan.jpg
+file added semantic-ui/dist
+file added semantic-ui/dist/themes/github
+file added semantic-ui/dist/themes
+file added semantic-ui/dist/themes/github/assets
+file added semantic-ui/dist/themes/github/assets/fonts
+file added semantic-ui/dist/themes/github/assets/fonts/octicons.woff
+file added semantic-ui/dist/themes/github/assets/fonts/octicons.ttf
+file added semantic-ui/dist/themes/github/assets/fonts/octicons.svg
+file added semantic-ui/dist/themes/github/assets/fonts/octicons-local.ttf
+file added semantic-ui/dist/themes/default
+file added semantic-ui/dist/themes/default/assets
+file added semantic-ui/dist/themes/default/assets/images
+file added semantic-ui/dist/themes/default/assets/images/flags.png
+file added semantic-ui/dist/themes/default/assets/fonts
+file added semantic-ui/dist/themes/default/assets/fonts/icons.woff2
+file added semantic-ui/dist/themes/default/assets/fonts/icons.woff
+file added semantic-ui/dist/themes/default/assets/fonts/icons.ttf
+file added semantic-ui/dist/themes/default/assets/fonts/icons.svg
+file added semantic-ui/dist/themes/default/assets/fonts/icons.otf
+file added semantic-ui/dist/themes/default/assets/fonts/icons.eot
+file added semantic-ui/dist/themes/basic
+file added semantic-ui/dist/themes/basic/assets
+file added semantic-ui/dist/themes/basic/assets/fonts
+file added semantic-ui/dist/themes/basic/assets/fonts/icons.woff
+file added semantic-ui/dist/themes/basic/assets/fonts/icons.ttf
+file added semantic-ui/dist/themes/basic/assets/fonts/icons.svg
+file added semantic-ui/dist/themes/basic/assets/fonts/icons.eot
+file added semantic-ui/dist/semantic.min.js
+file added semantic-ui/dist/semantic.min.css
+file added semantic-ui/dist/semantic.js
+file added semantic-ui/dist/semantic.css
+file added semantic-ui/dist/components
+file added semantic-ui/dist/components/visit.min.js
+file added semantic-ui/dist/components/visit.js
+file added semantic-ui/dist/components/visibility.min.js
+file added semantic-ui/dist/components/visibility.js
+file added semantic-ui/dist/components/video.min.js
+file added semantic-ui/dist/components/video.min.css
+file added semantic-ui/dist/components/video.js
+file added semantic-ui/dist/components/video.css
+file added semantic-ui/dist/components/transition.min.js
+file added semantic-ui/dist/components/transition.min.css
+file added semantic-ui/dist/components/transition.js
+file added semantic-ui/dist/components/transition.css
+file added semantic-ui/dist/components/table.min.css
+file added semantic-ui/dist/components/table.css
+file added semantic-ui/dist/components/tab.min.js
+file added semantic-ui/dist/components/tab.min.css
+file added semantic-ui/dist/components/tab.js
+file added semantic-ui/dist/components/tab.css
+file added semantic-ui/dist/components/sticky.min.js
+file added semantic-ui/dist/components/sticky.min.css
+file added semantic-ui/dist/components/sticky.js
+file added semantic-ui/dist/components/sticky.css
+file added semantic-ui/dist/components/step.min.css
+file added semantic-ui/dist/components/step.css
+file added semantic-ui/dist/components/statistic.min.css
+file added semantic-ui/dist/components/statistic.css
+file added semantic-ui/dist/components/state.min.js
+file added semantic-ui/dist/components/state.js
+file added semantic-ui/dist/components/site.min.js
+file added semantic-ui/dist/components/site.min.css
+file added semantic-ui/dist/components/site.js
+file added semantic-ui/dist/components/site.css
+file added semantic-ui/dist/components/sidebar.min.js
+file added semantic-ui/dist/components/sidebar.min.css
+file added semantic-ui/dist/components/sidebar.js
+file added semantic-ui/dist/components/sidebar.css
+file added semantic-ui/dist/components/shape.min.js
+file added semantic-ui/dist/components/shape.min.css
+file added semantic-ui/dist/components/shape.js
+file added semantic-ui/dist/components/shape.css
+file added semantic-ui/dist/components/segment.min.css
+file added semantic-ui/dist/components/segment.css
+file added semantic-ui/dist/components/search.min.js
+file added semantic-ui/dist/components/search.min.css
+file added semantic-ui/dist/components/search.js
+file added semantic-ui/dist/components/search.css
+file added semantic-ui/dist/components/reveal.min.css
+file added semantic-ui/dist/components/reveal.css
+file added semantic-ui/dist/components/reset.min.css
+file added semantic-ui/dist/components/reset.css
+file added semantic-ui/dist/components/rating.min.js
+file added semantic-ui/dist/components/rating.min.css
+file added semantic-ui/dist/components/rating.js
+file added semantic-ui/dist/components/rating.css
+file added semantic-ui/dist/components/rail.min.css
+file added semantic-ui/dist/components/rail.css
+file added semantic-ui/dist/components/progress.min.js
+file added semantic-ui/dist/components/progress.min.css
+file added semantic-ui/dist/components/progress.js
+file added semantic-ui/dist/components/progress.css
+file added semantic-ui/dist/components/popup.min.js
+file added semantic-ui/dist/components/popup.min.css
+file added semantic-ui/dist/components/popup.js
+file added semantic-ui/dist/components/popup.css
+file added semantic-ui/dist/components/nag.min.js
+file added semantic-ui/dist/components/nag.min.css
+file added semantic-ui/dist/components/nag.js
+file added semantic-ui/dist/components/nag.css
+file added semantic-ui/dist/components/modal.min.js
+file added semantic-ui/dist/components/modal.min.css
+file added semantic-ui/dist/components/modal.js
+file added semantic-ui/dist/components/modal.css
+file added semantic-ui/dist/components/message.min.css
+file added semantic-ui/dist/components/message.css
+file added semantic-ui/dist/components/menu.min.css
+file added semantic-ui/dist/components/menu.css
+file added semantic-ui/dist/components/loader.min.css
+file added semantic-ui/dist/components/loader.css
+file added semantic-ui/dist/components/list.min.css
+file added semantic-ui/dist/components/list.css
+file added semantic-ui/dist/components/label.min.css
+file added semantic-ui/dist/components/label.css
+file added semantic-ui/dist/components/item.min.css
+file added semantic-ui/dist/components/item.css
+file added semantic-ui/dist/components/input.min.css
+file added semantic-ui/dist/components/input.css
+file added semantic-ui/dist/components/image.min.css
+file added semantic-ui/dist/components/image.css
+file added semantic-ui/dist/components/icon.min.css
+file added semantic-ui/dist/components/icon.css
+file added semantic-ui/dist/components/header.min.css
+file added semantic-ui/dist/components/header.css
+file added semantic-ui/dist/components/grid.min.css
+file added semantic-ui/dist/components/grid.css
+file added semantic-ui/dist/components/form.min.js
+file added semantic-ui/dist/components/form.min.css
+file added semantic-ui/dist/components/form.js
+file added semantic-ui/dist/components/form.css
+file added semantic-ui/dist/components/flag.min.css
+file added semantic-ui/dist/components/flag.css
+file added semantic-ui/dist/components/feed.min.css
+file added semantic-ui/dist/components/feed.css
+file added semantic-ui/dist/components/embed.min.js
+file added semantic-ui/dist/components/embed.min.css
+file added semantic-ui/dist/components/embed.js
+file added semantic-ui/dist/components/embed.css
+file added semantic-ui/dist/components/dropdown.min.js
+file added semantic-ui/dist/components/dropdown.min.css
+file added semantic-ui/dist/components/dropdown.js
+file added semantic-ui/dist/components/dropdown.css
+file added semantic-ui/dist/components/divider.min.css
+file added semantic-ui/dist/components/divider.css
+file added semantic-ui/dist/components/dimmer.min.js
+file added semantic-ui/dist/components/dimmer.min.css
+file added semantic-ui/dist/components/dimmer.js
+file added semantic-ui/dist/components/dimmer.css
+file added semantic-ui/dist/components/container.min.css
+file added semantic-ui/dist/components/container.css
+file added semantic-ui/dist/components/comment.min.css
+file added semantic-ui/dist/components/comment.css
+file added semantic-ui/dist/components/colorize.min.js
+file added semantic-ui/dist/components/colorize.js
+file added semantic-ui/dist/components/checkbox.min.js
+file added semantic-ui/dist/components/checkbox.min.css
+file added semantic-ui/dist/components/checkbox.js
+file added semantic-ui/dist/components/checkbox.css
+file added semantic-ui/dist/components/card.min.css
+file added semantic-ui/dist/components/card.css
+file added semantic-ui/dist/components/button.min.css
+file added semantic-ui/dist/components/button.css
+file added semantic-ui/dist/components/breadcrumb.min.css
+file added semantic-ui/dist/components/breadcrumb.css
+file added semantic-ui/dist/components/api.min.js
+file added semantic-ui/dist/components/api.js
+file added semantic-ui/dist/components/ad.min.css
+file added semantic-ui/dist/components/ad.css
+file added semantic-ui/dist/components/accordion.min.js
+file added semantic-ui/dist/components/accordion.min.css
+file added semantic-ui/dist/components/accordion.js
+file added semantic-ui/dist/components/accordion.css
+file added semantic-ui/composer.json
+file added semantic-ui/bower.json
+file added semantic-ui/RELEASE-NOTES.md
+file added semantic-ui/README.md
+file added semantic-ui/LICENSE.md
+file added semantic-ui/CONTRIBUTING.md
+
+Build successful - 289ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 43ms                
+SassCompiler                                  | 23ms                
+BroccoliMergeTrees                            | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 49ms (24 ms)        
+BroccoliMergeTrees (5)                        | 24ms (4 ms)         
+SassCompiler (1)                              | 23ms                
+Babel (11)                                    | 20ms (1 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 265ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 44ms                
+CoffeeScriptFilter                            | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 61ms (5 ms)         
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 275ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 46ms                
+CoffeeScriptFilter                            | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 62ms (5 ms)         
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+TemplateCompiler (3)                          | 18ms (6 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 245ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 47ms                
+CoffeeScriptFilter                            | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 62ms (5 ms)         
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+TemplateCompiler (3)                          | 15ms (5 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 261ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 38ms                
+CoffeeScriptFilter                            | 29ms                
+TreeMerger (vendor)                           | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 53ms (4 ms)         
+CoffeeScriptFilter (2)                        | 35ms (17 ms)        
+TreeMerger (vendor) (1)                       | 14ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 249ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 39ms                
+CoffeeScriptFilter                            | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 54ms (4 ms)         
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+TemplateCompiler (3)                          | 15ms (5 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 300ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 52ms                
+CoffeeScriptFilter                            | 24ms                
+TemplateCompiler                              | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (11)                                    | 70ms (6 ms)         
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+TemplateCompiler (3)                          | 28ms (9 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 2838ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 545ms               
+Babel                                         | 376ms               
+Babel                                         | 302ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 1455ms (121 ms)     
+TemplateCompiler (3)                          | 180ms (60 ms)       
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 435ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 58ms                
+CoffeeScriptFilter                            | 49ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 103ms (8 ms)        
+CoffeeScriptFilter (2)                        | 56ms (28 ms)        
+TemplateCompiler (3)                          | 23ms (7 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 477ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 88ms                
+SassCompiler                                  | 54ms                
+CoffeeScriptFilter                            | 43ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 112ms (9 ms)        
+SassCompiler (1)                              | 54ms                
+CoffeeScriptFilter (2)                        | 49ms (24 ms)        
+TemplateCompiler (3)                          | 28ms (9 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 337ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 51ms                
+SassCompiler                                  | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 57ms (28 ms)        
+Babel (12)                                    | 32ms (2 ms)         
+SassCompiler (1)                              | 28ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 270ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 43ms                
+SassCompiler                                  | 19ms                
+TreeMerger (vendor)                           | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 49ms (24 ms)        
+Babel (12)                                    | 22ms (1 ms)         
+SassCompiler (1)                              | 19ms                
+TreeMerger (vendor) (1)                       | 17ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 290ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 35ms                
+SourceMapConcat: Concat: Test Support JS      | 22ms                
+SassCompiler                                  | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+Babel (12)                                    | 28ms (2 ms)         
+SourceMapConcat: Concat: Test Support JS (1)  | 22ms                
+SassCompiler (1)                              | 19ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 434ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 113ms               
+SourceMapConcat: Concat: App                  | 33ms                
+CoffeeScriptFilter                            | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 134ms (11 ms)       
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+SourceMapConcat: Concat: App (1)              | 33ms                
+TemplateCompiler (3)                          | 31ms (10 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 649ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 153ms               
+CoffeeScriptFilter                            | 67ms                
+Babel                                         | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 224ms (18 ms)       
+CoffeeScriptFilter (2)                        | 74ms (37 ms)        
+TemplateCompiler (3)                          | 47ms (15 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 258ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 50ms                
+SassCompiler                                  | 13ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 56ms (28 ms)        
+Babel (12)                                    | 22ms (1 ms)         
+TemplateCompiler (3)                          | 17ms (5 ms)         
+SassCompiler (1)                              | 13ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 505ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 181ms               
+CoffeeScriptFilter                            | 49ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 203ms (16 ms)       
+CoffeeScriptFilter (2)                        | 59ms (29 ms)        
+TemplateCompiler (3)                          | 26ms (8 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 552ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 207ms               
+CoffeeScriptFilter                            | 54ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 233ms (19 ms)       
+CoffeeScriptFilter (2)                        | 60ms (30 ms)        
+TemplateCompiler (3)                          | 39ms (13 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 463ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 184ms               
+CoffeeScriptFilter                            | 42ms                
+TemplateCompiler                              | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 205ms (17 ms)       
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+TemplateCompiler (3)                          | 36ms (12 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 390ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 132ms               
+CoffeeScriptFilter                            | 37ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 153ms (12 ms)       
+CoffeeScriptFilter (2)                        | 42ms (21 ms)        
+TemplateCompiler (3)                          | 27ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 384ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 132ms               
+CoffeeScriptFilter                            | 35ms                
+TemplateCompiler                              | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 149ms (12 ms)       
+CoffeeScriptFilter (2)                        | 43ms (21 ms)        
+TemplateCompiler (3)                          | 29ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 740ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 363ms               
+CoffeeScriptFilter                            | 75ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 394ms (32 ms)       
+CoffeeScriptFilter (2)                        | 81ms (40 ms)        
+TemplateCompiler (3)                          | 38ms (12 ms)        
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 266ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 44ms                
+SassCompiler                                  | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 50ms (25 ms)        
+Babel (12)                                    | 26ms (2 ms)         
+SassCompiler (1)                              | 20ms                
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1715ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 123ms               
+SassCompiler                                  | 122ms               
+Babel                                         | 114ms               
+CoffeeScriptFilter                            | 103ms               
+Babel                                         | 88ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 402ms (33 ms)       
+TemplateCompiler (3)                          | 126ms (42 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 123ms               
+SassCompiler (1)                              | 122ms               
+CoffeeScriptFilter (2)                        | 119ms (59 ms)       
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1694ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 126ms               
+Babel                                         | 119ms               
+CoffeeScriptFilter                            | 108ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 396ms (33 ms)       
+TemplateCompiler (3)                          | 128ms (42 ms)       
+CoffeeScriptFilter (2)                        | 127ms (63 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 126ms               
+BroccoliMergeTrees (5)                        | 88ms (17 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 964ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 571ms               
+TemplateCompiler                              | 54ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 597ms (49 ms)       
+TemplateCompiler (3)                          | 72ms (24 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 520ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 214ms               
+CoffeeScriptFilter                            | 42ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 239ms (19 ms)       
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+TemplateCompiler (3)                          | 38ms (12 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 581ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 162ms               
+SourceMapConcat: Concat: App                  | 74ms                
+CoffeeScriptFilter                            | 56ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 191ms (15 ms)       
+SourceMapConcat: Concat: App (1)              | 74ms                
+CoffeeScriptFilter (2)                        | 64ms (32 ms)        
+TemplateCompiler (3)                          | 40ms (13 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 411ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 145ms               
+CoffeeScriptFilter                            | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 164ms (13 ms)       
+CoffeeScriptFilter (2)                        | 42ms (21 ms)        
+TemplateCompiler (3)                          | 27ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 407ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 145ms               
+CoffeeScriptFilter                            | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 162ms (13 ms)       
+CoffeeScriptFilter (2)                        | 47ms (23 ms)        
+TemplateCompiler (3)                          | 28ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 406ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 156ms               
+CoffeeScriptFilter                            | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 174ms (14 ms)       
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+TemplateCompiler (3)                          | 27ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 402ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 148ms               
+CoffeeScriptFilter                            | 37ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 168ms (14 ms)       
+CoffeeScriptFilter (2)                        | 42ms (21 ms)        
+TemplateCompiler (3)                          | 28ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 729ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 152ms               
+BroccoliMergeTrees                            | 105ms               
+Funnel: Addon JS                              | 104ms               
+Funnel: Addon JS                              | 61ms                
+Funnel: Addon JS                              | 42ms                
+CoffeeScriptFilter                            | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Funnel: Addon JS (7)                          | 215ms (30 ms)       
+Babel (12)                                    | 176ms (14 ms)       
+BroccoliMergeTrees (5)                        | 109ms (21 ms)       
+CoffeeScriptFilter (2)                        | 44ms (22 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 581ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 255ms               
+CoffeeScriptFilter                            | 44ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 277ms (23 ms)       
+CoffeeScriptFilter (2)                        | 53ms (26 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 539ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 197ms               
+TreeMerger (vendor)                           | 54ms                
+CoffeeScriptFilter                            | 37ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 219ms (18 ms)       
+TreeMerger (vendor) (1)                       | 54ms                
+CoffeeScriptFilter (2)                        | 42ms (21 ms)        
+TemplateCompiler (3)                          | 39ms (13 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 464ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 171ms               
+CoffeeScriptFilter                            | 40ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 193ms (16 ms)       
+CoffeeScriptFilter (2)                        | 49ms (24 ms)        
+TemplateCompiler (3)                          | 26ms (8 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 586ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 347ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 365ms (30 ms)       
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 538ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 247ms               
+CoffeeScriptFilter                            | 45ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 268ms (22 ms)       
+CoffeeScriptFilter (2)                        | 53ms (26 ms)        
+TemplateCompiler (3)                          | 42ms (14 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 548ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 193ms               
+CoffeeScriptFilter                            | 48ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 234ms (19 ms)       
+CoffeeScriptFilter (2)                        | 57ms (28 ms)        
+TemplateCompiler (3)                          | 33ms (11 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 412ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 154ms               
+CoffeeScriptFilter                            | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 176ms (14 ms)       
+CoffeeScriptFilter (2)                        | 45ms (22 ms)        
+TemplateCompiler (3)                          | 25ms (8 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 253ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 35ms                
+SassCompiler                                  | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+SassCompiler (1)                              | 22ms                
+Babel (12)                                    | 21ms (1 ms)         
+TemplateCompiler (3)                          | 15ms (5 ms)         
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 908ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 717ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 724ms (362 ms)      
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 620ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 170ms               
+CoffeeScriptFilter                            | 62ms                
+CoffeeScriptFilter                            | 40ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 188ms (15 ms)       
+CoffeeScriptFilter (2)                        | 102ms (51 ms)       
+TemplateCompiler (3)                          | 33ms (11 ms)        
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added styles/bases/base.sass
+file added templates/application.emblem
+
+Build successful - 404ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 145ms               
+CoffeeScriptFilter                            | 37ms                
+SassCompiler                                  | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 162ms (13 ms)       
+CoffeeScriptFilter (2)                        | 43ms (21 ms)        
+TemplateCompiler (3)                          | 20ms (6 ms)         
+SassCompiler (1)                              | 20ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file added styles/bases/base.sass
+
+Build successful - 269ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 38ms                
+SassCompiler                                  | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 43ms (21 ms)        
+Babel (12)                                    | 21ms (1 ms)         
+SassCompiler (1)                              | 19ms                
+
+file deleted styles/bases/base.sass___jb_old___
+file deleted styles/bases/base.sass___jb_bak___
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added styles/bases/base.sass
+file added templates/application.emblem
+
+Build successful - 441ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 158ms               
+CoffeeScriptFilter                            | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 178ms (14 ms)       
+CoffeeScriptFilter (2)                        | 47ms (23 ms)        
+TemplateCompiler (3)                          | 29ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 394ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 146ms               
+CoffeeScriptFilter                            | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 166ms (13 ms)       
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+TemplateCompiler (3)                          | 24ms (8 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 583ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 189ms               
+CoffeeScriptFilter                            | 45ms                
+Funnel: Addon JS                              | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 229ms (19 ms)       
+CoffeeScriptFilter (2)                        | 50ms (25 ms)        
+Funnel: Addon JS (7)                          | 40ms (5 ms)         
+
+file deleted unit/controllers
+file deleted unit/controllers/login-test.coffee
+file deleted unit/routes/application-test.coffee
+file changed environment.js
+file deleted authenticators
+file deleted authenticators/devise.js
+file deleted routes/login.coffee
+file deleted templates/login.hbs
+file deleted controllers/login.coffee
+file deleted controllers/application.coffee
+file changed templates/application.emblem
+file changed router.coffee
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1673ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 125ms               
+Babel                                         | 125ms               
+CoffeeScriptFilter                            | 110ms               
+Babel                                         | 89ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 410ms (34 ms)       
+CoffeeScriptFilter (2)                        | 129ms (64 ms)       
+TemplateCompiler (3)                          | 127ms (42 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 125ms               
+
+file added controllers/application.coffee
+
+Build successful - 321ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 41ms                
+SassCompiler                                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+Babel (12)                                    | 40ms (3 ms)         
+SassCompiler (1)                              | 16ms                
+
+file added routes/application.coffee
+
+Build successful - 328ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 44ms                
+CoffeeScriptFilter                            | 37ms                
+SourceMapConcat: Concat: App                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 75ms (6 ms)         
+CoffeeScriptFilter (2)                        | 43ms (21 ms)        
+SourceMapConcat: Concat: App (1)              | 16ms                
+
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added routes/application.coffee
+
+Build successful - 307ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 39ms                
+Babel                                         | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 51ms (4 ms)         
+CoffeeScriptFilter (2)                        | 46ms (23 ms)        
+
+file deleted controllers/application.coffee___jb_old___
+file deleted controllers/application.coffee___jb_bak___
+file deleted routes/application.coffee___jb_old___
+file deleted routes/application.coffee___jb_bak___
+file added controllers/application.coffee
+file added routes/application.coffee
+
+Build successful - 309ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 54ms                
+CoffeeScriptFilter                            | 38ms                
+SourceMapConcat: Concat: App                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (12)                                    | 73ms (6 ms)         
+CoffeeScriptFilter (2)                        | 44ms (22 ms)        
+SourceMapConcat: Concat: App (1)              | 15ms                
+

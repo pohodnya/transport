@@ -6,6 +6,7 @@ set :deploy_to, "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
 
 set :shared_path, "#{deploy_to}/shared"
 set :current_path, "#{deploy_to}/current"
+set :ember_cli_target_path, "#{release_path}/frontend"
 # puma
 set :puma_user, fetch(:user)
 set :puma_rackup, -> { File.join(current_path, 'config.ru') }

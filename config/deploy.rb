@@ -22,7 +22,6 @@ if File.exist?("./config/deploy_id_rsa")
 else
   set :password, ask('Server password:', nil, echo: false)
 end
-set :linked_files, fetch(:linked_files, []).push('config/secrets.yml')
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'pids',  'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 
 
