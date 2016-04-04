@@ -3,78 +3,19 @@
     header
       city-picker
       .auth
-        = link-to 'Вход' 'machinery'
-        '
-        | |
-        '
-        = link-to 'Регистрация' 'machinery'
+        = if session.isAuthenticated
+          a{action 'logout'}
+            | Выйти из аккаунта
+        = else
+          = link-to 'Вход' 'login'
+          '
+          | |
+          '
+          = link-to 'Регистрация' 'machinery'
       .logo
         h3 НскТехника
         .about Информационный портал для удобного поиска и размещения спецтехники
 
 
     .content
-      .find_tech
-        h3 Найти
-        .ui.form
-          .inline.fields
-            .field
-              label Вид техники
-              input type='text' placeholder='Вид техники'
-          .inline.fields
-            .field
-              label Вид техники
-              input type='text' placeholder='Вид техники'
-          .inline.fields
-            .field
-              label Вид техники
-              input type='text' placeholder='Вид техники'
-          .inline.fields
-            .field
-              label Вид техники
-              input type='text' placeholder='Вид техники'
-          .inline.fields
-            .field
-              label Вид техники
-              input type='text' placeholder='Вид техники'
-          .inline.fields
-            .field
-              label Вид техники
-              input type='text' placeholder='Вид техники'
-          .ui.submit.button Найти
-      .add_tech
-        h3 Разместить
-        .ui.form
-          .inline.fields
-            .field
-              label Вид техники
-              ui-dropdown class='selection'
-                .default.text Вид техники
-                i.dropdown.icon
-                .menu
-                  .item data-value='1' Самогруз
-                  .item data-value='2' Самосвал
-                  .item data-value='3' Экскаватор
-                  .item data-value='4' Автокран
-
-          .inline.fields
-            .field
-              label Ваше Имя
-              input type='text' placeholder='Ваше Имя'
-          .inline.fields
-            .field
-              label Телефон
-              input type='text' placeholder='Телефон'
-          .inline.fields
-            .field
-              label Цена за час, руб.
-              input type='text' placeholder='Цена за час'
-          .inline.fields
-            .field
-              label Минимум часов
-              input type='text' placeholder='Минимум часов'
-          .ui.submit.button Разместить
-
-
-
       == outlet
