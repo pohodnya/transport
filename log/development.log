@@ -9568,3 +9568,74 @@ Processing by EmberCli::EmberController#index as HTML
   Rendered inline template (0.4ms)
   Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.7ms)
 Completed 200 OK in 9ms (Views: 4.1ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.2282ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.0330ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1959ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6057ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 60.3383ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.8424ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.2661ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=transport_development command={:count=>"machineries", :query=>{}} runtime: 1.0714ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8957ms
+  MOPED: 127.0.0.1:27017 DELETE       database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('56d6e9b967e92c0e66000003')} flags=[:remove_first]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.9850ms
+  MOPED: 127.0.0.1:27017 DELETE       database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('56d6e9c867e92c0e66000004')} flags=[:remove_first]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.7512ms
+  MOPED: 127.0.0.1:27017 DELETE       database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('56d6e9cf67e92c0e66000005')} flags=[:remove_first]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.8302ms
+  MOPED: 127.0.0.1:27017 DELETE       database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('56d6e9d867e92c0e66000006')} flags=[:remove_first]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.7745ms
+  MOPED: 127.0.0.1:27017 DELETE       database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('56d6e9df67e92c0e66000007')} flags=[:remove_first]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.8013ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.8106ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=transport_development command={:count=>"machineries", :query=>{}} runtime: 0.6831ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('570e179167e92c408f000003'), "type"=>"samogruz", "name"=>"Самогруз", "description"=>"Пробный самогруз", "user_id"=>BSON::ObjectId('57024f9f67e92c39fd000000')}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 1.2355ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=transport_development command={:count=>"machineries", :query=>{}} runtime: 0.8762ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.9704ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.0599ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.9446ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('570e182567e92c40c3000002'), "type"=>"avtokran", "name"=>"Самогруз", "description"=>"Пробный самогруз", "user_id"=>BSON::ObjectId('57024f9f67e92c39fd000000')}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 1.3793ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=transport_development command={:count=>"machineries", :query=>{}} runtime: 0.5359ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.0474ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.7515ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.9638ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.7596ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.9596ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5280ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2aeb67e92c455c000001'), "type"=>"Автобетоносмеситель"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 38.6354ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2af267e92c455c000002'), "type"=>"Автогрейдер"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.5947ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2afa67e92c455c000003'), "type"=>"Автокран"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.7472ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b0067e92c455c000004'), "type"=>"Автоцистерна"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.9500ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b0767e92c455c000005'), "type"=>"Илосос"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 1.1155ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b0f67e92c455c000006'), "type"=>"Цементовоз"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.6260ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b1767e92c455c000007'), "type"=>"Бульдозер"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.7003ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b2167e92c455c000008'), "type"=>"Коммунальная техника"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 1.0825ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b2967e92c455c000009'), "type"=>"Мусоровоз"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.9582ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b3067e92c455c00000a'), "type"=>"Минипогрузчик"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.5346ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b3767e92c455c00000b'), "type"=>"Миниэкскаватор"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.5719ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b3d67e92c455c00000c'), "type"=>"Погрузчик"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.7016ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b4367e92c455c00000d'), "type"=>"Самосвал"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.7785ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b4b67e92c455c00000e'), "type"=>"Снегоуборочная техника"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 1.0350ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b5367e92c455c00000f'), "type"=>"Фронтальный погрузчик"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.9715ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b5c67e92c455c000010'), "type"=>"Экскаватор"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.8558ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('570e2b6667e92c455c000011'), "type"=>"Другое (Укажите в описании)"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.8359ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=transport_development command={:count=>"machinery_types", :query=>{}} runtime: 0.3877ms

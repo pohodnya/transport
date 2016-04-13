@@ -35,6 +35,7 @@ class User
   # field :locked_at,       type: Time
 
   field :authentication_token, type: String
+  has_many :machineries
 
   before_save :ensure_authentication_token
 

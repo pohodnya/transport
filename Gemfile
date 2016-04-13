@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 gem 'mongoid', '~> 4.0.0'
+gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
+gem 'aws-sdk', '~> 1.3.4'
 gem 'responders', '~> 2.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -27,6 +29,7 @@ gem 'sprockets', '2.12.3'
 # Auth
 
 gem 'devise'
+gem 'rake'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'

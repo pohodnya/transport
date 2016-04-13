@@ -159,6 +159,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.3, RVM: ruby-2.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="aws-sdk (v1.3.9, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="babel-source (v5.8.35, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="babel-transpiler (v0.7.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="barber (v0.11.1, RVM: ruby-2.1.0) [gem]" level="application" />
@@ -199,6 +200,7 @@
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.6, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="html_page (v0.1.0, RVM: ruby-2.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="httparty (v0.13.7, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.4.1, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.1.1, RVM: ruby-2.1.0) [gem]" level="application" />
@@ -209,17 +211,21 @@
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.4, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0221, RVM: ruby-2.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mimemagic (v0.3.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.0.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.8.4, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mongoid (v4.0.2, RVM: ruby-2.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mongoid-paperclip (v0.0.10, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="moped (v2.0.7, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.11.2, RVM: ruby-2.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.5, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-scp (v1.2.1, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-ssh (v3.1.1, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.7.2, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="optionable (v0.2.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="origin (v2.2.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, RVM: ruby-2.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="paperclip (v4.3.6, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v3.2.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="quiet_assets (v1.1.0, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.4, RVM: ruby-2.1.0) [gem]" level="application" />
@@ -246,6 +252,7 @@
     <orderEntry type="library" scope="PROVIDED" name="turbolinks (v2.5.3, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v3.0.0, RVM: ruby-2.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uuidtools (v2.1.5, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.6, RVM: ruby-2.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v2.3.0, RVM: ruby-2.1.0) [gem]" level="application" />
   </component>
