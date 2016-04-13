@@ -44,7 +44,7 @@ namespace :npm do
   desc 'Install npm components'
   task :install do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
-      execute "cd #{release_path}/frontend && /usr/bin/npm prune && /usr/bin/npm install`"
+      execute "cd #{release_path}/frontend && /usr/bin/npm prune && /usr/bin/npm install"
     end
   end
 end
