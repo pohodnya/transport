@@ -1410,7 +1410,7 @@ define("frontend/templates/machinery", ["exports"], function (exports) {
 /* jshint ignore:start */
 
 define('frontend/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+51fc2cf4"},"ember-simple-auth":{"routeAfterAuthentication":"dashboard","routeIfAlreadyAuthenticated":"dashboard"},"exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+0297e018"},"ember-simple-auth":{"routeAfterAuthentication":"dashboard","routeIfAlreadyAuthenticated":"dashboard"},"exportApplicationGlobal":true}};
 });
 
 /* jshint ignore:end */
@@ -1418,7 +1418,7 @@ define('frontend/config/environment', ['ember'], function(Ember) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+51fc2cf4"});
+  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+0297e018"});
 }
 
 /* jshint ignore:end */

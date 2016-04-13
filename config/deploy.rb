@@ -27,6 +27,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'pids',  'tmp/pids', 'tmp/
 
 after 'deploy:publishing', 'deploy:restart'
 before 'deploy:assets:precompile', 'bower:install'
+before 'deploy:assets:precompile', 'npm:install'
 after 'deploy:assets:precompile', 'deploy:cleanup_assets'
 after 'deploy:assets:precompile', 'ember:copy_assets'
 
@@ -35,6 +36,15 @@ namespace :bower do
   task :install do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       execute "cd #{release_path}/frontend && bower install"
+    end
+  end
+end
+
+namespace :npm do
+  desc 'Install npm components'
+  task :install do
+    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      execute "cd #{release_path}/frontend && /usr/bin/npm prune && /usr/bin/npm install`"
     end
   end
 end

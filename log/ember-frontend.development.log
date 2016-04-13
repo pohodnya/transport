@@ -5044,3 +5044,21 @@ CoffeeScriptFilter (2)                        | 163ms (81 ms)
 SourceMapConcat: Concat: Vendor /asset... (1) | 132ms               
 TemplateCompiler (3)                          | 124ms (41 ms)       
 
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 2076ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 247ms               
+Babel                                         | 141ms               
+CoffeeScriptFilter                            | 115ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 480ms (34 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 247ms               
+CoffeeScriptFilter (2)                        | 149ms (74 ms)       
+TemplateCompiler (3)                          | 126ms (42 ms)       
+
