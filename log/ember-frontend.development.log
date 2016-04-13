@@ -4820,3 +4820,227 @@ Babel (14)                                    | 91ms (6 ms)
 CoffeeScriptFilter (2)                        | 59ms (29 ms)        
 TemplateCompiler (3)                          | 18ms (6 ms)         
 
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...
+
+routes/login.js: line 4, col 61, Missing semicolon.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 18794ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 6187ms              
+Babel                                         | 3497ms              
+Babel                                         | 1302ms              
+Babel                                         | 1043ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 14616ms (1044 ms)   
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 2280ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 264ms               
+Babel                                         | 197ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 127ms               
+CoffeeScriptFilter                            | 119ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 745ms (53 ms)       
+CoffeeScriptFilter (2)                        | 146ms (73 ms)       
+TemplateCompiler (3)                          | 142ms (47 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 127ms               
+
+file added favicon.png
+
+Build successful - 358ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 51ms                
+Babel                                         | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 59ms (29 ms)        
+Babel (14)                                    | 47ms (3 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1829ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 130ms               
+Babel                                         | 123ms               
+CoffeeScriptFilter                            | 123ms               
+Babel                                         | 107ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 474ms (33 ms)       
+CoffeeScriptFilter (2)                        | 154ms (77 ms)       
+TemplateCompiler (3)                          | 131ms (43 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 130ms               
+
+file deleted index.html___jb_old___
+file deleted index.html___jb_bak___
+file added index.html
+
+Build successful - 382ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 55ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 65ms (32 ms)        
+Babel (14)                                    | 58ms (4 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...Buildingversion: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...Buildingversion: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 2308ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 193ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 177ms               
+Babel                                         | 159ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 566ms (40 ms)       
+CoffeeScriptFilter (2)                        | 225ms (112 ms)      
+SourceMapConcat: Concat: Vendor /asset... (1) | 177ms               
+TemplateCompiler (3)                          | 176ms (58 ms)       
+
+file added favico.js
+file added favico.js/readme.md
+file added favico.js/package.json
+file added favico.js/favico.js
+file added favico.js/favico-0.3.10.min.js
+file added favico.js/bower.json
+file added favico.js/Makefile
+file added favico.js/MIT-LICENSE.txt
+file added favico.js/GPL-LICENSE.txt
+
+Build successful - 366ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 52ms                
+SassCompiler                                  | 23ms                
+Babel                                         | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 62ms (31 ms)        
+Babel (14)                                    | 54ms (3 ms)         
+SassCompiler (1)                              | 23ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 379ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 75ms                
+CoffeeScriptFilter                            | 47ms                
+JSHint app- QUnit                             | 25ms                
+SourceMapConcat: Concat: App                  | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 98ms (7 ms)         
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+JSHint app- QUnit (1)                         | 25ms                
+SourceMapConcat: Concat: App (1)              | 20ms                
+
+file deleted index.html___jb_old___
+file deleted index.html___jb_bak___
+file added index.html
+
+Build successful - 319ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 71ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 79ms (39 ms)        
+Babel (14)                                    | 35ms (2 ms)         
+
+file deleted index.html___jb_old___
+file deleted index.html___jb_bak___
+file added index.html
+
+Build successful - 298ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 56ms                
+SassCompiler                                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 67ms (33 ms)        
+Babel (14)                                    | 29ms (2 ms)         
+SassCompiler (1)                              | 15ms                
+
+file deleted index.html___jb_old___
+file deleted index.html___jb_bak___
+file added index.html
+
+Build successful - 264ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 42ms                
+SassCompiler                                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 50ms (25 ms)        
+Babel (14)                                    | 26ms (1 ms)         
+SassCompiler (1)                              | 16ms                
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1843ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 132ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 132ms               
+CoffeeScriptFilter                            | 117ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 482ms (34 ms)       
+CoffeeScriptFilter (2)                        | 163ms (81 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 132ms               
+TemplateCompiler (3)                          | 124ms (41 ms)       
+
