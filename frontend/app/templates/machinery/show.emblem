@@ -1,11 +1,21 @@
-= model.type
-br
-= model.description
-br
-= model.name
-br
-= model.phone
-br
-= model.price
-br
-= model.min_order
+h3 align=center
+  | Вы разместили запись
+img.avatar src='default_avatar.jpg'
+.machinery_description
+  b Тип транспорта:
+  = model.type
+  br
+  b Описание:
+  = model.description
+  br
+  b Ваше имя:
+  = model.name
+  br
+  b Ваш телефон:
+  = model.phone
+  br
+  b Цена за час, руб.:
+  = model.price
+  br
+  b Минимальный заказ, часов:
+  = model.min_order
