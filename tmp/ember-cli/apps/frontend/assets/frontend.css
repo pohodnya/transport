@@ -73,4 +73,14 @@ header {
   left: 80px;
   font-size: 13px; }
 
+img.avatar {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  border: 1px solid #222;
+  float: left; }
+
+.machinery_description {
+  margin: 70px 0 0 245px; }
+
 /*# sourceMappingURL=frontend.css.map */

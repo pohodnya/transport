@@ -1626,7 +1626,7 @@ define("frontend/templates/machinery/show", ["exports"], function (exports) {
       meta: {
         "fragmentReason": {
           "name": "missing-wrapper",
-          "problems": ["wrong-type", "multiple-nodes"]
+          "problems": ["multiple-nodes"]
         },
         "revision": "Ember@2.4.1",
         "loc": {
@@ -1637,7 +1637,7 @@ define("frontend/templates/machinery/show", ["exports"], function (exports) {
           },
           "end": {
             "line": 1,
-            "column": 118
+            "column": 380
           }
         },
         "moduleName": "frontend/templates/machinery/show.hbs"
@@ -1648,43 +1648,79 @@ define("frontend/templates/machinery/show", ["exports"], function (exports) {
       hasRendered: false,
       buildFragment: function buildFragment(dom) {
         var el0 = dom.createDocumentFragment();
-        var el1 = dom.createComment("");
+        var el1 = dom.createElement("h3");
+        var el2 = dom.createTextNode("Вы разместили запись");
+        dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
-        var el1 = dom.createElement("br");
+        var el1 = dom.createElement("img");
+        dom.setAttribute(el1, "src", "default_avatar.jpg");
+        dom.setAttribute(el1, "class", "avatar");
         dom.appendChild(el0, el1);
-        var el1 = dom.createComment("");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("br");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createComment("");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("br");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createComment("");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("br");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createComment("");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("br");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createComment("");
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1, "class", "machinery_description");
+        var el2 = dom.createElement("b");
+        var el3 = dom.createTextNode("Тип транспорта:");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("br");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("b");
+        var el3 = dom.createTextNode("Описание:");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("br");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("b");
+        var el3 = dom.createTextNode("Ваше имя:");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("br");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("b");
+        var el3 = dom.createTextNode("Ваш телефон:");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("br");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("b");
+        var el3 = dom.createTextNode("Цена за час, руб.:");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("br");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("b");
+        var el3 = dom.createTextNode("Минимальный заказ, часов:");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         return el0;
       },
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
-        var morphs = new Array(6);
-        morphs[0] = dom.createMorphAt(fragment, 0, 0, contextualElement);
-        morphs[1] = dom.createMorphAt(fragment, 2, 2, contextualElement);
-        morphs[2] = dom.createMorphAt(fragment, 4, 4, contextualElement);
-        morphs[3] = dom.createMorphAt(fragment, 6, 6, contextualElement);
-        morphs[4] = dom.createMorphAt(fragment, 8, 8, contextualElement);
-        morphs[5] = dom.createMorphAt(fragment, 10, 10, contextualElement);
-        dom.insertBoundary(fragment, 0);
-        dom.insertBoundary(fragment, null);
+        var element0 = dom.childAt(fragment, [0]);
+        var element1 = dom.childAt(fragment, [2]);
+        var morphs = new Array(7);
+        morphs[0] = dom.createAttrMorph(element0, 'align');
+        morphs[1] = dom.createMorphAt(element1, 1, 1);
+        morphs[2] = dom.createMorphAt(element1, 4, 4);
+        morphs[3] = dom.createMorphAt(element1, 7, 7);
+        morphs[4] = dom.createMorphAt(element1, 10, 10);
+        morphs[5] = dom.createMorphAt(element1, 13, 13);
+        morphs[6] = dom.createMorphAt(element1, 16, 16);
         return morphs;
       },
-      statements: [["content", "model.type", ["loc", [null, [1, 0], [1, 14]]]], ["content", "model.description", ["loc", [null, [1, 18], [1, 39]]]], ["content", "model.name", ["loc", [null, [1, 43], [1, 57]]]], ["content", "model.phone", ["loc", [null, [1, 61], [1, 76]]]], ["content", "model.price", ["loc", [null, [1, 80], [1, 95]]]], ["content", "model.min_order", ["loc", [null, [1, 99], [1, 118]]]]],
+      statements: [["attribute", "align", ["get", "center", ["loc", [null, [1, 12], [1, 18]]]]], ["content", "model.type", ["loc", [null, [1, 148], [1, 162]]]], ["content", "model.description", ["loc", [null, [1, 182], [1, 203]]]], ["content", "model.name", ["loc", [null, [1, 223], [1, 237]]]], ["content", "model.phone", ["loc", [null, [1, 260], [1, 275]]]], ["content", "model.price", ["loc", [null, [1, 304], [1, 319]]]], ["content", "model.min_order", ["loc", [null, [1, 355], [1, 374]]]]],
       locals: [],
       templates: []
     };
@@ -1744,7 +1780,7 @@ define("frontend/templates/machinery", ["exports"], function (exports) {
 /* jshint ignore:start */
 
 define('frontend/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+b6f996c7"},"ember-simple-auth":{"routeAfterAuthentication":"dashboard","routeIfAlreadyAuthenticated":"dashboard"},"exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+88aa952d"},"ember-simple-auth":{"routeAfterAuthentication":"dashboard","routeIfAlreadyAuthenticated":"dashboard"},"exportApplicationGlobal":true}};
 });
 
 /* jshint ignore:end */
@@ -1752,7 +1788,7 @@ define('frontend/config/environment', ['ember'], function(Ember) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+b6f996c7"});
+  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+88aa952d"});
 }
 
 /* jshint ignore:end */

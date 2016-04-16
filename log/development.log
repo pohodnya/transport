@@ -21179,3 +21179,196 @@ Processing by Api::V1::MachineriesController#show as JSON
   Parameters: {"id"=>"57126e0767e92c3ab7000003"}
   MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57126e0767e92c3ab7000003')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 141.2496ms
 Completed 200 OK in 149ms (Views: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 23:44:37 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (101342.2ms)
+Completed 200 OK in 101372ms (Views: 101371.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 23:46:18 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.5ms)
+Completed 200 OK in 4ms (Views: 3.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 23:46:19 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.8430ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 65.7004ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2257ms
+Completed 200 OK in 112ms (Views: 90.4ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 23:46:19 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5728ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5168ms
+Completed 200 OK in 7ms (Views: 4.3ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 23:47:24 +0600
+Processing by Api::V1::MachineriesController#create as JSON
+  Parameters: {"machinery"=>{"type"=>"Бульдозер", "name"=>"Виктор", "phone"=>"+7 (999) 333-11-22", "price"=>"2000", "min_order"=>"3", "description"=>"Бульдозер", "user_id"=>nil}}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5324ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000'), "type"=>"Бульдозер", "name"=>"Виктор", "phone"=>"+7 (999) 333-11-22", "price"=>2000, "min_order"=>3, "description"=>"Бульдозер", "user_id"=>nil}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 16.5532ms
+Completed 200 OK in 30ms (Views: 6.3ms)
+
+
+Started GET "/api/v1/machineries/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:47:24 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57127aac67e92c1b4b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5515ms
+Completed 200 OK in 12ms (Views: 5.6ms)
+
+
+Started GET "/machinery/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:50:28 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"machinery/57127aac67e92c1b4b000000"}
+  Rendered inline template (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (103.3ms)
+Completed 200 OK in 105ms (Views: 105.0ms)
+
+
+Started GET "/machinery/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:50:28 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"machinery/57127aac67e92c1b4b000000"}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.6ms)
+Completed 200 OK in 4ms (Views: 3.4ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 23:50:29 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6145ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5613ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5637ms
+Completed 200 OK in 9ms (Views: 5.7ms)
+
+
+Started GET "/api/v1/machineries/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:50:29 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57127aac67e92c1b4b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4109ms
+Completed 200 OK in 8ms (Views: 4.5ms)
+
+
+Started GET "/machinery/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:53:40 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"machinery/57127aac67e92c1b4b000000"}
+  Rendered inline template (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.9ms)
+Completed 200 OK in 5ms (Views: 5.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 23:53:41 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4841ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6193ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8693ms
+Completed 200 OK in 11ms (Views: 7.5ms)
+
+
+Started GET "/api/v1/machineries/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:53:41 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57127aac67e92c1b4b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3582ms
+Completed 200 OK in 13ms (Views: 4.9ms)
+
+
+Started GET "/machinery/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:54:34 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"machinery/57127aac67e92c1b4b000000"}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (302.6ms)
+Completed 200 OK in 305ms (Views: 304.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 23:54:36 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5741ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6789ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2677ms
+Completed 200 OK in 14ms (Views: 9.6ms)
+
+
+Started GET "/api/v1/machineries/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:54:36 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57127aac67e92c1b4b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4529ms
+Completed 200 OK in 10ms (Views: 6.3ms)
+
+
+Started GET "/machinery/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:55:14 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"machinery/57127aac67e92c1b4b000000"}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1604.2ms)
+Completed 200 OK in 1606ms (Views: 1605.6ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 23:55:17 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4501ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5316ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5371ms
+Completed 200 OK in 8ms (Views: 5.7ms)
+
+
+Started GET "/api/v1/machineries/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:55:17 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57127aac67e92c1b4b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3609ms
+Completed 200 OK in 8ms (Views: 4.7ms)
+
+
+Started GET "/machinery/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:58:23 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"machinery/57127aac67e92c1b4b000000"}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (302.8ms)
+Completed 200 OK in 305ms (Views: 304.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 23:58:24 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4642ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6792ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8164ms
+Completed 200 OK in 11ms (Views: 7.7ms)
+
+
+Started GET "/api/v1/machineries/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-16 23:58:24 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57127aac67e92c1b4b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3961ms
+Completed 200 OK in 9ms (Views: 5.7ms)
+
+
+Started GET "/machinery/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-17 00:03:32 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"machinery/57127aac67e92c1b4b000000"}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.9ms)
+Completed 200 OK in 4ms (Views: 3.8ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-17 00:03:33 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4957ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7195ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7907ms
+Completed 200 OK in 12ms (Views: 8.0ms)
+
+
+Started GET "/api/v1/machineries/57127aac67e92c1b4b000000" for 127.0.0.1 at 2016-04-17 00:03:33 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57127aac67e92c1b4b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4275ms
+Completed 200 OK in 9ms (Views: 5.7ms)
