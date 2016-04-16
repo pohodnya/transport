@@ -5,7 +5,8 @@ Router = Ember.Router.extend
   location: config.locationType
 
 Router.map ->
-  @route 'machinery'
+  @resource 'machinery', ->
+    @route 'show', path: ':id'
   @route 'login'
   @route 'dashboard'
 

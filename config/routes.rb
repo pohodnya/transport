@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :machinery, only: :index
+      resources :machineries, only: [:index, :create, :show]
       resources :machinery_types, only: :index
     end
   end

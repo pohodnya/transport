@@ -57,6 +57,21 @@ define('frontend/components/city-picker', ['exports', 'ember'], function (export
   exports['default'] = CityPickerComponent;
   ;
 });
+define('frontend/components/credit-card-input', ['exports', 'ember-inputmask/components/credit-card-input'], function (exports, _emberInputmaskComponentsCreditCardInput) {
+  exports['default'] = _emberInputmaskComponentsCreditCardInput['default'];
+});
+define('frontend/components/currency-input', ['exports', 'ember-inputmask/components/currency-input'], function (exports, _emberInputmaskComponentsCurrencyInput) {
+  exports['default'] = _emberInputmaskComponentsCurrencyInput['default'];
+});
+define('frontend/components/date-input', ['exports', 'ember-inputmask/components/date-input'], function (exports, _emberInputmaskComponentsDateInput) {
+  exports['default'] = _emberInputmaskComponentsDateInput['default'];
+});
+define('frontend/components/email-input', ['exports', 'ember-inputmask/components/email-input'], function (exports, _emberInputmaskComponentsEmailInput) {
+  exports['default'] = _emberInputmaskComponentsEmailInput['default'];
+});
+define('frontend/components/input-mask', ['exports', 'ember-inputmask/components/input-mask'], function (exports, _emberInputmaskComponentsInputMask) {
+  exports['default'] = _emberInputmaskComponentsInputMask['default'];
+});
 define('frontend/components/login-form', ['exports', 'ember'], function (exports, _ember) {
     var service = _ember['default'].inject.service;
     exports['default'] = _ember['default'].Component.extend({
@@ -77,6 +92,15 @@ define('frontend/components/login-form', ['exports', 'ember'], function (exports
             }
         }
     });
+});
+define('frontend/components/number-input', ['exports', 'ember-inputmask/components/number-input'], function (exports, _emberInputmaskComponentsNumberInput) {
+  exports['default'] = _emberInputmaskComponentsNumberInput['default'];
+});
+define('frontend/components/phone-number-input', ['exports', 'ember-inputmask/components/phone-number-input'], function (exports, _emberInputmaskComponentsPhoneNumberInput) {
+  exports['default'] = _emberInputmaskComponentsPhoneNumberInput['default'];
+});
+define('frontend/components/ssn-input', ['exports', 'ember-inputmask/components/ssn-input'], function (exports, _emberInputmaskComponentsSsnInput) {
+  exports['default'] = _emberInputmaskComponentsSsnInput['default'];
 });
 define('frontend/components/ui-accordion', ['exports', 'semantic-ui-ember/components/ui-accordion'], function (exports, _semanticUiEmberComponentsUiAccordion) {
   exports['default'] = _semanticUiEmberComponentsUiAccordion['default'];
@@ -123,6 +147,9 @@ define('frontend/components/ui-sidebar', ['exports', 'semantic-ui-ember/componen
 define('frontend/components/ui-sticky', ['exports', 'semantic-ui-ember/components/ui-sticky'], function (exports, _semanticUiEmberComponentsUiSticky) {
   exports['default'] = _semanticUiEmberComponentsUiSticky['default'];
 });
+define('frontend/components/zip-code-input', ['exports', 'ember-inputmask/components/zip-code-input'], function (exports, _emberInputmaskComponentsZipCodeInput) {
+  exports['default'] = _emberInputmaskComponentsZipCodeInput['default'];
+});
 define('frontend/controllers/application', ['exports', 'ember'], function (exports, _ember) {
   ;
   var ApplicationController;
@@ -135,6 +162,26 @@ define('frontend/controllers/application', ['exports', 'ember'], function (expor
 });
 define('frontend/controllers/array', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = _ember['default'].Controller;
+});
+define('frontend/controllers/index', ['exports', 'ember'], function (exports, _ember) {
+  ;
+  var IndexController;
+
+  IndexController = _ember['default'].Controller.extend({
+    actions: {
+      save: function save() {
+        return this.new_machinery.save().then((function (_this) {
+          return function () {
+            return _this.new_machinery.reload().then(function () {
+              return _this.transitionToRoute('machinery.show', _this.new_machinery);
+            });
+          };
+        })(this));
+      }
+    }
+  });
+
+  exports['default'] = IndexController;
 });
 define('frontend/controllers/object', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = _ember['default'].Controller;
@@ -346,6 +393,23 @@ define('frontend/instance-initializers/ember-simple-auth', ['exports', 'ember-si
     }
   };
 });
+define('frontend/models/machinery', ['exports', 'ember-data'], function (exports, _emberData) {
+  ;
+  var Machinery;
+
+  Machinery = _emberData['default'].Model.extend({
+    type: _emberData['default'].attr('string'),
+    name: _emberData['default'].attr('string'),
+    phone: _emberData['default'].attr('string'),
+    price: _emberData['default'].attr('string'),
+    min_order: _emberData['default'].attr('string'),
+    description: _emberData['default'].attr('string'),
+    user: _emberData['default'].belongsTo('user')
+  });
+
+  exports['default'] = Machinery;
+  ;
+});
 define("frontend/models/machinery_type", ["exports", "ember-data"], function (exports, _emberData) {
   ;
   var MachineryType;
@@ -355,6 +419,20 @@ define("frontend/models/machinery_type", ["exports", "ember-data"], function (ex
   });
 
   exports["default"] = MachineryType;
+  ;
+});
+define('frontend/models/user', ['exports', 'ember-data'], function (exports, _emberData) {
+  ;
+  var User;
+
+  User = _emberData['default'].Model.extend({
+    email: _emberData['default'].attr('string'),
+    lastName: _emberData['default'].attr('string'),
+    firstName: _emberData['default'].attr('string'),
+    machineries: _emberData['default'].hasMany('machinery')
+  });
+
+  exports['default'] = User;
   ;
 });
 define('frontend/resolver', ['exports', 'ember-resolver'], function (exports, _emberResolver) {
@@ -368,7 +446,11 @@ define('frontend/router', ['exports', 'ember', 'frontend/config/environment'], f
   });
 
   Router.map(function () {
-    this.route('machinery');
+    this.resource('machinery', function () {
+      return this.route('show', {
+        path: ':id'
+      });
+    });
     this.route('login');
     return this.route('dashboard');
   });
@@ -389,11 +471,6 @@ define('frontend/routes/application', ['exports', 'ember', 'ember-simple-auth/mi
         actions: {
             logout: function logout() {
                 this.get('session').invalidate();
-            },
-            test: function test() {
-                console.log('qwe');
-                console.log('qwe');
-                console.log('qwe');
             }
         }
     });
@@ -418,7 +495,8 @@ define('frontend/routes/index', ['exports', 'ember'], function (exports, _ember)
       return this.store.findAll('machinery_type');
     },
     setupController: function setupController(controller, model) {
-      return controller.set('model', model);
+      controller.set('model', model);
+      return controller.set('new_machinery', this.store.createRecord('machinery'));
     }
   });
 
@@ -426,6 +504,20 @@ define('frontend/routes/index', ['exports', 'ember'], function (exports, _ember)
 });
 define('frontend/routes/login', ['exports', 'ember', 'ember-simple-auth/mixins/unauthenticated-route-mixin'], function (exports, _ember, _emberSimpleAuthMixinsUnauthenticatedRouteMixin) {
   exports['default'] = _ember['default'].Route.extend(_emberSimpleAuthMixinsUnauthenticatedRouteMixin['default']);
+});
+define('frontend/routes/machinery/show', ['exports', 'ember'], function (exports, _ember) {
+  var MachineryShowRoute;
+
+  MachineryShowRoute = _ember['default'].Route.extend({
+    model: function model(params) {
+      return this.store.find('machinery', params.id);
+    },
+    setupController: function setupController(controller, model) {
+      return controller.set('model', model);
+    }
+  });
+
+  exports['default'] = MachineryShowRoute;
 });
 define('frontend/routes/machinery', ['exports', 'ember'], function (exports, _ember) {
   var MachineryRoute;
@@ -1162,11 +1254,11 @@ define("frontend/templates/index", ["exports"], function (exports) {
               "source": null,
               "start": {
                 "line": 1,
-                "column": 1331
+                "column": 1359
               },
               "end": {
                 "line": 1,
-                "column": 1409
+                "column": 1456
               }
             },
             "moduleName": "frontend/templates/index.hbs"
@@ -1186,12 +1278,13 @@ define("frontend/templates/index", ["exports"], function (exports) {
           },
           buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
             var element0 = dom.childAt(fragment, [0]);
-            var morphs = new Array(2);
+            var morphs = new Array(3);
             morphs[0] = dom.createAttrMorph(element0, 'data-value');
-            morphs[1] = dom.createMorphAt(element0, 0, 0);
+            morphs[1] = dom.createAttrMorph(element0, 'data-id');
+            morphs[2] = dom.createMorphAt(element0, 0, 0);
             return morphs;
           },
-          statements: [["attribute", "data-value", ["get", "m.type", ["loc", [null, [1, 1371], [1, 1377]]]]], ["content", "m.type", ["loc", [null, [1, 1393], [1, 1403]]]]],
+          statements: [["attribute", "data-value", ["get", "m.type", ["loc", [null, [1, 1399], [1, 1405]]]]], ["attribute", "data-id", ["get", "m.type", ["loc", [null, [1, 1418], [1, 1424]]]]], ["content", "m.type", ["loc", [null, [1, 1440], [1, 1450]]]]],
           locals: ["m"],
           templates: []
         };
@@ -1208,7 +1301,7 @@ define("frontend/templates/index", ["exports"], function (exports) {
             },
             "end": {
               "line": 1,
-              "column": 1424
+              "column": 1471
             }
           },
           "moduleName": "frontend/templates/index.hbs"
@@ -1239,7 +1332,7 @@ define("frontend/templates/index", ["exports"], function (exports) {
           morphs[0] = dom.createMorphAt(dom.childAt(fragment, [2]), 0, 0);
           return morphs;
         },
-        statements: [["block", "each", [["get", "model", ["loc", [null, [1, 1339], [1, 1344]]]]], [], 0, null, ["loc", [null, [1, 1331], [1, 1418]]]]],
+        statements: [["block", "each", [["get", "model", ["loc", [null, [1, 1367], [1, 1372]]]]], [], 0, null, ["loc", [null, [1, 1359], [1, 1465]]]]],
         locals: [],
         templates: [child0]
       };
@@ -1259,7 +1352,7 @@ define("frontend/templates/index", ["exports"], function (exports) {
           },
           "end": {
             "line": 1,
-            "column": 2022
+            "column": 2380
           }
         },
         "moduleName": "frontend/templates/index.hbs"
@@ -1392,12 +1485,22 @@ define("frontend/templates/index", ["exports"], function (exports) {
         var el4 = dom.createElement("div");
         dom.setAttribute(el4, "class", "field");
         var el5 = dom.createElement("label");
+        var el6 = dom.createTextNode("Описание");
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createComment("");
+        dom.appendChild(el4, el5);
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("div");
+        dom.setAttribute(el3, "class", "inline fields");
+        var el4 = dom.createElement("div");
+        dom.setAttribute(el4, "class", "field");
+        var el5 = dom.createElement("label");
         var el6 = dom.createTextNode("Ваше Имя");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
-        var el5 = dom.createElement("input");
-        dom.setAttribute(el5, "type", "text");
-        dom.setAttribute(el5, "placeholder", "Ваше Имя");
+        var el5 = dom.createComment("");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
@@ -1409,9 +1512,7 @@ define("frontend/templates/index", ["exports"], function (exports) {
         var el6 = dom.createTextNode("Телефон");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
-        var el5 = dom.createElement("input");
-        dom.setAttribute(el5, "type", "text");
-        dom.setAttribute(el5, "placeholder", "Телефон");
+        var el5 = dom.createComment("");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
@@ -1423,9 +1524,7 @@ define("frontend/templates/index", ["exports"], function (exports) {
         var el6 = dom.createTextNode("Цена за час, руб.");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
-        var el5 = dom.createElement("input");
-        dom.setAttribute(el5, "type", "text");
-        dom.setAttribute(el5, "placeholder", "Цена за час");
+        var el5 = dom.createComment("");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
@@ -1437,9 +1536,7 @@ define("frontend/templates/index", ["exports"], function (exports) {
         var el6 = dom.createTextNode("Минимум часов");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
-        var el5 = dom.createElement("input");
-        dom.setAttribute(el5, "type", "text");
-        dom.setAttribute(el5, "placeholder", "Минимум часов");
+        var el5 = dom.createComment("");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
@@ -1453,12 +1550,20 @@ define("frontend/templates/index", ["exports"], function (exports) {
         return el0;
       },
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
-        var morphs = new Array(2);
+        var element2 = dom.childAt(fragment, [1, 1]);
+        var element3 = dom.childAt(element2, [6]);
+        var morphs = new Array(8);
         morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0, 1, 0, 0]), 1, 1);
-        morphs[1] = dom.createMorphAt(dom.childAt(fragment, [1, 1, 0, 0]), 1, 1);
+        morphs[1] = dom.createMorphAt(dom.childAt(element2, [0, 0]), 1, 1);
+        morphs[2] = dom.createMorphAt(dom.childAt(element2, [1, 0]), 1, 1);
+        morphs[3] = dom.createMorphAt(dom.childAt(element2, [2, 0]), 1, 1);
+        morphs[4] = dom.createMorphAt(dom.childAt(element2, [3, 0]), 1, 1);
+        morphs[5] = dom.createMorphAt(dom.childAt(element2, [4, 0]), 1, 1);
+        morphs[6] = dom.createMorphAt(dom.childAt(element2, [5, 0]), 1, 1);
+        morphs[7] = dom.createElementMorph(element3);
         return morphs;
       },
-      statements: [["block", "ui-dropdown", [], ["class", "selection"], 0, null, ["loc", [null, [1, 130], [1, 363]]]], ["block", "ui-dropdown", [], ["class", "selection"], 1, null, ["loc", [null, [1, 1207], [1, 1440]]]]],
+      statements: [["block", "ui-dropdown", [], ["class", "selection"], 0, null, ["loc", [null, [1, 130], [1, 363]]]], ["block", "ui-dropdown", [], ["selected", ["subexpr", "@mut", [["get", "new_machinery.type", ["loc", [null, [1, 1231], [1, 1249]]]]], [], []], "class", "selection"], 1, null, ["loc", [null, [1, 1207], [1, 1487]]]], ["inline", "textarea", [], ["placeholder", "Описание", "value", ["subexpr", "@mut", [["get", "new_machinery.description", ["loc", [null, [1, 1608], [1, 1633]]]]], [], []]], ["loc", [null, [1, 1568], [1, 1635]]]], ["inline", "input", [], ["type", "text", "placeholder", "Ваше Имя", "value", ["subexpr", "@mut", [["get", "new_machinery.name", ["loc", [null, [1, 1765], [1, 1783]]]]], [], []]], ["loc", [null, [1, 1716], [1, 1785]]]], ["inline", "input-mask", [], ["mask", "+7 (999) 999-99-99", "placeholder", "+7 (___) ___-__-__", "value", ["subexpr", "@mut", [["get", "new_machinery.phone", ["loc", [null, [1, 1943], [1, 1962]]]]], [], []]], ["loc", [null, [1, 1865], [1, 1964]]]], ["inline", "input", [], ["type", "text", "placeholder", "Цена за час", "value", ["subexpr", "@mut", [["get", "new_machinery.price", ["loc", [null, [1, 2106], [1, 2125]]]]], [], []]], ["loc", [null, [1, 2054], [1, 2127]]]], ["inline", "input", [], ["type", "text", "placeholder", "Минимум часов", "value", ["subexpr", "@mut", [["get", "new_machinery.min_order", ["loc", [null, [1, 2267], [1, 2290]]]]], [], []]], ["loc", [null, [1, 2213], [1, 2292]]]], ["element", "action", ["save"], [], ["loc", [null, [1, 2309], [1, 2326]]]]],
       locals: [],
       templates: [child0, child1]
     };
@@ -1515,6 +1620,76 @@ define("frontend/templates/login", ["exports"], function (exports) {
     };
   })());
 });
+define("frontend/templates/machinery/show", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template((function () {
+    return {
+      meta: {
+        "fragmentReason": {
+          "name": "missing-wrapper",
+          "problems": ["wrong-type", "multiple-nodes"]
+        },
+        "revision": "Ember@2.4.1",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 118
+          }
+        },
+        "moduleName": "frontend/templates/machinery/show.hbs"
+      },
+      isEmpty: false,
+      arity: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("br");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("br");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("br");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("br");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("br");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var morphs = new Array(6);
+        morphs[0] = dom.createMorphAt(fragment, 0, 0, contextualElement);
+        morphs[1] = dom.createMorphAt(fragment, 2, 2, contextualElement);
+        morphs[2] = dom.createMorphAt(fragment, 4, 4, contextualElement);
+        morphs[3] = dom.createMorphAt(fragment, 6, 6, contextualElement);
+        morphs[4] = dom.createMorphAt(fragment, 8, 8, contextualElement);
+        morphs[5] = dom.createMorphAt(fragment, 10, 10, contextualElement);
+        dom.insertBoundary(fragment, 0);
+        dom.insertBoundary(fragment, null);
+        return morphs;
+      },
+      statements: [["content", "model.type", ["loc", [null, [1, 0], [1, 14]]]], ["content", "model.description", ["loc", [null, [1, 18], [1, 39]]]], ["content", "model.name", ["loc", [null, [1, 43], [1, 57]]]], ["content", "model.phone", ["loc", [null, [1, 61], [1, 76]]]], ["content", "model.price", ["loc", [null, [1, 80], [1, 95]]]], ["content", "model.min_order", ["loc", [null, [1, 99], [1, 118]]]]],
+      locals: [],
+      templates: []
+    };
+  })());
+});
 define("frontend/templates/machinery", ["exports"], function (exports) {
   exports["default"] = Ember.HTMLBars.template((function () {
     return {
@@ -1531,8 +1706,8 @@ define("frontend/templates/machinery", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 2,
-            "column": 0
+            "line": 1,
+            "column": 12
           }
         },
         "moduleName": "frontend/templates/machinery.hbs"
@@ -1545,17 +1720,16 @@ define("frontend/templates/machinery", ["exports"], function (exports) {
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createComment("");
         dom.appendChild(el0, el1);
-        var el1 = dom.createTextNode("\n");
-        dom.appendChild(el0, el1);
         return el0;
       },
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
         var morphs = new Array(1);
-        morphs[0] = dom.createMorphAt(fragment, 0, 0, contextualElement);
+        morphs[0] = dom.createUnsafeMorphAt(fragment, 0, 0, contextualElement);
         dom.insertBoundary(fragment, 0);
+        dom.insertBoundary(fragment, null);
         return morphs;
       },
-      statements: [["content", "outlet", ["loc", [null, [1, 0], [1, 10]]]]],
+      statements: [["content", "outlet", ["loc", [null, [1, 0], [1, 12]]]]],
       locals: [],
       templates: []
     };
@@ -1570,7 +1744,7 @@ define("frontend/templates/machinery", ["exports"], function (exports) {
 /* jshint ignore:start */
 
 define('frontend/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+a3a275e1"},"ember-simple-auth":{"routeAfterAuthentication":"dashboard","routeIfAlreadyAuthenticated":"dashboard"},"exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+b6f996c7"},"ember-simple-auth":{"routeAfterAuthentication":"dashboard","routeIfAlreadyAuthenticated":"dashboard"},"exportApplicationGlobal":true}};
 });
 
 /* jshint ignore:end */
@@ -1578,7 +1752,7 @@ define('frontend/config/environment', ['ember'], function(Ember) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+a3a275e1"});
+  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+b6f996c7"});
 }
 
 /* jshint ignore:end */

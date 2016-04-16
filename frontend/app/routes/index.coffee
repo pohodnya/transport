@@ -7,5 +7,6 @@ IndexRoute = Ember.Route.extend
 
   setupController: (controller, model) ->
     controller.set('model', model)
+    controller.set('new_machinery', @store.createRecord 'machinery')
 
 `export default IndexRoute`

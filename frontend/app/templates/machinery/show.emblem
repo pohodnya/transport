@@ -1,0 +1,11 @@
+= model.type
+br
+= model.description
+br
+= model.name
+br
+= model.phone
+br
+= model.price
+br
+= model.min_order

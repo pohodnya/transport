@@ -60,8 +60,12 @@ header {
     width: 50%; }
     .content .find_tech label, .content .add_tech label {
       width: 100px !important; }
-  .content input, .content select, .content .selection {
+  .content input, .content select, .content .selection, .content textarea {
     width: 300px !important; }
+  .content textarea {
+    height: 86px !important;
+    min-height: 86px !important;
+    max-height: 86px !important; }
 
 .city-picker {
   position: relative;

@@ -19184,3 +19184,1998 @@ Processing by Api::V1::MachineryTypesController#index as JSON
   MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0261ms
   MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8046ms
 Completed 200 OK in 13ms (Views: 9.6ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-16 16:06:44 +0600
+Processing by Api::V1::SessionController#create as JSON
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "email"=>"user1@mail.ru"}}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3787ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=users selector={"$query"=>{"email"=>"user1@mail.ru"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 46.2466ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=transport_development collection=users selector={"_id"=>BSON::ObjectId('57024f9f67e92c39fd000000')} update={"$set"=>{"last_sign_in_at"=>2016-04-13 02:39:42 UTC, "current_sign_in_at"=>2016-04-16 10:06:44 UTC, "sign_in_count"=>12}} flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.7609ms
+Completed 201 Created in 183ms (Views: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 16:06:50 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.5ms)
+Completed 200 OK in 4ms (Views: 3.6ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 16:06:51 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5537ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5859ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6732ms
+Completed 200 OK in 21ms (Views: 7.2ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 16:06:51 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1187ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8129ms
+Completed 200 OK in 10ms (Views: 7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:34:04 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.3ms)
+Completed 200 OK in 3ms (Views: 2.6ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:34:05 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5491ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8860ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8818ms
+Completed 200 OK in 32ms (Views: 15.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:34:05 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8333ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7273ms
+Completed 200 OK in 11ms (Views: 7.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:37:38 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.4ms)
+Completed 200 OK in 3ms (Views: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:37:38 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.1ms)
+Completed 200 OK in 2ms (Views: 2.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:37:39 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5151ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7421ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8047ms
+Completed 200 OK in 11ms (Views: 7.9ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:37:39 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8493ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7403ms
+Completed 200 OK in 12ms (Views: 9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:38:07 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.8ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (:frontend has failed to build: undefined
+):
+  undefined
+
+  The broccoli plugin was instantiated at: 
+
+  undefined
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:38:14 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (502.7ms)
+Completed 200 OK in 505ms (Views: 504.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:38:16 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4798ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6532ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7352ms
+Completed 200 OK in 8ms (Views: 5.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:38:16 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5348ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.4400ms
+Completed 200 OK in 19ms (Views: 12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:38:24 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.9ms)
+Completed 200 OK in 5ms (Views: 5.2ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:38:26 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7925ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0146ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2869ms
+Completed 200 OK in 23ms (Views: 17.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:38:26 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7501ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7897ms
+Completed 200 OK in 16ms (Views: 9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:38:27 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.6ms)
+Completed 200 OK in 5ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:38:27 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.5ms)
+Completed 200 OK in 3ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:38:27 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.7ms)
+Completed 200 OK in 5ms (Views: 4.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:38:28 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4486ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9388ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6232ms
+Completed 200 OK in 9ms (Views: 6.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:38:28 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6080ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5889ms
+Completed 200 OK in 8ms (Views: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:39:17 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.4ms)
+Completed 200 OK in 4ms (Views: 3.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:39:18 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8449ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6031ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6318ms
+Completed 200 OK in 15ms (Views: 11.9ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:39:18 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5794ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7673ms
+Completed 200 OK in 11ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:39:34 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (402.4ms)
+Completed 200 OK in 404ms (Views: 403.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:39:35 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7048ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8394ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8092ms
+Completed 200 OK in 17ms (Views: 12.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:39:36 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7317ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7339ms
+Completed 200 OK in 10ms (Views: 6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:41:53 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.4ms)
+Completed 200 OK in 3ms (Views: 3.0ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:41:55 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5875ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9899ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5368ms
+Completed 200 OK in 15ms (Views: 10.8ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:41:55 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0174ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8015ms
+Completed 200 OK in 11ms (Views: 7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:43:07 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:43:08 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4804ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8163ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.8289ms
+Completed 200 OK in 19ms (Views: 15.4ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:43:08 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8761ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5161ms
+Completed 200 OK in 25ms (Views: 15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:46:19 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.8ms)
+Completed 200 OK in 5ms (Views: 4.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:46:20 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5742ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.3674ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2066ms
+Completed 200 OK in 15ms (Views: 10.6ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:46:20 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7429ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2518ms
+Completed 200 OK in 11ms (Views: 7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:46:34 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:46:35 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5044ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0348ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8331ms
+Completed 200 OK in 15ms (Views: 11.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:46:35 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9388ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7771ms
+Completed 200 OK in 11ms (Views: 7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:46:40 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.6ms)
+Completed 200 OK in 4ms (Views: 3.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:46:41 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8475ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.7436ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8837ms
+Completed 200 OK in 30ms (Views: 22.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:46:41 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.4159ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2785ms
+Completed 200 OK in 22ms (Views: 13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:46:48 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.2ms)
+Completed 200 OK in 5ms (Views: 4.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:46:49 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3822ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4958ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5146ms
+Completed 200 OK in 8ms (Views: 5.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:46:49 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6589ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5369ms
+Completed 200 OK in 8ms (Views: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:47:13 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (10025.3ms)
+Completed 200 OK in 10034ms (Views: 10033.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:47:57 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:47:58 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0953ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7958ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5841ms
+Completed 200 OK in 32ms (Views: 15.9ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:47:58 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5787ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5660ms
+Completed 200 OK in 8ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:50:16 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:50:18 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5776ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8422ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 9.5774ms
+Completed 200 OK in 35ms (Views: 28.2ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:50:18 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8571ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8488ms
+Completed 200 OK in 17ms (Views: 7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:52:49 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:52:51 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4713ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6272ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7650ms
+Completed 200 OK in 13ms (Views: 7.8ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:52:51 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8776ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0664ms
+Completed 200 OK in 14ms (Views: 11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:53:31 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.6ms)
+Completed 200 OK in 3ms (Views: 2.8ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:53:33 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8782ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.0460ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8748ms
+Completed 200 OK in 21ms (Views: 13.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:53:33 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8035ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9591ms
+Completed 200 OK in 12ms (Views: 8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:53:41 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (603.3ms)
+Completed 200 OK in 605ms (Views: 605.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:53:43 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6104ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8350ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8220ms
+Completed 200 OK in 17ms (Views: 10.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:53:43 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8030ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7978ms
+Completed 200 OK in 10ms (Views: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:55:29 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.7ms)
+Completed 200 OK in 4ms (Views: 3.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:55:31 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.7009ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8308ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8884ms
+Completed 200 OK in 30ms (Views: 25.8ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:55:31 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 8.5950ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.4554ms
+Completed 200 OK in 22ms (Views: 18.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:55:38 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.3ms)
+Completed 200 OK in 3ms (Views: 2.6ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:55:40 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5174ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8697ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2155ms
+Completed 200 OK in 15ms (Views: 11.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:55:40 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8407ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8245ms
+Completed 200 OK in 13ms (Views: 7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:55:42 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.5ms)
+Completed 200 OK in 3ms (Views: 3.0ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:55:43 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0621ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0314ms
+Completed 200 OK in 16ms (Views: 12.2ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:55:43 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8651ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8744ms
+Completed 200 OK in 12ms (Views: 8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:56:12 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (602.5ms)
+Completed 200 OK in 605ms (Views: 604.8ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:56:14 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4233ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0673ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8248ms
+Completed 200 OK in 12ms (Views: 8.2ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:56:14 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8031ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.9999ms
+Completed 200 OK in 15ms (Views: 11.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:56:23 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.3ms)
+Completed 200 OK in 3ms (Views: 2.6ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:56:25 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5382ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7521ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0074ms
+Completed 200 OK in 13ms (Views: 9.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:56:25 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0025ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7704ms
+Completed 200 OK in 12ms (Views: 7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 21:57:45 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.8ms)
+Completed 200 OK in 4ms (Views: 3.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:57:46 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4767ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8900ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2711ms
+Completed 200 OK in 24ms (Views: 20.2ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 21:57:46 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.5139ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7580ms
+Completed 200 OK in 24ms (Views: 16.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:00:21 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.6ms)
+Completed 200 OK in 4ms (Views: 3.4ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:00:23 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7610ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8012ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8152ms
+Completed 200 OK in 17ms (Views: 9.9ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:00:23 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7596ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7715ms
+Completed 200 OK in 13ms (Views: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:04:23 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.4ms)
+Completed 200 OK in 3ms (Views: 2.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:04:25 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5630ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7828ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7535ms
+Completed 200 OK in 23ms (Views: 18.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:04:25 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.7566ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.0166ms
+Completed 200 OK in 28ms (Views: 13.5ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:05:15 +0600
+
+ActionController::RoutingError (No route matches [POST] "/api/v1/machineries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.8ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:08:50 +0600
+
+ActionController::RoutingError (No route matches [POST] "/api/v1/machineries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:09:01 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.4ms)
+Completed 200 OK in 4ms (Views: 4.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:09:02 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4479ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.8787ms
+Completed 200 OK in 23ms (Views: 11.4ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:09:02 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5776ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5100ms
+Completed 200 OK in 7ms (Views: 4.4ms)
+
+
+Started GET "/api/v1/machinery" for 127.0.0.1 at 2016-04-16 22:09:05 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"api/v1/machinery"}
+  Rendered inline template (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/api/v1/machineryasd" for 127.0.0.1 at 2016-04-16 22:09:11 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"api/v1/machineryasd"}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (1.8ms)
+Completed 200 OK in 4ms (Views: 3.5ms)
+
+
+Started GET "/api/v1/machinery_type.json" for 127.0.0.1 at 2016-04-16 22:09:21 +0600
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/machinery_type.json"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.7ms)
+
+
+Started GET "/api/v1/machinery_type.json" for 127.0.0.1 at 2016-04-16 22:09:58 +0600
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/machinery_type.json"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:10:17 +0600
+
+ActionController::RoutingError (No route matches [POST] "/api/v1/machineries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.8ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:10:37 +0600
+
+ActionController::RoutingError (No route matches [POST] "/api/v1/machineries"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.0ms)
+
+
+Started GET "/api/v1/machinery_type.json" for 127.0.0.1 at 2016-04-16 22:13:39 +0600
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/machinery_type.json"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.5ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:13:45 +0600
+
+ActionController::RoutingError (uninitialized constant Api::V1::MachineriesController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.7ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:13:52 +0600
+
+ActionController::RoutingError (uninitialized constant Api::V1::MachineriesController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (3.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:14:33 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (12763.2ms)
+Completed 200 OK in 12775ms (Views: 12774.2ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:14:55 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2124ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9216ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9920ms
+Completed 200 OK in 35ms (Views: 19.4ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:14:55 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9443ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9086ms
+Completed 200 OK in 13ms (Views: 8.8ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:15:45 +0600
+
+ActionController::RoutingError (uninitialized constant Api::V1::MachineriesController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.3ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:17:11 +0600
+Processing by Api::V1::MachineriesController#create as JSON
+  Parameters: {"machinery"=>{"type"=>"Автобетоносмеситель", "name"=>"Aleksey", "phone"=>"+7 (913) 914-49-14", "price"=>"1500", "min_order"=>"2", "description"=>"123", "user_id"=>nil}}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4785ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('5712658767e92c3ab7000000'), "type"=>"Автобетоносмеситель", "name"=>"Aleksey", "phone"=>"+7 (913) 914-49-14", "price"=>1500, "min_order"=>2, "description"=>"123", "user_id"=>nil}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 13.8545ms
+Completed 200 OK in 29ms (Views: 7.8ms)
+
+
+Started PUT "/api/v1/machineries/5712658767e92c3ab7000000" for 127.0.0.1 at 2016-04-16 22:32:06 +0600
+
+ActionController::RoutingError (No route matches [PUT] "/api/v1/machineries/5712658767e92c3ab7000000"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (50.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:47:11 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (110.0ms)
+Completed 200 OK in 174ms (Views: 173.6ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:47:39 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1654.3802ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1123.3241ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8979ms
+Completed 200 OK in 3081ms (Views: 2905.7ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:47:50 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3896ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5094ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4949ms
+Completed 200 OK in 8ms (Views: 5.0ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:48:28 +0600
+Processing by Api::V1::MachineriesController#create as JSON
+  Parameters: {"machinery"=>{"type"=>"Самогруз", "name"=>"второй", "phone"=>"+7 (222) 222-22-22", "price"=>"2000", "min_order"=>"2", "description"=>"номер 2", "user_id"=>nil}}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5007ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('57126cdc67e92c3ab7000001'), "type"=>"Самогруз", "name"=>"второй", "phone"=>"+7 (222) 222-22-22", "price"=>2000, "min_order"=>2, "description"=>"номер 2", "user_id"=>nil}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 205.7560ms
+Completed 200 OK in 427ms (Views: 217.9ms)
+
+
+Started GET "/api/v1/machineries/57126cdc67e92c3ab7000001" for 127.0.0.1 at 2016-04-16 22:48:29 +0600
+
+ActionController::RoutingError (No route matches [GET] "/api/v1/machineries/57126cdc67e92c3ab7000001"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:49:00 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (20.5ms)
+Completed 200 OK in 34ms (Views: 33.2ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:49:04 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5306ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 132.2933ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6661ms
+Completed 200 OK in 236ms (Views: 198.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:49:04 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2921ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.0140ms
+Completed 200 OK in 39ms (Views: 23.8ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:49:18 +0600
+Processing by Api::V1::MachineriesController#create as JSON
+  Parameters: {"machinery"=>{"type"=>"Автогрейдер", "name"=>"333", "phone"=>"+7 (333) 333-33-33", "price"=>"3333", "min_order"=>"333333", "description"=>"333", "user_id"=>nil}}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5925ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('57126d0e67e92c3ab7000002'), "type"=>"Автогрейдер", "name"=>"333", "phone"=>"+7 (333) 333-33-33", "price"=>3333, "min_order"=>333333, "description"=>"333", "user_id"=>nil}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 53.2659ms
+Completed 200 OK in 66ms (Views: 7.9ms)
+
+
+Started GET "/api/v1/machineries/57126d0e67e92c3ab7000002" for 127.0.0.1 at 2016-04-16 22:49:18 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57126d0e67e92c3ab7000002"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57126d0e67e92c3ab7000002')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 158.3156ms
+Completed 200 OK in 170ms (Views: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:51:50 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.3ms)
+Completed 500 Internal Server Error in 82ms
+
+ActionView::Template::Error (:frontend has failed to build: [stdin]:9:1: error: unexpected indentation
+):
+  [stdin]:9:1: error: unexpected indentation
+
+      @route 'show', path: ':id'
+
+  ^^^^
+
+  The broccoli plugin was instantiated at: 
+
+    at CoffeeScriptFilter.Plugin (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/index.js:7:31)
+
+    at CoffeeScriptFilter.Filter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:34:10)
+
+    at new CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:9:10)
+
+    at CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:8:53)
+
+    at CoffeePreprocessor.toTree (frontend/node_modules/ember-cli-coffeescript/lib/coffee-preprocessor.js:23:10)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:184:26
+
+    at Array.forEach (native)
+
+    at processPlugins (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:182:11)
+
+    at module.exports.preprocessJs (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:175:10)
+
+    at EmberApp.appAndDependencies (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:992:25)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1099:34)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:31:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1216.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2361.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:52:19 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (:frontend has failed to build: [stdin]:8:25: error: unexpected ->
+):
+  [stdin]:8:25: error: unexpected ->
+
+    @resource 'machinery' ->
+
+                          ^^
+
+  The broccoli plugin was instantiated at: 
+
+    at CoffeeScriptFilter.Plugin (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/index.js:7:31)
+
+    at CoffeeScriptFilter.Filter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:34:10)
+
+    at new CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:9:10)
+
+    at CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:8:53)
+
+    at CoffeePreprocessor.toTree (frontend/node_modules/ember-cli-coffeescript/lib/coffee-preprocessor.js:23:10)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:184:26
+
+    at Array.forEach (native)
+
+    at processPlugins (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:182:11)
+
+    at module.exports.preprocessJs (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:175:10)
+
+    at EmberApp.appAndDependencies (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:992:25)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1099:34)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:31:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (127.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (158.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:52:22 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (3.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (:frontend has failed to build: [stdin]:8:25: error: unexpected ->
+):
+  [stdin]:8:25: error: unexpected ->
+
+    @resource 'machinery' ->
+
+                          ^^
+
+  The broccoli plugin was instantiated at: 
+
+    at CoffeeScriptFilter.Plugin (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/index.js:7:31)
+
+    at CoffeeScriptFilter.Filter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:34:10)
+
+    at new CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:9:10)
+
+    at CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:8:53)
+
+    at CoffeePreprocessor.toTree (frontend/node_modules/ember-cli-coffeescript/lib/coffee-preprocessor.js:23:10)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:184:26
+
+    at Array.forEach (native)
+
+    at processPlugins (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:182:11)
+
+    at module.exports.preprocessJs (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:175:10)
+
+    at EmberApp.appAndDependencies (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:992:25)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1099:34)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:31:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:52:23 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (3.3ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (:frontend has failed to build: [stdin]:8:25: error: unexpected ->
+):
+  [stdin]:8:25: error: unexpected ->
+
+    @resource 'machinery' ->
+
+                          ^^
+
+  The broccoli plugin was instantiated at: 
+
+    at CoffeeScriptFilter.Plugin (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/index.js:7:31)
+
+    at CoffeeScriptFilter.Filter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:34:10)
+
+    at new CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:9:10)
+
+    at CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:8:53)
+
+    at CoffeePreprocessor.toTree (frontend/node_modules/ember-cli-coffeescript/lib/coffee-preprocessor.js:23:10)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:184:26
+
+    at Array.forEach (native)
+
+    at processPlugins (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:182:11)
+
+    at module.exports.preprocessJs (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:175:10)
+
+    at EmberApp.appAndDependencies (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:992:25)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1099:34)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:31:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (25.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:52:24 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (3.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (:frontend has failed to build: [stdin]:8:25: error: unexpected ->
+):
+  [stdin]:8:25: error: unexpected ->
+
+    @resource 'machinery' ->
+
+                          ^^
+
+  The broccoli plugin was instantiated at: 
+
+    at CoffeeScriptFilter.Plugin (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/index.js:7:31)
+
+    at CoffeeScriptFilter.Filter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:34:10)
+
+    at new CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:9:10)
+
+    at CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:8:53)
+
+    at CoffeePreprocessor.toTree (frontend/node_modules/ember-cli-coffeescript/lib/coffee-preprocessor.js:23:10)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:184:26
+
+    at Array.forEach (native)
+
+    at processPlugins (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:182:11)
+
+    at module.exports.preprocessJs (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:175:10)
+
+    at EmberApp.appAndDependencies (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:992:25)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1099:34)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:31:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:52:26 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (2.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (:frontend has failed to build: [stdin]:8:25: error: unexpected ->
+):
+  [stdin]:8:25: error: unexpected ->
+
+    @resource 'machinery' ->
+
+                          ^^
+
+  The broccoli plugin was instantiated at: 
+
+    at CoffeeScriptFilter.Plugin (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/index.js:7:31)
+
+    at CoffeeScriptFilter.Filter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:34:10)
+
+    at new CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:9:10)
+
+    at CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:8:53)
+
+    at CoffeePreprocessor.toTree (frontend/node_modules/ember-cli-coffeescript/lib/coffee-preprocessor.js:23:10)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:184:26
+
+    at Array.forEach (native)
+
+    at processPlugins (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:182:11)
+
+    at module.exports.preprocessJs (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:175:10)
+
+    at EmberApp.appAndDependencies (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:992:25)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1099:34)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:31:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:52:27 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (3.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (:frontend has failed to build: [stdin]:8:25: error: unexpected ->
+):
+  [stdin]:8:25: error: unexpected ->
+
+    @resource 'machinery' ->
+
+                          ^^
+
+  The broccoli plugin was instantiated at: 
+
+    at CoffeeScriptFilter.Plugin (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/index.js:7:31)
+
+    at CoffeeScriptFilter.Filter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:34:10)
+
+    at new CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:9:10)
+
+    at CoffeeScriptFilter (frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/index.js:8:53)
+
+    at CoffeePreprocessor.toTree (frontend/node_modules/ember-cli-coffeescript/lib/coffee-preprocessor.js:23:10)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:184:26
+
+    at Array.forEach (native)
+
+    at processPlugins (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:182:11)
+
+    at module.exports.preprocessJs (frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/preprocessors.js:175:10)
+
+    at EmberApp.appAndDependencies (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:992:25)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1099:34)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:31:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at process._tickCallback (node.js:355:11)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (42.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-16 22:52:57 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (24.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.0/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (76.9ms)
+Completed 200 OK in 80ms (Views: 79.0ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:53:01 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5217ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 558.3461ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1062ms
+Completed 200 OK in 571ms (Views: 566.8ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-16 22:53:02 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9271ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.1267ms
+Completed 200 OK in 15ms (Views: 10.6ms)
+
+
+Started POST "/api/v1/machineries" for 127.0.0.1 at 2016-04-16 22:53:27 +0600
+Processing by Api::V1::MachineriesController#create as JSON
+  Parameters: {"machinery"=>{"type"=>"Илосос", "name"=>"four", "phone"=>"+7 (444) 444-44-44", "price"=>"4444", "min_order"=>"4", "description"=>"number 4", "user_id"=>nil}}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5026ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machineries documents=[{"_id"=>BSON::ObjectId('57126e0767e92c3ab7000003'), "type"=>"Илосос", "name"=>"four", "phone"=>"+7 (444) 444-44-44", "price"=>4444, "min_order"=>4, "description"=>"number 4", "user_id"=>nil}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 210.7074ms
+Completed 200 OK in 221ms (Views: 6.4ms)
+
+
+Started GET "/api/v1/machineries/57126e0767e92c3ab7000003" for 127.0.0.1 at 2016-04-16 22:53:27 +0600
+Processing by Api::V1::MachineriesController#show as JSON
+  Parameters: {"id"=>"57126e0767e92c3ab7000003"}
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57126e0767e92c3ab7000003')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 141.2496ms
+Completed 200 OK in 149ms (Views: 4.4ms)
