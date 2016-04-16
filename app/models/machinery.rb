@@ -3,11 +3,14 @@ class Machinery
   include Mongoid::Paperclip
   field :type, type: String
   field :name, type: String
+  field :phone, type: String
+  field :price, type: Integer
+  field :min_order, type: Integer
   field :description, type: String
 
   belongs_to :user
 
-  validates :type, inclusion: { in: ['Автобетоносмеситель', 'Автогрейдер', 'Автокран', 'Автоцистерна', 'Илосос',
+  validates :type, inclusion: { in: ['Автобетоносмеситель', 'Самогруз', 'Автогрейдер', 'Автокран', 'Автоцистерна', 'Илосос',
                                      'Цементовоз', 'Бульдозер', 'Коммунальная техника', 'Мусоровоз', 'Минипогрузчик',
                                      'Миниэкскаватор', 'Погрузчик', 'Самосвал', 'Снегоуборочная техника', 'Фронтальный погрузчик',
                                      'Экскаватор', 'Другое (Укажите в описании)'], :message => 'Неверный тип транспорта' }

@@ -6,8 +6,8 @@
 
 /* jshint ignore:end */
 
-define('frontend/adapters/application', ['exports', 'ember-data', 'ember-simple-auth/mixins/data-adapter-mixin'], function (exports, _emberData, _emberSimpleAuthMixinsDataAdapterMixin) {
-    exports['default'] = _emberData['default'].JSONAPIAdapter.extend(_emberSimpleAuthMixinsDataAdapterMixin['default'], {
+define('frontend/adapters/application', ['exports', 'active-model-adapter', 'ember', 'ember-simple-auth/mixins/data-adapter-mixin'], function (exports, _activeModelAdapter, _ember, _emberSimpleAuthMixinsDataAdapterMixin) {
+    exports['default'] = _activeModelAdapter['default'].extend(_emberSimpleAuthMixinsDataAdapterMixin['default'], {
         authorizer: 'authorizer:devise',
         namespace: 'api/v1'
     });
@@ -144,6 +144,16 @@ define('frontend/helpers/pluralize', ['exports', 'ember-inflector/lib/helpers/pl
 });
 define('frontend/helpers/singularize', ['exports', 'ember-inflector/lib/helpers/singularize'], function (exports, _emberInflectorLibHelpersSingularize) {
   exports['default'] = _emberInflectorLibHelpersSingularize['default'];
+});
+define("frontend/initializers/active-model-adapter", ["exports", "active-model-adapter", "active-model-adapter/active-model-serializer"], function (exports, _activeModelAdapter, _activeModelAdapterActiveModelSerializer) {
+  exports["default"] = {
+    name: 'active-model-adapter',
+    initialize: function initialize() {
+      var application = arguments[1] || arguments[0];
+      application.register('adapter:-active-model', _activeModelAdapter["default"]);
+      application.register('serializer:-active-model', _activeModelAdapterActiveModelSerializer["default"]);
+    }
+  };
 });
 define('frontend/initializers/app-version', ['exports', 'ember-cli-app-version/initializer-factory', 'frontend/config/environment'], function (exports, _emberCliAppVersionInitializerFactory, _frontendConfigEnvironment) {
   exports['default'] = {
@@ -336,6 +346,17 @@ define('frontend/instance-initializers/ember-simple-auth', ['exports', 'ember-si
     }
   };
 });
+define("frontend/models/machinery_type", ["exports", "ember-data"], function (exports, _emberData) {
+  ;
+  var MachineryType;
+
+  MachineryType = _emberData["default"].Model.extend({
+    type: _emberData["default"].attr('string')
+  });
+
+  exports["default"] = MachineryType;
+  ;
+});
 define('frontend/resolver', ['exports', 'ember-resolver'], function (exports, _emberResolver) {
   exports['default'] = _emberResolver['default'];
 });
@@ -359,9 +380,20 @@ define('frontend/routes/application', ['exports', 'ember', 'ember-simple-auth/mi
     exports['default'] = _ember['default'].Route.extend(_emberSimpleAuthMixinsApplicationRouteMixin['default'], {
         session: service('session'),
 
+        model: function model() {
+            this.store.findAll('machinery_type');
+        },
+        setupController: function setupController(controller, model) {
+            controller.set('model', model);
+        },
         actions: {
             logout: function logout() {
                 this.get('session').invalidate();
+            },
+            test: function test() {
+                console.log('qwe');
+                console.log('qwe');
+                console.log('qwe');
             }
         }
     });
@@ -377,6 +409,20 @@ define('frontend/routes/dashboard', ['exports', 'ember', 'ember-simple-auth/mixi
             }
         }
     });
+});
+define('frontend/routes/index', ['exports', 'ember'], function (exports, _ember) {
+  var IndexRoute;
+
+  IndexRoute = _ember['default'].Route.extend({
+    model: function model() {
+      return this.store.findAll('machinery_type');
+    },
+    setupController: function setupController(controller, model) {
+      return controller.set('model', model);
+    }
+  });
+
+  exports['default'] = IndexRoute;
 });
 define('frontend/routes/login', ['exports', 'ember', 'ember-simple-auth/mixins/unauthenticated-route-mixin'], function (exports, _ember, _emberSimpleAuthMixinsUnauthenticatedRouteMixin) {
   exports['default'] = _ember['default'].Route.extend(_emberSimpleAuthMixinsUnauthenticatedRouteMixin['default']);
@@ -1015,6 +1061,49 @@ define("frontend/templates/dashboard", ["exports"], function (exports) {
 define("frontend/templates/index", ["exports"], function (exports) {
   exports["default"] = Ember.HTMLBars.template((function () {
     var child0 = (function () {
+      var child0 = (function () {
+        return {
+          meta: {
+            "fragmentReason": false,
+            "revision": "Ember@2.4.1",
+            "loc": {
+              "source": null,
+              "start": {
+                "line": 1,
+                "column": 254
+              },
+              "end": {
+                "line": 1,
+                "column": 332
+              }
+            },
+            "moduleName": "frontend/templates/index.hbs"
+          },
+          isEmpty: false,
+          arity: 1,
+          cachedFragment: null,
+          hasRendered: false,
+          buildFragment: function buildFragment(dom) {
+            var el0 = dom.createDocumentFragment();
+            var el1 = dom.createElement("div");
+            dom.setAttribute(el1, "class", "item");
+            var el2 = dom.createComment("");
+            dom.appendChild(el1, el2);
+            dom.appendChild(el0, el1);
+            return el0;
+          },
+          buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+            var element1 = dom.childAt(fragment, [0]);
+            var morphs = new Array(2);
+            morphs[0] = dom.createAttrMorph(element1, 'data-value');
+            morphs[1] = dom.createMorphAt(element1, 0, 0);
+            return morphs;
+          },
+          statements: [["attribute", "data-value", ["get", "m.type", ["loc", [null, [1, 294], [1, 300]]]]], ["content", "m.type", ["loc", [null, [1, 316], [1, 326]]]]],
+          locals: ["m"],
+          templates: []
+        };
+      })();
       return {
         meta: {
           "fragmentReason": false,
@@ -1023,11 +1112,11 @@ define("frontend/templates/index", ["exports"], function (exports) {
             "source": null,
             "start": {
               "line": 1,
-              "column": 1019
+              "column": 130
             },
             "end": {
               "line": 1,
-              "column": 1339
+              "column": 347
             }
           },
           "moduleName": "frontend/templates/index.hbs"
@@ -1048,39 +1137,111 @@ define("frontend/templates/index", ["exports"], function (exports) {
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("div");
           dom.setAttribute(el1, "class", "menu");
-          var el2 = dom.createElement("div");
-          dom.setAttribute(el2, "data-value", "1");
-          dom.setAttribute(el2, "class", "item");
-          var el3 = dom.createTextNode("Самогруз");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("div");
-          dom.setAttribute(el2, "data-value", "2");
-          dom.setAttribute(el2, "class", "item");
-          var el3 = dom.createTextNode("Самосвал");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("div");
-          dom.setAttribute(el2, "data-value", "3");
-          dom.setAttribute(el2, "class", "item");
-          var el3 = dom.createTextNode("Экскаватор");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("div");
-          dom.setAttribute(el2, "data-value", "4");
-          dom.setAttribute(el2, "class", "item");
-          var el3 = dom.createTextNode("Автокран");
-          dom.appendChild(el2, el3);
+          var el2 = dom.createComment("");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
           return el0;
         },
-        buildRenderNodes: function buildRenderNodes() {
-          return [];
+        buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+          var morphs = new Array(1);
+          morphs[0] = dom.createMorphAt(dom.childAt(fragment, [2]), 0, 0);
+          return morphs;
         },
-        statements: [],
+        statements: [["block", "each", [["get", "model", ["loc", [null, [1, 262], [1, 267]]]]], [], 0, null, ["loc", [null, [1, 254], [1, 341]]]]],
         locals: [],
-        templates: []
+        templates: [child0]
+      };
+    })();
+    var child1 = (function () {
+      var child0 = (function () {
+        return {
+          meta: {
+            "fragmentReason": false,
+            "revision": "Ember@2.4.1",
+            "loc": {
+              "source": null,
+              "start": {
+                "line": 1,
+                "column": 1331
+              },
+              "end": {
+                "line": 1,
+                "column": 1409
+              }
+            },
+            "moduleName": "frontend/templates/index.hbs"
+          },
+          isEmpty: false,
+          arity: 1,
+          cachedFragment: null,
+          hasRendered: false,
+          buildFragment: function buildFragment(dom) {
+            var el0 = dom.createDocumentFragment();
+            var el1 = dom.createElement("div");
+            dom.setAttribute(el1, "class", "item");
+            var el2 = dom.createComment("");
+            dom.appendChild(el1, el2);
+            dom.appendChild(el0, el1);
+            return el0;
+          },
+          buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+            var element0 = dom.childAt(fragment, [0]);
+            var morphs = new Array(2);
+            morphs[0] = dom.createAttrMorph(element0, 'data-value');
+            morphs[1] = dom.createMorphAt(element0, 0, 0);
+            return morphs;
+          },
+          statements: [["attribute", "data-value", ["get", "m.type", ["loc", [null, [1, 1371], [1, 1377]]]]], ["content", "m.type", ["loc", [null, [1, 1393], [1, 1403]]]]],
+          locals: ["m"],
+          templates: []
+        };
+      })();
+      return {
+        meta: {
+          "fragmentReason": false,
+          "revision": "Ember@2.4.1",
+          "loc": {
+            "source": null,
+            "start": {
+              "line": 1,
+              "column": 1207
+            },
+            "end": {
+              "line": 1,
+              "column": 1424
+            }
+          },
+          "moduleName": "frontend/templates/index.hbs"
+        },
+        isEmpty: false,
+        arity: 0,
+        cachedFragment: null,
+        hasRendered: false,
+        buildFragment: function buildFragment(dom) {
+          var el0 = dom.createDocumentFragment();
+          var el1 = dom.createElement("div");
+          dom.setAttribute(el1, "class", "default text");
+          var el2 = dom.createTextNode("Вид техники");
+          dom.appendChild(el1, el2);
+          dom.appendChild(el0, el1);
+          var el1 = dom.createElement("i");
+          dom.setAttribute(el1, "class", "dropdown icon");
+          dom.appendChild(el0, el1);
+          var el1 = dom.createElement("div");
+          dom.setAttribute(el1, "class", "menu");
+          var el2 = dom.createComment("");
+          dom.appendChild(el1, el2);
+          dom.appendChild(el0, el1);
+          return el0;
+        },
+        buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+          var morphs = new Array(1);
+          morphs[0] = dom.createMorphAt(dom.childAt(fragment, [2]), 0, 0);
+          return morphs;
+        },
+        statements: [["block", "each", [["get", "model", ["loc", [null, [1, 1339], [1, 1344]]]]], [], 0, null, ["loc", [null, [1, 1331], [1, 1418]]]]],
+        locals: [],
+        templates: [child0]
       };
     })();
     return {
@@ -1098,7 +1259,7 @@ define("frontend/templates/index", ["exports"], function (exports) {
           },
           "end": {
             "line": 1,
-            "column": 1937
+            "column": 2022
           }
         },
         "moduleName": "frontend/templates/index.hbs"
@@ -1125,9 +1286,7 @@ define("frontend/templates/index", ["exports"], function (exports) {
         var el6 = dom.createTextNode("Вид техники");
         dom.appendChild(el5, el6);
         dom.appendChild(el4, el5);
-        var el5 = dom.createElement("input");
-        dom.setAttribute(el5, "type", "text");
-        dom.setAttribute(el5, "placeholder", "Вид техники");
+        var el5 = dom.createComment("");
         dom.appendChild(el4, el5);
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
@@ -1294,13 +1453,14 @@ define("frontend/templates/index", ["exports"], function (exports) {
         return el0;
       },
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
-        var morphs = new Array(1);
-        morphs[0] = dom.createMorphAt(dom.childAt(fragment, [1, 1, 0, 0]), 1, 1);
+        var morphs = new Array(2);
+        morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0, 1, 0, 0]), 1, 1);
+        morphs[1] = dom.createMorphAt(dom.childAt(fragment, [1, 1, 0, 0]), 1, 1);
         return morphs;
       },
-      statements: [["block", "ui-dropdown", [], ["class", "selection"], 0, null, ["loc", [null, [1, 1019], [1, 1355]]]]],
+      statements: [["block", "ui-dropdown", [], ["class", "selection"], 0, null, ["loc", [null, [1, 130], [1, 363]]]], ["block", "ui-dropdown", [], ["class", "selection"], 1, null, ["loc", [null, [1, 1207], [1, 1440]]]]],
       locals: [],
-      templates: [child0]
+      templates: [child0, child1]
     };
   })());
 });
@@ -1410,7 +1570,7 @@ define("frontend/templates/machinery", ["exports"], function (exports) {
 /* jshint ignore:start */
 
 define('frontend/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+0297e018"},"ember-simple-auth":{"routeAfterAuthentication":"dashboard","routeIfAlreadyAuthenticated":"dashboard"},"exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+a3a275e1"},"ember-simple-auth":{"routeAfterAuthentication":"dashboard","routeIfAlreadyAuthenticated":"dashboard"},"exportApplicationGlobal":true}};
 });
 
 /* jshint ignore:end */
@@ -1418,7 +1578,7 @@ define('frontend/config/environment', ['ember'], function(Ember) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+0297e018"});
+  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+a3a275e1"});
 }
 
 /* jshint ignore:end */

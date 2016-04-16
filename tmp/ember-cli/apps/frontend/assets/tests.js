@@ -4,7 +4,7 @@ define('frontend/tests/adapters/application.jshint', ['exports'], function (expo
   QUnit.module('JSHint - adapters/application.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'adapters/application.js should pass jshint.');
+    assert.ok(false, 'adapters/application.js should pass jshint.\nadapters/application.js: line 2, col 8, \'Ember\' is defined but never used.\n\n1 error');
   });
 });
 define('frontend/tests/authenticators/devise.jshint', ['exports'], function (exports) {
@@ -453,7 +453,7 @@ define('frontend/tests/routes/application.jshint', ['exports'], function (export
   QUnit.module('JSHint - routes/application.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/application.js should pass jshint.');
+    assert.ok(false, 'routes/application.js should pass jshint.\nroutes/application.js: line 10, col 45, Missing semicolon.\n\n1 error');
   });
 });
 define('frontend/tests/routes/dashboard.jshint', ['exports'], function (exports) {

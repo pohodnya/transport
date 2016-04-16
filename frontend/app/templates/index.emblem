@@ -2,9 +2,15 @@
   h3 Найти
   .ui.form
     .inline.fields
-      .field
-        label Вид техники
-        input type='text' placeholder='Вид техники'
+          .field
+            label Вид техники
+            ui-dropdown class='selection'
+              .default.text Вид техники
+              i.dropdown.icon
+              .menu
+                = each model as |m|
+                  .item data-value=m.type
+                    = m.type
     .inline.fields
       .field
         label Вид техники
@@ -36,10 +42,9 @@
           .default.text Вид техники
           i.dropdown.icon
           .menu
-            .item data-value='1' Самогруз
-            .item data-value='2' Самосвал
-            .item data-value='3' Экскаватор
-            .item data-value='4' Автокран
+            = each model as |m|
+              .item data-value=m.type
+                = m.type
 
     .inline.fields
       .field

@@ -4655,7 +4655,7 @@ Babel (14)                                    | 39ms (2 ms)
 
 file deleted controllers/application.coffee___jb_old___
 file deleted controllers/application.coffee___jb_bak___
-file added controllers/application.coffee
+file added controllers/application.js
 
 Build successful - 333ms.
 
@@ -5061,4 +5061,1715 @@ Babel (14)                                    | 480ms (34 ms)
 SourceMapConcat: Concat: Vendor /asset... (1) | 247ms               
 CoffeeScriptFilter (2)                        | 149ms (74 ms)       
 TemplateCompiler (3)                          | 126ms (42 ms)       
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+version: 2.4.1
+BuildingBuilding.Building..Building...Buildingversion: 2.4.1
+BuildingBuilding.Building..Building...version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 2248ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+JSHint app- QUnit                             | 233ms               
+Babel                                         | 173ms               
+Babel                                         | 154ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 141ms               
+CoffeeScriptFilter                            | 115ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 691ms (49 ms)       
+JSHint app- QUnit (1)                         | 233ms               
+CoffeeScriptFilter (2)                        | 144ms (72 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 141ms               
+TemplateCompiler (3)                          | 141ms (47 ms)       
+
+file deleted index.html___jb_old___
+file deleted index.html___jb_bak___
+file added index.html
+
+Build successful - 345ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 54ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 62ms (31 ms)        
+Babel (14)                                    | 41ms (2 ms)         
+
+file added models/machinery_type.coffee
+
+Build successful - 398ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 72ms                
+Babel                                         | 33ms                
+SourceMapConcat: Concat: App                  | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 80ms (40 ms)        
+Babel (14)                                    | 64ms (4 ms)         
+SourceMapConcat: Concat: App (1)              | 28ms                
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1884ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 180ms               
+Babel                                         | 144ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 133ms               
+Babel                                         | 101ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 474ms (33 ms)       
+CoffeeScriptFilter (2)                        | 216ms (108 ms)      
+SourceMapConcat: Concat: Vendor /asset... (1) | 133ms               
+TemplateCompiler (3)                          | 125ms (41 ms)       
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 2413ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 205ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 193ms               
+Babel                                         | 157ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 548ms (39 ms)       
+CoffeeScriptFilter (2)                        | 243ms (121 ms)      
+SourceMapConcat: Concat: Vendor /asset... (1) | 193ms               
+TemplateCompiler (3)                          | 182ms (60 ms)       
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+routes/application.js: line 10, col 46, Missing semicolon.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 611ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 115ms               
+Babel                                         | 68ms                
+CoffeeScriptFilter                            | 52ms                
+JSHint app- QUnit                             | 38ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 225ms (16 ms)       
+CoffeeScriptFilter (2)                        | 61ms (30 ms)        
+JSHint app- QUnit (1)                         | 38ms                
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+Build successful - 610ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 86ms                
+TreeMerger (addons)                           | 44ms                
+SourceMapConcat: Concat: Addon JS             | 41ms                
+Addon#treeFor (ember-data - app)              | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 94ms (47 ms)        
+TreeMerger (addons) (1)                       | 44ms                
+SourceMapConcat: Concat: Addon JS (1)         | 41ms                
+Addon#treeFor (ember-data - app) (1)          | 34ms                
+Babel (14)                                    | 32ms (2 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 2093ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 153ms               
+Babel                                         | 141ms               
+CoffeeScriptFilter                            | 128ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 613ms (43 ms)       
+CoffeeScriptFilter (2)                        | 166ms (83 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 153ms               
+TemplateCompiler (3)                          | 138ms (46 ms)       
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+Build successful - 417ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 62ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 75ms (37 ms)        
+Babel (14)                                    | 43ms (3 ms)         
+TemplateCompiler (3)                          | 30ms (10 ms)        
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+Build successful - 350ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 45ms                
+Funnel: Addon JS                              | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 57ms (28 ms)        
+Babel (14)                                    | 33ms (2 ms)         
+Funnel: Addon JS (9)                          | 24ms (2 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1881ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 145ms               
+Babel                                         | 144ms               
+CoffeeScriptFilter                            | 132ms               
+Babel                                         | 102ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 493ms (35 ms)       
+CoffeeScriptFilter (2)                        | 167ms (83 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 145ms               
+TemplateCompiler (3)                          | 135ms (45 ms)       
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+Build successful - 384ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 55ms                
+SourceMapConcat: Concat: App                  | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 64ms (32 ms)        
+Babel (14)                                    | 42ms (3 ms)         
+SourceMapConcat: Concat: App (1)              | 19ms                
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file added adapters/machinery_type.js
+
+adapters/machinery_type.js: line 8, col 16, 'Ember' is not defined.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 482ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 88ms                
+Babel                                         | 74ms                
+CoffeeScriptFilter                            | 43ms                
+JSHint app- QUnit                             | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 187ms (13 ms)       
+CoffeeScriptFilter (2)                        | 51ms (25 ms)        
+JSHint app- QUnit (1)                         | 31ms                
+
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+
+adapters/machinery_type.js: line 1, col 47, Missing semicolon.
+adapters/machinery_type.js: line 3, col 42, 'DataAdapterMixin' is not defined.
+adapters/machinery_type.js: line 7, col 16, 'Ember' is not defined.
+
+3 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 372ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 43ms                
+Babel                                         | 42ms                
+Babel                                         | 40ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 103ms (7 ms)        
+CoffeeScriptFilter (2)                        | 51ms (25 ms)        
+
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+
+adapters/machinery_type.js: line 1, col 47, Missing semicolon.
+adapters/machinery_type.js: line 7, col 16, 'Ember' is not defined.
+
+2 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 387ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 51ms                
+Babel                                         | 32ms                
+Babel                                         | 22ms                
+SourceMapConcat: Concat: App                  | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 75ms (5 ms)         
+CoffeeScriptFilter (2)                        | 59ms (29 ms)        
+SourceMapConcat: Concat: App (1)              | 21ms                
+
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js
+
+Build successful - 311ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 58ms                
+SourceMapConcat: Concat: App                  | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 66ms (33 ms)        
+Babel (14)                                    | 25ms (1 ms)         
+SourceMapConcat: Concat: App (1)              | 23ms                
+
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js___jb_old___
+file deleted adapters/machinery_type.js___jb_bak___
+file added adapters/machinery_type.js
+file deleted adapters/machinery_type.js
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 450ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 75ms                
+SourceMapConcat: Concat: App                  | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 88ms (44 ms)        
+Babel (14)                                    | 47ms (3 ms)         
+SourceMapConcat: Concat: App (1)              | 26ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 272ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 40ms                
+SourceMapConcat: Concat: App                  | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+Babel (14)                                    | 25ms (1 ms)         
+SourceMapConcat: Concat: App (1)              | 14ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 8, col 25, 'Ember' is not defined.
+adapters/application.js: line 10, col 16, 'Ember' is not defined.
+
+2 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 353ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 48ms                
+Babel                                         | 45ms                
+Babel                                         | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 89ms (6 ms)         
+CoffeeScriptFilter (2)                        | 57ms (28 ms)        
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 8, col 45, Expected '===' and instead saw '=='.
+adapters/application.js: line 9, col 13, Expected '{' and instead saw 'return'.
+adapters/application.js: line 11, col 13, Expected '{' and instead saw 'return'.
+adapters/application.js: line 8, col 13, 'Ember' is not defined.
+adapters/application.js: line 11, col 20, 'Ember' is not defined.
+
+5 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 393ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 47ms                
+CoffeeScriptFilter                            | 43ms                
+SassCompiler                                  | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 87ms (6 ms)         
+CoffeeScriptFilter (2)                        | 53ms (26 ms)        
+SassCompiler (1)                              | 23ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 8, col 45, Expected '===' and instead saw '=='.
+adapters/application.js: line 9, col 13, Expected '{' and instead saw 'return'.
+adapters/application.js: line 11, col 13, Expected '{' and instead saw 'return'.
+adapters/application.js: line 8, col 13, 'Ember' is not defined.
+adapters/application.js: line 11, col 20, 'Ember' is not defined.
+
+5 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 512ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 75ms                
+SourceMapConcat: Concat: App                  | 33ms                
+Babel                                         | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 93ms (46 ms)        
+Babel (14)                                    | 63ms (4 ms)         
+SourceMapConcat: Concat: App (1)              | 33ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 351ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 45ms                
+Babel                                         | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 69ms (4 ms)         
+CoffeeScriptFilter (2)                        | 53ms (26 ms)        
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 8, col 16, 'Ember' is not defined.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 294ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 44ms                
+Babel                                         | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 51ms (25 ms)        
+Babel (14)                                    | 46ms (3 ms)         
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 313ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 47ms                
+Babel                                         | 21ms                
+SassCompiler                                  | 18ms                
+SourceMapConcat: Concat: App                  | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+Babel (14)                                    | 47ms (3 ms)         
+SassCompiler (1)                              | 18ms                
+SourceMapConcat: Concat: App (1)              | 18ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 406ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 70ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 81ms (40 ms)        
+Babel (14)                                    | 46ms (3 ms)         
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 313ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 47ms                
+SourceMapConcat: Concat: App                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 56ms (28 ms)        
+Babel (14)                                    | 32ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 16ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+Build successful - 276ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 43ms                
+SourceMapConcat: Concat: App                  | 14ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 50ms (25 ms)        
+Babel (14)                                    | 25ms (1 ms)         
+SourceMapConcat: Concat: App (1)              | 14ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 5, col 16, 'DS' is not defined.
+adapters/application.js: line 1, col 8, 'ActiveModelAdapter' is defined but never used.
+
+2 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 326ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 40ms                
+Babel                                         | 24ms                
+Babel                                         | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 65ms (4 ms)         
+CoffeeScriptFilter (2)                        | 49ms (24 ms)        
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 5, col 16, 'DS' is not defined.
+adapters/application.js: line 1, col 8, 'ActiveModelAdapter' is defined but never used.
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+3 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 358ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 44ms                
+Babel                                         | 25ms                
+TreeMerger (addons)                           | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (14)                                    | 67ms (4 ms)         
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+TreeMerger (addons) (1)                       | 19ms                
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 5, col 16, 'DS' is not defined.
+adapters/application.js: line 1, col 8, 'ActiveModelAdapter' is defined but never used.
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+3 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 392ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 60ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 70ms (35 ms)        
+Babel (14)                                    | 53ms (3 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 2439ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 404ms               
+Babel                                         | 321ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 139ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 1039ms (69 ms)      
+CoffeeScriptFilter (2)                        | 153ms (76 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 139ms               
+TemplateCompiler (3)                          | 131ms (43 ms)       
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 5, col 16, 'DS' is not defined.
+adapters/application.js: line 1, col 8, 'ActiveModelAdapter' is defined but never used.
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+3 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 469ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 73ms                
+JSHint app- QUnit                             | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 83ms (41 ms)        
+Babel (15)                                    | 68ms (4 ms)         
+JSHint app- QUnit (1)                         | 32ms                
+Funnel: Addon JS (10)                         | 27ms (2 ms)         
+
+file deleted adapters/application.js___jb_old___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js
+
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 447ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 72ms                
+Babel                                         | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 87ms (43 ms)        
+Babel (15)                                    | 79ms (5 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 498ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 164ms               
+CoffeeScriptFilter                            | 51ms                
+TemplateCompiler                              | 44ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 187ms (12 ms)       
+CoffeeScriptFilter (2)                        | 59ms (29 ms)        
+TemplateCompiler (3)                          | 56ms (18 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 475ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 137ms               
+CoffeeScriptFilter                            | 44ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 161ms (10 ms)       
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+TemplateCompiler (3)                          | 27ms (9 ms)         
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...Building...
+
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+1 error
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+routes/login.js: line 4, col 61, Missing semicolon.
+
+1 error
+
+===== 3 JSHint Errors
+
+
+Build successful - 21851ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 6283ms              
+Babel                                         | 3583ms              
+Babel                                         | 1177ms              
+Babel                                         | 1151ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 15569ms (1037 ms)   
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 492ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Funnel: Funnel (jshint app)                   | 62ms                
+CoffeeScriptFilter                            | 56ms                
+Babel                                         | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 69ms (4 ms)         
+CoffeeScriptFilter (2)                        | 67ms (33 ms)        
+Funnel: Funnel (jshint app) (1)               | 62ms                
+TemplateCompiler (3)                          | 30ms (10 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 612ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 91ms                
+Babel                                         | 87ms                
+SourceMapConcat: Concat: App                  | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 132ms (8 ms)        
+CoffeeScriptFilter (2)                        | 107ms (53 ms)       
+TemplateCompiler (3)                          | 35ms (11 ms)        
+SourceMapConcat: Concat: App (1)              | 31ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 379ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 76ms                
+CoffeeScriptFilter                            | 44ms                
+SourceMapConcat: Concat: App                  | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 97ms (6 ms)         
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+TemplateCompiler (3)                          | 24ms (8 ms)         
+SourceMapConcat: Concat: App (1)              | 20ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 402ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 63ms                
+Babel                                         | 60ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 86ms (5 ms)         
+CoffeeScriptFilter (2)                        | 70ms (35 ms)        
+TemplateCompiler (3)                          | 24ms (8 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 358ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 67ms                
+CoffeeScriptFilter                            | 46ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 90ms (6 ms)         
+CoffeeScriptFilter (2)                        | 54ms (27 ms)        
+TemplateCompiler (3)                          | 19ms (6 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 377ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 77ms                
+CoffeeScriptFilter                            | 50ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 102ms (6 ms)        
+CoffeeScriptFilter (2)                        | 58ms (29 ms)        
+TemplateCompiler (3)                          | 22ms (7 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 373ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 79ms                
+CoffeeScriptFilter                            | 44ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 103ms (6 ms)        
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+TemplateCompiler (3)                          | 23ms (7 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 375ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 73ms                
+CoffeeScriptFilter                            | 59ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 94ms (6 ms)         
+CoffeeScriptFilter (2)                        | 66ms (33 ms)        
+TemplateCompiler (3)                          | 24ms (8 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 359ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 61ms                
+CoffeeScriptFilter                            | 47ms                
+TemplateCompiler                              | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 80ms (5 ms)         
+CoffeeScriptFilter (2)                        | 54ms (27 ms)        
+TemplateCompiler (3)                          | 29ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 317ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 49ms                
+SourceMapConcat: Concat: App                  | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 57ms (28 ms)        
+Babel (15)                                    | 37ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 29ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 305ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 47ms                
+TemplateCompiler                              | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 56ms (28 ms)        
+Babel (15)                                    | 33ms (2 ms)         
+TemplateCompiler (3)                          | 20ms (6 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 295ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 47ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 54ms (27 ms)        
+Babel (15)                                    | 32ms (2 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 475ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 115ms               
+CoffeeScriptFilter                            | 78ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 138ms (9 ms)        
+CoffeeScriptFilter (2)                        | 86ms (43 ms)        
+TemplateCompiler (3)                          | 29ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file deleted components/city-picker.coffee___jb_bak___
+file added templates/application.emblem
+file added components/city-picker.coffee
+
+Build successful - 415ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 97ms                
+CoffeeScriptFilter                            | 56ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 120ms (8 ms)        
+CoffeeScriptFilter (2)                        | 64ms (32 ms)        
+
+file deleted components/city-picker.coffee___jb_old___
+file deleted components/city-picker.coffee___jb_bak___
+file added components/city-picker.coffee
+
+Build successful - 311ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 59ms                
+SourceMapConcat: Concat: App                  | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 72ms (36 ms)        
+Babel (15)                                    | 32ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 22ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 324ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 38ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+Babel (15)                                    | 32ms (2 ms)         
+TemplateCompiler (3)                          | 18ms (6 ms)         
+
+file deleted components/city-picker.coffee___jb_old___
+file deleted components/city-picker.coffee___jb_bak___
+file added components/city-picker.coffee
+
+Build successful - 427ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 86ms                
+SassCompiler                                  | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 98ms (49 ms)        
+Babel (15)                                    | 42ms (2 ms)         
+SassCompiler (1)                              | 24ms                
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 293ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 44ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+Babel (15)                                    | 34ms (2 ms)         
+TemplateCompiler (3)                          | 14ms (4 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 387ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 78ms                
+CoffeeScriptFilter                            | 60ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 99ms (6 ms)         
+CoffeeScriptFilter (2)                        | 69ms (34 ms)        
+TemplateCompiler (3)                          | 29ms (9 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 366ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 69ms                
+CoffeeScriptFilter                            | 50ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 91ms (6 ms)         
+CoffeeScriptFilter (2)                        | 59ms (29 ms)        
+TemplateCompiler (3)                          | 26ms (8 ms)         
+
+file deleted controllers/application.coffee___jb_old___
+file deleted controllers/application.coffee___jb_bak___
+file added controllers/application.coffee
+
+Build successful - 296ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 53ms                
+Babel                                         | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 61ms (30 ms)        
+Babel (15)                                    | 39ms (2 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 376ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 72ms                
+CoffeeScriptFilter                            | 56ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 92ms (6 ms)         
+CoffeeScriptFilter (2)                        | 63ms (31 ms)        
+TemplateCompiler (3)                          | 24ms (8 ms)         
+
+file deleted controllers/application.coffee___jb_old___
+file deleted controllers/application.coffee___jb_bak___
+file added controllers/application.coffee
+
+Build successful - 437ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 60ms                
+SimpleConcat: Concat: Vendor Styles/assets... | 34ms                
+TreeMerger (addon-test-support)               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 72ms (36 ms)        
+Babel (15)                                    | 44ms (2 ms)         
+SimpleConcat: Concat: Vendor Styles/as... (1) | 34ms                
+TreeMerger (addon-test-support) (1)           | 23ms                
+
+file deleted controllers/application.coffee___jb_old___
+file deleted controllers/application.coffee___jb_bak___
+file added controllers/application.coffee
+
+Build successful - 387ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+JSHint app- QUnit                             | 77ms                
+CoffeeScriptFilter                            | 68ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+JSHint app- QUnit (1)                         | 77ms                
+CoffeeScriptFilter (2)                        | 76ms (38 ms)        
+Babel (15)                                    | 28ms (1 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 339ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 71ms                
+CoffeeScriptFilter                            | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 92ms (6 ms)         
+CoffeeScriptFilter (2)                        | 39ms (19 ms)        
+TemplateCompiler (3)                          | 18ms (6 ms)         
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added templates/application.emblem
+file added routes/application.js
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 379ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 91ms                
+CoffeeScriptFilter                            | 45ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 112ms (7 ms)        
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 392ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 85ms                
+CoffeeScriptFilter                            | 48ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 114ms (7 ms)        
+CoffeeScriptFilter (2)                        | 57ms (28 ms)        
+TemplateCompiler (3)                          | 19ms (6 ms)         
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+Build successful - 242ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 41ms                
+SassCompiler                                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 48ms (24 ms)        
+Babel (15)                                    | 23ms (1 ms)         
+SassCompiler (1)                              | 15ms                
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 285ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 45ms                
+Babel                                         | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 52ms (26 ms)        
+Babel (15)                                    | 39ms (2 ms)         
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+Build successful - 339ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 50ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 58ms (29 ms)        
+Babel (15)                                    | 53ms (3 ms)         
+
+file added routes/index.coffee
+
+Build successful - 430ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 80ms                
+TreeMerger: (re-exports)                      | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 88ms (44 ms)        
+Babel (15)                                    | 48ms (3 ms)         
+TreeMerger: (re-exports) (1)                  | 23ms                
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+Build successful - 317ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 45ms                
+SourceMapConcat: Concat: App                  | 22ms                
+Babel                                         | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 54ms (27 ms)        
+Babel (15)                                    | 50ms (3 ms)         
+SourceMapConcat: Concat: App (1)              | 22ms                
+
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file added routes/index.coffee
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file added routes/application.js
+file added routes/index.coffee
+file deleted routes/index.coffee
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+routes/application.js: line 10, col 45, Missing semicolon.
+routes/application.js: line 14, col 39, Missing semicolon.
+
+2 errors
+
+===== 1 JSHint Error
+
+
+Build successful - 2700ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 191ms               
+Babel                                         | 182ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 137ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 821ms (54 ms)       
+CoffeeScriptFilter (2)                        | 156ms (78 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 137ms               
+TemplateCompiler (3)                          | 136ms (45 ms)       
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 407ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 53ms                
+Babel                                         | 49ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 87ms (5 ms)         
+CoffeeScriptFilter (2)                        | 62ms (31 ms)        
+
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+file deleted routes/application.js___jb_old___
+file deleted routes/application.js___jb_bak___
+file added routes/application.js
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 310ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 51ms                
+Babel                                         | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 58ms (29 ms)        
+Babel (15)                                    | 52ms (3 ms)         
+
+file added routes/index.coffee
+
+Build successful - 313ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 52ms                
+SourceMapConcat: Concat: App                  | 15ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 61ms (30 ms)        
+Babel (15)                                    | 42ms (2 ms)         
+Funnel: Addon JS (10)                         | 16ms (1 ms)         
+SourceMapConcat: Concat: App (1)              | 15ms                
+
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file deleted templates/index.emblem___jb_old___
+file deleted templates/index.emblem___jb_bak___
+file added routes/index.coffee
+file added templates/index.emblem
+
+Build successful - 665ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 254ms               
+CoffeeScriptFilter                            | 56ms                
+TemplateCompiler                              | 53ms                
+SourceMapConcat: Concat: App                  | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 280ms (18 ms)       
+TemplateCompiler (3)                          | 74ms (24 ms)        
+CoffeeScriptFilter (2)                        | 67ms (33 ms)        
+SourceMapConcat: Concat: App (1)              | 36ms                
+
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file added routes/index.coffee
+
+Build successful - 322ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 57ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 65ms (32 ms)        
+Babel (15)                                    | 41ms (2 ms)         
+
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file added routes/index.coffee
+
+Build successful - 322ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 57ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 68ms (34 ms)        
+Babel (15)                                    | 30ms (2 ms)         
+
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file added routes/index.coffee
+
+Build successful - 295ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 50ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 58ms (29 ms)        
+Babel (15)                                    | 27ms (1 ms)         
+
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file added routes/index.coffee
+
+Build successful - 281ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 55ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 63ms (31 ms)        
+Babel (15)                                    | 32ms (2 ms)         
+
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file added routes/index.coffee
+
+Build successful - 328ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 65ms                
+SourceMapConcat: Concat: App                  | 28ms                
+Babel                                         | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 73ms (36 ms)        
+Babel (15)                                    | 40ms (2 ms)         
+SourceMapConcat: Concat: App (1)              | 28ms                
+
+file deleted routes/index.coffee___jb_old___
+file deleted routes/index.coffee___jb_bak___
+file added routes/index.coffee
+
+Build successful - 318ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 62ms                
+SourceMapConcat: Concat: App                  | 24ms                
+SassCompiler                                  | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 71ms (35 ms)        
+Babel (15)                                    | 27ms (1 ms)         
+SourceMapConcat: Concat: App (1)              | 24ms                
+SassCompiler (1)                              | 17ms                
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1934ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 157ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 134ms               
+CoffeeScriptFilter                            | 124ms               
+Babel                                         | 106ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 506ms (33 ms)       
+CoffeeScriptFilter (2)                        | 150ms (75 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 134ms               
+TemplateCompiler (3)                          | 129ms (43 ms)       
+
+file deleted templates/index.emblem___jb_old___
+file deleted templates/index.emblem___jb_bak___
+file added templates/index.emblem
+
+Build successful - 503ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 77ms                
+SourceMapConcat: Concat: App                  | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 91ms (45 ms)        
+Babel (15)                                    | 60ms (4 ms)         
+SourceMapConcat: Concat: App (1)              | 27ms                
+TemplateCompiler (3)                          | 27ms (9 ms)         
+
+file deleted templates/index.emblem___jb_old___
+file deleted templates/index.emblem___jb_bak___
+file added templates/index.emblem
+file deleted templates/index.emblem___jb_old___
+file deleted templates/index.emblem___jb_bak___
+file added templates/index.emblem
+
+Build successful - 1160ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 571ms               
+TemplateCompiler                              | 82ms                
+CoffeeScriptFilter                            | 63ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 617ms (41 ms)       
+TemplateCompiler (3)                          | 116ms (38 ms)       
+CoffeeScriptFilter (2)                        | 73ms (36 ms)        
+
+file deleted templates/application.emblem___jb_old___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem
+
+Build successful - 313ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 46ms                
+SourceMapConcat: Concat: App                  | 16ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 55ms (27 ms)        
+Babel (15)                                    | 27ms (1 ms)         
+TemplateCompiler (3)                          | 20ms (6 ms)         
+SourceMapConcat: Concat: App (1)              | 16ms                
+
+file deleted templates/index.emblem___jb_old___
+file deleted templates/index.emblem___jb_bak___
+file added templates/index.emblem
+
+Build successful - 527ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 220ms               
+CoffeeScriptFilter                            | 53ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (15)                                    | 242ms (16 ms)       
+CoffeeScriptFilter (2)                        | 61ms (30 ms)        
+TemplateCompiler (3)                          | 30ms (10 ms)        
 
