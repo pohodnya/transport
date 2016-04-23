@@ -8240,3 +8240,79 @@ CoffeeScriptFilter (2)                        | 107ms (53 ms)
 Babel (16)                                    | 52ms (3 ms)         
 SassCompiler (1)                              | 27ms                
 
+version: 2.4.1
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.version: 2.4.1
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...
+
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+1 error
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+routes/login.js: line 4, col 61, Missing semicolon.
+
+1 error
+
+===== 3 JSHint Errors
+
+
+Build successful - 4679ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 1329ms              
+Babel                                         | 688ms               
+CoffeeScriptFilter                            | 358ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (16)                                    | 2878ms (179 ms)     
+CoffeeScriptFilter (2)                        | 388ms (194 ms)      
+
+version: 2.4.1
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...Buildingversion: 2.4.1
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+Buildingversion: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+1 error
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+routes/login.js: line 4, col 61, Missing semicolon.
+
+1 error
+
+===== 3 JSHint Errors
+
+
+Build successful - 1971ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 171ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 139ms               
+CoffeeScriptFilter                            | 113ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (16)                                    | 580ms (36 ms)       
+TemplateCompiler (3)                          | 175ms (58 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 139ms               
+CoffeeScriptFilter (2)                        | 133ms (66 ms)       
+Funnel: Addon JS (11)                         | 109ms (9 ms)        
+

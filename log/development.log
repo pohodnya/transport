@@ -21372,3 +21372,739 @@ Processing by Api::V1::MachineriesController#show as JSON
   Parameters: {"id"=>"57127aac67e92c1b4b000000"}
   MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machineries selector={"_id"=>BSON::ObjectId('57127aac67e92c1b4b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4275ms
 Completed 200 OK in 9ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 23:33:27 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (11.8ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (No `ember-cli` executable found for `frontend`.
+
+Install it:
+
+    $ cd /home/alex/RubymineProjects/transport/frontend
+    $ npm install
+):
+    1: <%= render_ember_app ember_app do |head| %>
+    2:   <% head.append do %>
+    3:     <%= csrf_meta_tags %>
+    4:   <% end %>
+  ember-cli-rails (0.7.0) lib/ember_cli/path_set.rb:42:in `block in ember'
+  ember-cli-rails (0.7.0) lib/ember_cli/path_set.rb:40:in `tap'
+  ember-cli-rails (0.7.0) lib/ember_cli/path_set.rb:40:in `ember'
+  ember-cli-rails (0.7.0) lib/ember_cli/command.rb:35:in `ember_build'
+  ember-cli-rails (0.7.0) lib/ember_cli/command.rb:17:in `build'
+  ember-cli-rails (0.7.0) lib/ember_cli/shell.rb:23:in `build_and_watch'
+  ember-cli-rails (0.7.0) lib/ember_cli/app.rb:115:in `build_and_watch'
+  ember-cli-rails (0.7.0) lib/ember_cli/app.rb:48:in `build'
+  ember-cli-rails (0.7.0) app/helpers/ember_rails_helper.rb:5:in `render_ember_app'
+  ember-cli-rails (0.7.0) app/views/ember_cli/ember/index.html.erb:1:in `__home_alex__rvm_gems_ruby_______gems_ember_cli_rails_______app_views_ember_cli_ember_index_html_erb___1459367807729280764_47626920'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  ember-cli-rails (0.7.0) app/controller/ember_cli/ember_controller.rb:4:in `index'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (79.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-04-23 23:33:28 +0600
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.3ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-04-23 23:33:28 +0600
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 23:52:44 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (24558.1ms)
+Completed 500 Internal Server Error in 24561ms
+
+ActionView::Template::Error (:frontend has failed to build: Error: ENOENT: no such file or directory, stat '/home/alex/RubymineProjects/transport/frontend/tmp/source_map_concat-input_base_path-sfpzMurz.tmp/0/bower_components/favico.js/favico.js'
+):
+  Error: ENOENT: no such file or directory, stat 'frontend/tmp/source_map_concat-input_base_path-sfpzMurz.tmp/0/bower_components/favico.js/favico.js'
+
+    at Error (native)
+
+    at Object.fs.statSync (fs.js:844:18)
+
+    at ConcatWithMaps.keyForFile (frontend/node_modules/broccoli-caching-writer/index.js:90:20)
+
+    at Array.map (native)
+
+    at ConcatWithMaps.CachingWriter._conditionalBuild (frontend/node_modules/broccoli-caching-writer/index.js:112:65)
+
+    at frontend/node_modules/broccoli-caching-writer/node_modules/broccoli-plugin/read_compat.js:61:34
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at lib$rsvp$$internal$$publish (frontend/node_modules/rsvp/dist/rsvp.js:1019:11)
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:419:9)
+
+    at process._tickCallback (node.js:348:13)
+
+  The broccoli plugin was instantiated at: 
+
+    at ConcatWithMaps.Plugin (frontend/node_modules/broccoli-caching-writer/node_modules/broccoli-plugin/index.js:10:31)
+
+    at ConcatWithMaps.CachingWriter [as constructor] (frontend/node_modules/broccoli-caching-writer/index.js:21:10)
+
+    at new ConcatWithMaps (frontend/node_modules/broccoli-concat/concat.js:22:17)
+
+    at module.exports (frontend/node_modules/broccoli-concat/index.js:26:10)
+
+    at EmberApp.concatFiles (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:329:10)
+
+    at EmberApp.javascript (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1152:12)
+
+    at EmberApp.toArray (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1504:10)
+
+    at EmberApp.toTree (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:1526:30)
+
+    at module.exports (frontend/ember-cli-build.js:31:14)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:419:9)
+
+    at process._tickCallback (node.js:348:13)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 23:54:34 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (8288.2ms)
+Completed 200 OK in 8290ms (Views: 8289.8ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-23 23:54:43 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 13.9322ms
+  MOPED: Retrying connection attempt 1 more time(s), nodes is [], seeds are [<Moped::Node resolved_address="127.0.0.1:27017">], cluster is #<Moped::Cluster:39621120 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>. Error backtrace is ["/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cluster.rb:254:in `with_primary'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:55:in `block in with_node'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `with_retry'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:54:in `with_node'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cursor.rb:139:in `load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:234:in `block in load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:135:in `with_cache'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:234:in `load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cursor.rb:28:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/query.rb:78:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:122:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:255:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:255:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual.rb:20:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/array_serializer.rb:43:in `serializable_object'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:12:in `block in as_json'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:166:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:55:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:10:in `as_json'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/json/encoding.rb:34:in `encode'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/json/encoding.rb:21:in `encode'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/object/json.rb:37:in `to_json_with_active_support_encoder'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:116:in `block in <module:Renderers>'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/action_controller/serialization.rb:53:in `block (2 levels) in <module:Serialization>'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/set.rb:263:in `each_key'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/set.rb:263:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:37:in `render_to_body'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/rendering.rb:25:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rendering.rb:16:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:40:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:260:in `display'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:214:in `api_behavior'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:193:in `rescue in to_format'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:185:in `to_format'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:163:in `respond'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:156:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/respond_with.rb:205:in `respond_with'", "/home/alex/RubymineProjects/transport/app/controllers/api/v1/machinery_types_controller.rb:8:in `index'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/base.rb:198:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rendering.rb:10:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/callbacks.rb:20:in `block in process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:117:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:117:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:234:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:92:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:92:in `_run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/callbacks.rb:19:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rescue.rb:29:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:164:in `block in instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:164:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/base.rb:137:in `process'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionview-4.2.0/lib/action_view/rendering.rb:30:in `process'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal.rb:195:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal.rb:236:in `block in action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:73:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:42:in `serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:43:in `block in serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:30:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:30:in `serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:802:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:35:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:34:in `catch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:34:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/cookies.rb:560:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `_run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_call_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/reloader.rb:73:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:38:in `call_app'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `block in tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:26:in `tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/quiet_assets-1.1.0/lib/quiet_assets.rb:27:in `call_with_quiet_assets'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/static.rb:113:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/engine.rb:518:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/application.rb:164:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/configuration.rb:227:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:561:in `handle_request'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:406:in `process_client'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:271:in `block in run'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/thread_pool.rb:111:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/thread_pool.rb:111:in `block in spawn_thread'"]. runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 13.3923ms
+Completed 500 Internal Server Error in 355ms
+
+Moped::Errors::ConnectionFailure (Could not connect to a primary node for replica set #<Moped::Cluster:39621120 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+  app/controllers/api/v1/machinery_types_controller.rb:8:in `index'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (21.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-23 23:54:44 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 24.7440ms
+  MOPED: Retrying connection attempt 1 more time(s), nodes is [], seeds are [<Moped::Node resolved_address="127.0.0.1:27017">], cluster is #<Moped::Cluster:47534420 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>. Error backtrace is ["/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cluster.rb:254:in `with_primary'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:55:in `block in with_node'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `with_retry'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:54:in `with_node'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cursor.rb:139:in `load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:234:in `block in load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:135:in `with_cache'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:234:in `load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cursor.rb:28:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/query.rb:78:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:122:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:255:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:255:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual.rb:20:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/array_serializer.rb:43:in `serializable_object'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:12:in `block in as_json'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:166:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:55:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:10:in `as_json'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/json/encoding.rb:34:in `encode'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/json/encoding.rb:21:in `encode'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/object/json.rb:37:in `to_json_with_active_support_encoder'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:116:in `block in <module:Renderers>'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/action_controller/serialization.rb:53:in `block (2 levels) in <module:Serialization>'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/set.rb:263:in `each_key'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/set.rb:263:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:37:in `render_to_body'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/rendering.rb:25:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rendering.rb:16:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:40:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:260:in `display'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:214:in `api_behavior'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:193:in `rescue in to_format'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:185:in `to_format'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:163:in `respond'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:156:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/respond_with.rb:205:in `respond_with'", "/home/alex/RubymineProjects/transport/app/controllers/api/v1/machinery_types_controller.rb:8:in `index'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/base.rb:198:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rendering.rb:10:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/callbacks.rb:20:in `block in process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:117:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:117:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:234:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:92:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:92:in `_run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/callbacks.rb:19:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rescue.rb:29:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:164:in `block in instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:164:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/base.rb:137:in `process'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionview-4.2.0/lib/action_view/rendering.rb:30:in `process'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal.rb:195:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal.rb:236:in `block in action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:73:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:42:in `serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:43:in `block in serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:30:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:30:in `serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:802:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:35:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:34:in `catch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:34:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/cookies.rb:560:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `_run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_call_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/reloader.rb:73:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:38:in `call_app'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `block in tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:26:in `tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/quiet_assets-1.1.0/lib/quiet_assets.rb:27:in `call_with_quiet_assets'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/static.rb:113:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/engine.rb:518:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/application.rb:164:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/configuration.rb:227:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:561:in `handle_request'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:406:in `process_client'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:271:in `block in run'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/thread_pool.rb:111:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/thread_pool.rb:111:in `block in spawn_thread'"]. runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 24.3509ms
+Completed 500 Internal Server Error in 317ms
+
+Moped::Errors::ConnectionFailure (Could not connect to a primary node for replica set #<Moped::Cluster:47534420 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+  app/controllers/api/v1/machinery_types_controller.rb:8:in `index'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (20.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-23 23:55:06 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (5.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-23 23:55:08 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 7.8497ms
+  MOPED: Retrying connection attempt 1 more time(s), nodes is [], seeds are [<Moped::Node resolved_address="127.0.0.1:27017">], cluster is #<Moped::Cluster:49104360 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>. Error backtrace is ["/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cluster.rb:254:in `with_primary'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:55:in `block in with_node'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `with_retry'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:54:in `with_node'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cursor.rb:139:in `load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:234:in `block in load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:135:in `with_cache'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:234:in `load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cursor.rb:28:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/query.rb:78:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:122:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:255:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:255:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual.rb:20:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/array_serializer.rb:43:in `serializable_object'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:12:in `block in as_json'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:166:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:55:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:10:in `as_json'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/json/encoding.rb:34:in `encode'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/json/encoding.rb:21:in `encode'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/object/json.rb:37:in `to_json_with_active_support_encoder'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:116:in `block in <module:Renderers>'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/action_controller/serialization.rb:53:in `block (2 levels) in <module:Serialization>'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/set.rb:263:in `each_key'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/set.rb:263:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:37:in `render_to_body'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/rendering.rb:25:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rendering.rb:16:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:40:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:260:in `display'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:214:in `api_behavior'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:193:in `rescue in to_format'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:185:in `to_format'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:163:in `respond'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:156:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/respond_with.rb:205:in `respond_with'", "/home/alex/RubymineProjects/transport/app/controllers/api/v1/machinery_types_controller.rb:8:in `index'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/base.rb:198:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rendering.rb:10:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/callbacks.rb:20:in `block in process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:117:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:117:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:234:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:92:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:92:in `_run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/callbacks.rb:19:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rescue.rb:29:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:164:in `block in instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:164:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/base.rb:137:in `process'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionview-4.2.0/lib/action_view/rendering.rb:30:in `process'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal.rb:195:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal.rb:236:in `block in action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:73:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:42:in `serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:43:in `block in serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:30:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:30:in `serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:802:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:35:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:34:in `catch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:34:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/cookies.rb:560:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `_run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_call_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/reloader.rb:73:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:38:in `call_app'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `block in tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:26:in `tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/quiet_assets-1.1.0/lib/quiet_assets.rb:27:in `call_with_quiet_assets'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/static.rb:113:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/engine.rb:518:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/application.rb:164:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/configuration.rb:227:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:561:in `handle_request'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:406:in `process_client'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:271:in `block in run'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/thread_pool.rb:111:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/thread_pool.rb:111:in `block in spawn_thread'"]. runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 29.0692ms
+Completed 500 Internal Server Error in 304ms
+
+Moped::Errors::ConnectionFailure (Could not connect to a primary node for replica set #<Moped::Cluster:49104360 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+  app/controllers/api/v1/machinery_types_controller.rb:8:in `index'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (37.5ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-23 23:55:09 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 24.6640ms
+  MOPED: Retrying connection attempt 1 more time(s), nodes is [], seeds are [<Moped::Node resolved_address="127.0.0.1:27017">], cluster is #<Moped::Cluster:42905420 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>. Error backtrace is ["/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cluster.rb:254:in `with_primary'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:55:in `block in with_node'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `with_retry'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:54:in `with_node'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cursor.rb:139:in `load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:234:in `block in load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:135:in `with_cache'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:234:in `load_docs'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/cursor.rb:28:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/moped-2.0.7/lib/moped/query.rb:78:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:122:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:255:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:255:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/mongoid-4.0.2/lib/mongoid/contextual.rb:20:in `map'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/array_serializer.rb:43:in `serializable_object'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:12:in `block in as_json'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:166:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:55:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/active_model/serializable.rb:10:in `as_json'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/json/encoding.rb:34:in `encode'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/json/encoding.rb:21:in `encode'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/object/json.rb:37:in `to_json_with_active_support_encoder'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:116:in `block in <module:Renderers>'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/active_model_serializers-0.9.5/lib/action_controller/serialization.rb:53:in `block (2 levels) in <module:Serialization>'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:45:in `block in _render_to_body_with_renderer'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/set.rb:263:in `each_key'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/set.rb:263:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:41:in `_render_to_body_with_renderer'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/renderers.rb:37:in `render_to_body'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/rendering.rb:25:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rendering.rb:16:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'", "/home/alex/.rvm/rubies/ruby-2.1.8/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:40:in `render'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:260:in `display'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:214:in `api_behavior'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:193:in `rescue in to_format'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:185:in `to_format'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:163:in `respond'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/responder.rb:156:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/responders-2.1.2/lib/action_controller/respond_with.rb:205:in `respond_with'", "/home/alex/RubymineProjects/transport/app/controllers/api/v1/machinery_types_controller.rb:8:in `index'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/base.rb:198:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rendering.rb:10:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/callbacks.rb:20:in `block in process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:117:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:117:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:234:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:169:in `block in halting'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:92:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:92:in `_run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/callbacks.rb:19:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rescue.rb:29:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:164:in `block in instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/notifications.rb:164:in `instrument'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/abstract_controller/base.rb:137:in `process'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionview-4.2.0/lib/action_view/rendering.rb:30:in `process'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal.rb:195:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_controller/metal.rb:236:in `block in action'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:73:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:42:in `serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:43:in `block in serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:30:in `each'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/journey/router.rb:30:in `serve'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/routing/route_set.rb:802:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:35:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:34:in `catch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/warden-1.2.6/lib/warden/manager.rb:34:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/cookies.rb:560:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `_run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_call_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/reloader.rb:73:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:28:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:38:in `call_app'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `block in call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `block in tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:26:in `tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `tagged'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/quiet_assets-1.1.0/lib/quiet_assets.rb:27:in `call_with_quiet_assets'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/activesupport-4.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/static.rb:113:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/engine.rb:518:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/railties-4.2.0/lib/rails/application.rb:164:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/configuration.rb:227:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:561:in `handle_request'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:406:in `process_client'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/server.rb:271:in `block in run'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/thread_pool.rb:111:in `call'", "/home/alex/.rvm/gems/ruby-2.1.8/gems/puma-3.2.0/lib/puma/thread_pool.rb:111:in `block in spawn_thread'"]. runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 9.7496ms
+Completed 500 Internal Server Error in 305ms
+
+Moped::Errors::ConnectionFailure (Could not connect to a primary node for replica set #<Moped::Cluster:42905420 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+  app/controllers/api/v1/machinery_types_controller.rb:8:in `index'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (22.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 00:16:08 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (14058.2ms)
+Completed 500 Internal Server Error in 14079ms
+
+ActionView::Template::Error (:frontend has failed to build: Error: watch /home/alex/RubymineProjects/transport/frontend/public ENOSPC
+):
+  Error: watch frontend/public ENOSPC
+
+    at exports._errnoException (util.js:870:11)
+
+    at FSWatcher.start (fs.js:1234:19)
+
+    at Object.fs.watch (fs.js:1262:11)
+
+    at NodeWatcher.watchdir (frontend/node_modules/sane/src/node_watcher.js:144:20)
+
+    at new NodeWatcher (frontend/node_modules/sane/src/node_watcher.js:45:8)
+
+    at new sane (frontend/node_modules/sane/index.js:17:12)
+
+    at EventEmitter.Watcher_addWatchDir [as addWatchDir] (frontend/node_modules/broccoli-sane-watcher/index.js:93:17)
+
+    at frontend/node_modules/ember-cli-broccoli/lib/builder.js:95:35
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:419:9)
+
+    at process._tickCallback (node.js:348:13)
+
+  The broccoli plugin was instantiated at: 
+
+    at WatchedDir.Directory (frontend/node_modules/broccoli-source/index.js:14:31)
+
+    at new WatchedDir (frontend/node_modules/broccoli-source/index.js:58:13)
+
+    at EmberApp._initOptions (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:233:36)
+
+    at new EmberApp (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:93:8)
+
+    at module.exports (frontend/ember-cli-build.js:6:13)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:419:9)
+
+    at process._tickCallback (node.js:348:13)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (106.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-04-24 00:16:23 +0600
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (53.0ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.6871ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=transport_development command={:count=>"machinery_types", :query=>{}} runtime: 0.5544ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('571bbdad0f9263393c000000'), "type"=>"Автокран"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 281.1577ms
+  MOPED: 127.0.0.1:27017 INSERT       database=transport_development collection=machinery_types documents=[{"_id"=>BSON::ObjectId('571bbdb50f9263393c000001'), "type"=>"Самогруз"}] flags=[]
+                         COMMAND      database=transport_development command={:getlasterror=>1, :w=>1} runtime: 0.6454ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 00:24:26 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (4536.7ms)
+Completed 500 Internal Server Error in 4552ms
+
+ActionView::Template::Error (:frontend has failed to build: Error: watch /home/alex/RubymineProjects/transport/frontend/app ENOSPC
+):
+  Error: watch frontend/app ENOSPC
+
+    at exports._errnoException (util.js:870:11)
+
+    at FSWatcher.start (fs.js:1234:19)
+
+    at Object.fs.watch (fs.js:1262:11)
+
+    at NodeWatcher.watchdir (frontend/node_modules/sane/src/node_watcher.js:144:20)
+
+    at new NodeWatcher (frontend/node_modules/sane/src/node_watcher.js:45:8)
+
+    at new sane (frontend/node_modules/sane/index.js:17:12)
+
+    at EventEmitter.Watcher_addWatchDir [as addWatchDir] (frontend/node_modules/broccoli-sane-watcher/index.js:93:17)
+
+    at frontend/node_modules/ember-cli-broccoli/lib/builder.js:95:35
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:419:9)
+
+    at process._tickCallback (node.js:348:13)
+
+  The broccoli plugin was instantiated at: 
+
+    at WatchedDir.Directory (frontend/node_modules/broccoli-source/index.js:14:31)
+
+    at new WatchedDir (frontend/node_modules/broccoli-source/index.js:58:13)
+
+    at EmberApp._initOptions (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:221:16)
+
+    at new EmberApp (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:93:8)
+
+    at module.exports (frontend/ember-cli-build.js:6:13)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:419:9)
+
+    at process._tickCallback (node.js:348:13)
+
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (36.9ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (60.5ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2016-04-24 00:24:31 +0600
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (3.2.0) lib/puma/configuration.rb:227:in `call'
+  puma (3.2.0) lib/puma/server.rb:561:in `handle_request'
+  puma (3.2.0) lib/puma/server.rb:406:in `process_client'
+  puma (3.2.0) lib/puma/server.rb:271:in `block in run'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `call'
+  puma (3.2.0) lib/puma/thread_pool.rb:111:in `block in spawn_thread'
+
+
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.8ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-24 00:31:03 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/alex/.rvm/gems/ruby-2.1.8/gems/ember-cli-rails-0.7.0/app/views/ember_cli/ember/index.html.erb (4517.9ms)
+Completed 200 OK in 4533ms (Views: 4532.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-24 00:31:09 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 8.4068ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6426ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6341ms
+Completed 200 OK in 53ms (Views: 34.1ms)
+
+
+Started GET "/api/v1/machinery_types" for 127.0.0.1 at 2016-04-24 00:31:09 +0600
+Processing by Api::V1::MachineryTypesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6017ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6043ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=machinery_types selector={"$query"=>{}, "$orderby"=>{"type"=>1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5396ms
+Completed 200 OK in 17ms (Views: 9.1ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-24 00:31:27 +0600
+Processing by Api::V1::SessionController#create as JSON
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "email"=>"qwe"}}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5545ms
+  MOPED: 127.0.0.1:27017 QUERY        database=transport_development collection=users selector={"$query"=>{"email"=>"qwe"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7767ms
+Completed 401 Unauthorized in 5ms
