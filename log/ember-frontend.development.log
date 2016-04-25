@@ -8316,3 +8316,65 @@ SourceMapConcat: Concat: Vendor /asset... (1) | 139ms
 CoffeeScriptFilter (2)                        | 133ms (66 ms)       
 Funnel: Addon JS (11)                         | 109ms (9 ms)        
 
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...
+
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+1 error
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+routes/login.js: line 4, col 61, Missing semicolon.
+
+1 error
+
+===== 3 JSHint Errors
+
+
+Build successful - 9308ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 2838ms              
+Babel                                         | 1151ms              
+SourceMapConcat: Concat: Vendor /assets/ve... | 620ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (16)                                    | 5587ms (349 ms)     
+SourceMapConcat: Concat: Vendor /asset... (1) | 620ms               
+
+version: 2.4.1
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...
+
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+1 error
+
+routes/application.js: line 10, col 45, Missing semicolon.
+
+1 error
+
+routes/login.js: line 4, col 61, Missing semicolon.
+
+1 error
+
+===== 3 JSHint Errors
+
+
+Build successful - 17923ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 5777ms              
+Babel                                         | 3518ms              
+Babel                                         | 1914ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (16)                                    | 15379ms (961 ms)    
+
