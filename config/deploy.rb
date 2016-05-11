@@ -27,6 +27,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'pids',  'tmp/pids', 'tmp/
 
 after 'deploy:publishing', 'deploy:restart'
 before 'deploy:assets:precompile', 'bower:install'
+before 'deploy:assets:precompile', 'npm:install'
 after 'deploy:assets:precompile', 'deploy:cleanup_assets'
 after 'deploy:assets:precompile', 'ember:copy_assets'
 
