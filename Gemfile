@@ -62,6 +62,7 @@ group :development, :test do
   gem 'capistrano-rvm'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
+  gem 'capistrano-npm'
   gem 'net-ssh'
   gem 'capistrano3-puma'
   gem 'capistrano-sidekiq', '0.5.3'
